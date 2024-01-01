@@ -1,0 +1,2131 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" 
+xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" 
+xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" 
+xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:y="http://www.yworks.com/xml/graphml" 
+xmlns:yed="http://www.yworks.com/xml/yed/3" 
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">  
+  <key attr.name="Description" attr.type="string" for="graph" id="d0"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d7" yfiles.type="resources"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/> 
+<key id="ClassName" for="node" attr.name="ClassName" attr.type="string"/> 
+<key id="Label" for="node" attr.name="Label" attr.type="string"/> 
+<key id="ArchimateLayer" for="node" attr.name="ArchimateLayer" attr.type="string"/> 
+<key id="name" for="node" attr.name="name" attr.type="string"/> 
+<key id="documentation" for="node" attr.name="documentation" attr.type="string"/> 
+<key id="ReferenceName" for="edge" attr.name="ReferenceName" attr.type="string"/> 
+<graph id="init_graph_01" edgedefault="directed"> 
+<node id="id-f86be3a055cb41f3a3f198ad9254d6b9"> 
+<data key="ClassName">Grouping</data> 
+<data key="Label">Architecture Principles</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Architecture Principles<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="name">Architecture Principles</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-57c9a88aa5a24a8f976d1cb599e09b2b"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Technology Neutrality</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Technology Neutrality<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Technology Neutrality</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-e5517f0ae1314ae8aed777f5c8ef17d2"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Preservation of information</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Preservation of information<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Preservation of information</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-935521812ce541b9aa349c8a07d18932"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Reuse</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Reuse<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Reuse, before buy, before build</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-ac64b6b57ce24c11bcf18db171cc97dd"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Openness</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Openness<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Openness</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-4057fed366bb490394255de39281fecc"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Transparency</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Transparency<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Transparency</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-9490c1d15c6d4411921d19fe9ddbb100"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Preservation of information</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Preservation of information<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Preservation of information</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-f93e7d953cd44d1baccf423ffe90a2ec"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Data portability</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Data portability<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Data portability</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-ab411cfa4cf6431ba9bedd7dbb1476db"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Privacy</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Privacy<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Privacy</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-7fe4b644557942b9972638e6bc00bbbf"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Service Orientation</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Service Orientation<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Service Orientation</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-7587ecdd4f9a4a018b790e9658576140"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Multilingulism</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Multilingulism<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Multilingulism</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-4fe5eae9d7d24c6790b336ed7b7f1134"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> User-centricity</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> User-centricity<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> User-centricity</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-fa4e84ee1212410a9ec8ec633f0c12e0"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Security by design</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Security by design<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Security by design</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-7576976cb44d45e29336afb0b9d8a563"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Preservation of information</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Preservation of information<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Preservation of information</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-a74aa3a00d4c41b3ba6416fd08da9669"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Accountability</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Accountability<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Accountability</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-366137b38fd741cd8b707f069d5dfdec"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Accessibility</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Accessibility<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Accessibility</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-8c218581d9764146b36a8ca7c2160e0a"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Administrative Simplification</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Administrative Simplification<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Administrative Simplification</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-a0999722c5e743ff86a112457af12f75"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Best fit Public Service Implementation Orientation</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Best fit Public Service Implementation Orientation<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Best fit Public Service Implementation Orientation</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-f96bedf6efdf4fd68e25e9e9bbf0e484"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Carbon-dioxide e-footprint impact awareness</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Carbon-dioxide e-footprint impact awareness<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Carbon-dioxide e-footprint impact awareness</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-d56e387c1b16477f89a84837ae13f023"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Care from cradle to grave</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Care from cradle to grave<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Care from cradle to grave</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-6dc4f7bfb8914959a2312eb516f9dd17"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Code of ethics compliance</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Code of ethics compliance<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Code of ethics compliance</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-11710a4255e6405bb6e1e033bf012b72"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Convergence assurance on public policy goals attainment</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Convergence assurance on public policy goals attainment<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Convergence assurance on public policy goals attainment</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-0cda10708c9e4a52a0644da18b3d61f5"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Convergence control on public policy goals attainment</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Convergence control on public policy goals attainment<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Convergence control on public policy goals attainment</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-c8e8342a1f2148c7bee4d7acf15eb47f"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Digital Inclusion</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Digital Inclusion<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Digital Inclusion</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-b722ccd62b3947efbd4de92b2c54a636"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> EU Legislation Compliance</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> EU Legislation Compliance<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> EU Legislation Compliance</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-e1018ea9d0db445089e159e94be42fa7"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> EULF compliance</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> EULF compliance<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> EULF compliance</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-2d300e845be1447bad251f29ad0565dc"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> European digital sovereignty</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> European digital sovereignty<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> European digital sovereignty</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-2fd0e24a98554fd495793fcf4fd02d77"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Evidence based Public Policy</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Evidence based Public Policy<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Evidence based Public Policy</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-7d44e5feaaa64aa089f0aaa0563a70a5"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Innovation</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Innovation<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Innovation</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-6667b4fa0b3a4d9f8f356eb0d7b5c56a"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Integrated Horizontal User Experience</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Integrated Horizontal User Experience<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Integrated Horizontal User Experience</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-5984f05cc9774b7aa876c5c74426f733"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Loosely coupled integration</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Loosely coupled integration<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Loosely coupled integration</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-8ad8aca2ee05465187c4990cce60a850"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Market collaboration</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Market collaboration<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Market collaboration</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-153bf169d93341cf84cde7536bb3c444"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> New Public Management approach</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> New Public Management approach<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> New Public Management approach</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-3e5a98473b354b68aab86475c4bcc409"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Once Only</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Once Only<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Once Only</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-4a793c00f20a438cafe159a4447d3dce"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Primacy of principles</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Primacy of principles<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Primacy of principles</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-435c313975964c189e87b69dbd98548a"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Trust</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Trust<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Trust</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-8e12a7799f65409e8e5d2722757fccc8"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Subsidiarity and proportionality</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Subsidiarity and proportionality<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Subsidiarity and proportionality</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-ee76d73e070f476ead5f0362afb71f4e"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Social participation</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Social participation<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Social participation</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-3199191ebe0b4aa38a8af72e10646452"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Public Value</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Public Value<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Public Value</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-783bb09f0baa4cf4941e03fa88f261cc"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Proactiveness</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Proactiveness<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Proactiveness</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<node id="id-fdb30ecf42fe4ffa8de0f500c541b232"> 
+<data key="ClassName">Principle</data> 
+<data key="Label"><<ELAP:Architecture Principle>> Deployment fit (Cloud-first approach)</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625"><<ELAP:Architecture Principle>> Deployment fit (Cloud-first approach)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IMotivationElement</data> 
+<data key="name"><<ELAP:Architecture Principle>> Deployment fit (Cloud-first approach)</data> 
+<data key="documentation">DEFINITION:
+Architecture Principle ABB is a Principle defining the underlying general rules and guidelines for the use and deployment of all IT resources and assets across the enterprise. They reflect a level of consensus among the various elements of the enterprise, and form the basis for making future IT decisions.
+
+Source: TOGAF 9.2 The Open Group (https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html#:~:text=Architecture%20Principles%20define%20the%20underlying,for%20making%20future%20IT%20decisions)
+
+EXAMPLES:
+The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB):
+
+The European Innovation Partnership on Smart Cities and Communities (EIP SCC) is a stakeholder driven initiative	stimulated and supported by the European Commission. The EIP SCC has defined key priority areas which will be addressed including the architecture principle of Capabilities. Capabilities are the center element of the architectures to ensure that a common ground is
+easy to be found.
+
+Source: (https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b9a18c76andappId=PPGMS)</data> 
+</node> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-f96bedf6efdf4fd68e25e9e9bbf0e484"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-5984f05cc9774b7aa876c5c74426f733"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-9490c1d15c6d4411921d19fe9ddbb100" target="id-f86be3a055cb41f3a3f198ad9254d6b9"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-57c9a88aa5a24a8f976d1cb599e09b2b" target="id-f86be3a055cb41f3a3f198ad9254d6b9"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-783bb09f0baa4cf4941e03fa88f261cc"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-8e12a7799f65409e8e5d2722757fccc8"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-e1018ea9d0db445089e159e94be42fa7"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-7fe4b644557942b9972638e6bc00bbbf" target="id-f86be3a055cb41f3a3f198ad9254d6b9"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-435c313975964c189e87b69dbd98548a"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-6dc4f7bfb8914959a2312eb516f9dd17"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-2d300e845be1447bad251f29ad0565dc"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-7587ecdd4f9a4a018b790e9658576140" target="id-f86be3a055cb41f3a3f198ad9254d6b9"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-7576976cb44d45e29336afb0b9d8a563" target="id-f86be3a055cb41f3a3f198ad9254d6b9"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-3e5a98473b354b68aab86475c4bcc409"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-fdb30ecf42fe4ffa8de0f500c541b232"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-7d44e5feaaa64aa089f0aaa0563a70a5"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-6667b4fa0b3a4d9f8f356eb0d7b5c56a"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-11710a4255e6405bb6e1e033bf012b72"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-8ad8aca2ee05465187c4990cce60a850"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-4fe5eae9d7d24c6790b336ed7b7f1134" target="id-f86be3a055cb41f3a3f198ad9254d6b9"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-4a793c00f20a438cafe159a4447d3dce"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-935521812ce541b9aa349c8a07d18932" target="id-f86be3a055cb41f3a3f198ad9254d6b9"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-ee76d73e070f476ead5f0362afb71f4e"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-0cda10708c9e4a52a0644da18b3d61f5"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-ab411cfa4cf6431ba9bedd7dbb1476db" target="id-f86be3a055cb41f3a3f198ad9254d6b9"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-fa4e84ee1212410a9ec8ec633f0c12e0" target="id-f86be3a055cb41f3a3f198ad9254d6b9"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-8c218581d9764146b36a8ca7c2160e0a"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-e5517f0ae1314ae8aed777f5c8ef17d2" target="id-f86be3a055cb41f3a3f198ad9254d6b9"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-3199191ebe0b4aa38a8af72e10646452"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-b722ccd62b3947efbd4de92b2c54a636"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f93e7d953cd44d1baccf423ffe90a2ec" target="id-f86be3a055cb41f3a3f198ad9254d6b9"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-ac64b6b57ce24c11bcf18db171cc97dd" target="id-f86be3a055cb41f3a3f198ad9254d6b9"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-d56e387c1b16477f89a84837ae13f023"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-4057fed366bb490394255de39281fecc" target="id-f86be3a055cb41f3a3f198ad9254d6b9"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-a74aa3a00d4c41b3ba6416fd08da9669" target="id-f86be3a055cb41f3a3f198ad9254d6b9"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-a0999722c5e743ff86a112457af12f75"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-c8e8342a1f2148c7bee4d7acf15eb47f"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-153bf169d93341cf84cde7536bb3c444"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-2fd0e24a98554fd495793fcf4fd02d77"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f86be3a055cb41f3a3f198ad9254d6b9" target="id-366137b38fd741cd8b707f069d5dfdec"> 
+<data key="ReferenceName">source</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+</graph> 
+</graphml> 

@@ -21,6 +21,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
 <key id="ClassName" for="node" attr.name="ClassName" attr.type="string"/> 
 <key id="Label" for="node" attr.name="Label" attr.type="string"/> 
 <key id="ArchimateLayer" for="node" attr.name="ArchimateLayer" attr.type="string"/> 
+<key id="type" for="node" attr.name="type" attr.type="string"/> 
+<key id="l;l" for="node" attr.name="l;l" attr.type="string"/> 
 <key id="name" for="node" attr.name="name" attr.type="string"/> 
 <key id="documentation" for="node" attr.name="documentation" attr.type="string"/> 
 <key id="ReferenceName" for="edge" attr.name="ReferenceName" attr.type="string"/> 
@@ -44,6 +46,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IPhysicalElement</data> 
+<data key="type">Lib</data> 
+<data key="l;l"></data> 
 <data key="name">770 px</data> 
 <data key="documentation"></data> 
 </node> 
@@ -110,6 +114,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">pod</data> 
 <data key="name">kube-scheduler</data> 
 <data key="documentation"></data> 
 </node> 
@@ -132,6 +137,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">pod</data> 
 <data key="name">kube-controller-manager</data> 
 <data key="documentation">https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/
 
@@ -178,6 +184,7 @@ The Kubernetes API server validates and configures data for the api objects whic
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">pod</data> 
 <data key="name">kube-apiserver</data> 
 <data key="documentation">https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/
 
@@ -249,6 +256,7 @@ https://kubernetes.io/docs/reference/using-api/api-concepts/</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">exe</data> 
 <data key="name">kubelet</data> 
 <data key="documentation">https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet
 
@@ -297,6 +305,7 @@ The Kubernetes network proxy runs on each node. This reflects services as define
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">pod</data> 
 <data key="name">kube-proxy</data> 
 <data key="documentation">https://kubernetes.io/docs/reference/command-line-tools-reference/kube-proxy/
 
@@ -321,6 +330,8 @@ The Kubernetes network proxy runs on each node. This reflects services as define
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IPhysicalElement</data> 
+<data key="type">Lib</data> 
+<data key="l;l"></data> 
 <data key="name">770 px</data> 
 <data key="documentation"></data> 
 </node> 
@@ -343,6 +354,7 @@ The Kubernetes network proxy runs on each node. This reflects services as define
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">pod</data> 
 <data key="name">kube-scheduler</data> 
 <data key="documentation"></data> 
 </node> 
@@ -387,6 +399,7 @@ The Kubernetes network proxy runs on each node. This reflects services as define
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">exe</data> 
 <data key="name">kubelet</data> 
 <data key="documentation">https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet
 
@@ -543,6 +556,7 @@ The Kubernetes network proxy runs on each node. This reflects services as define
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">pod</data> 
 <data key="name">kube-proxy</data> 
 <data key="documentation">https://kubernetes.io/docs/reference/command-line-tools-reference/kube-proxy/
 
@@ -622,6 +636,7 @@ kubeadm join 192.168.0.200:6443 --token 9vr73a.a8uxyaju799qwdjv --discovery-toke
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">pod</data> 
 <data key="name">kube-apiserver</data> 
 <data key="documentation">https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/
 
@@ -763,6 +778,7 @@ kubeadm join 192.168.0.200:6443 --token 9vr73a.a8uxyaju799qwdjv --discovery-toke
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">pod</data> 
 <data key="name">kube-apiserver</data> 
 <data key="documentation">https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/
 
@@ -789,6 +805,7 @@ https://kubernetes.io/docs/reference/using-api/api-concepts/</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">pod</data> 
 <data key="name">kube-scheduler</data> 
 <data key="documentation"></data> 
 </node> 
@@ -811,6 +828,7 @@ https://kubernetes.io/docs/reference/using-api/api-concepts/</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">pod</data> 
 <data key="name">kube-controller-manager</data> 
 <data key="documentation">https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/
 
@@ -863,6 +881,7 @@ https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-ku
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">exe</data> 
 <data key="name">kubelet</data> 
 <data key="documentation">https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet
 
@@ -887,6 +906,7 @@ The kubelet is the primary "node agent" that runs on each node.</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">pod</data> 
 <data key="name">kube-proxy</data> 
 <data key="documentation">https://kubernetes.io/docs/reference/command-line-tools-reference/kube-proxy/
 
@@ -1075,6 +1095,7 @@ The Kubernetes network proxy runs on each node. This reflects services as define
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">pod</data> 
 <data key="name">weave-net</data> 
 <data key="documentation">https://kubernetes.io/docs/reference/command-line-tools-reference/kube-proxy/
 
@@ -1282,6 +1303,7 @@ https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.21</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">pod</data> 
 <data key="name">kube-apiserver</data> 
 <data key="documentation">https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/
 
@@ -1398,6 +1420,7 @@ https://github.com/kubernetes/community/blob/master/contributors/devel/sig-archi
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">pod</data> 
 <data key="name">kube-proxy</data> 
 <data key="documentation">https://kubernetes.io/docs/reference/command-line-tools-reference/kube-proxy/
 
@@ -1422,6 +1445,7 @@ The Kubernetes network proxy runs on each node. This reflects services as define
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">pod</data> 
 <data key="name">kube-scheduler</data> 
 <data key="documentation"></data> 
 </node> 
@@ -1444,6 +1468,7 @@ The Kubernetes network proxy runs on each node. This reflects services as define
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">exe</data> 
 <data key="name">kubelet</data> 
 <data key="documentation">https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet
 
@@ -1468,6 +1493,7 @@ The kubelet is the primary "node agent" that runs on each node.</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">pod</data> 
 <data key="name">kube-controller-manager</data> 
 <data key="documentation">https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/
 
@@ -1987,6 +2013,7 @@ https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.21/#configmap-v
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">K8s Object</data> 
 <data key="name">Pod</data> 
 <data key="documentation">https://dominik-tornow.medium.com/what-the-hell-is-a-pod-anyways-72e5534b892c
 - !!! A Pod represents a request to execute one or more containers on the same node
@@ -2241,6 +2268,7 @@ Deployment is an object which can own ReplicaSets and update them and their Pods
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">pod</data> 
 <data key="name">kube-apiserver</data> 
 <data key="documentation">https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/
 
@@ -2289,6 +2317,7 @@ https://kubernetes.io/docs/reference/using-api/api-concepts/</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">K8s Object</data> 
 <data key="name">Pod</data> 
 <data key="documentation">https://dominik-tornow.medium.com/what-the-hell-is-a-pod-anyways-72e5534b892c
 - !!! A Pod represents a request to execute one or more containers on the same node
@@ -2342,6 +2371,7 @@ https://cloud.google.com/kubernetes-engine/docs/concepts/pod
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">pod</data> 
 <data key="name">kube-scheduler</data> 
 <data key="documentation"></data> 
 </node> 
@@ -2386,6 +2416,7 @@ https://cloud.google.com/kubernetes-engine/docs/concepts/pod
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">K8s Object</data> 
 <data key="name">Binding</data> 
 <data key="documentation">https://gist.github.com/kelseyhightower/2349c9c645d32a3fcbe385082de74668
 https://dominik-tornow.medium.com/what-the-hell-is-a-pod-anyways-72e5534b892c</data> 
@@ -2453,6 +2484,7 @@ https://dominik-tornow.medium.com/what-the-hell-is-a-pod-anyways-72e5534b892c</d
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">exe</data> 
 <data key="name">kubelet</data> 
 <data key="documentation">https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet
 
@@ -2586,6 +2618,7 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">K8s Object</data> 
 <data key="name">Pod</data> 
 <data key="documentation">https://dominik-tornow.medium.com/what-the-hell-is-a-pod-anyways-72e5534b892c
 - !!! A Pod represents a request to execute one or more containers on the same node
@@ -2775,6 +2808,7 @@ https://github.com/kubernetes/community/blob/master/contributors/devel/sig-archi
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">pod</data> 
 <data key="name">kube-scheduler</data> 
 <data key="documentation"></data> 
 </node> 
@@ -2886,6 +2920,7 @@ Deployment is an object which can own ReplicaSets and update them and their Pods
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">K8s Object</data> 
 <data key="name">Pod</data> 
 <data key="documentation">https://dominik-tornow.medium.com/what-the-hell-is-a-pod-anyways-72e5534b892c
 - !!! A Pod represents a request to execute one or more containers on the same node
@@ -3027,6 +3062,7 @@ https://cloud.google.com/kubernetes-engine/docs/concepts/pod
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">pod</data> 
 <data key="name">kube-controller-manager</data> 
 <data key="documentation">https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/
 
@@ -3092,6 +3128,7 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="type">K8s Object</data> 
 <data key="name">Pod</data> 
 <data key="documentation">https://dominik-tornow.medium.com/what-the-hell-is-a-pod-anyways-72e5534b892c
 - !!! A Pod represents a request to execute one or more containers on the same node
@@ -3212,8 +3249,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
 <data key="name">Host</data> 
 <data key="documentation"></data> 
 </node> 
-<edge source="id-dacb0a4fa27947b0986e2963ebbe49af" target="id-3ba23fd190c04aeeb0604c0aa94e3805"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-3ba23fd190c04aeeb0604c0aa94e3805" target="id-dacb0a4fa27947b0986e2963ebbe49af"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3231,8 +3268,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-45ed6b22a648424480e8042b8866033f" target="id-57ee03511c77418d9a07234d0c32ace2"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-57ee03511c77418d9a07234d0c32ace2" target="id-45ed6b22a648424480e8042b8866033f"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3250,8 +3287,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-14a9594db1ef42de8d31d2b47879765f" target="id-57ee03511c77418d9a07234d0c32ace2"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-57ee03511c77418d9a07234d0c32ace2" target="id-14a9594db1ef42de8d31d2b47879765f"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3269,8 +3306,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-2e87dfaca7804cd6a3944187865de51f" target="id-57ee03511c77418d9a07234d0c32ace2"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-57ee03511c77418d9a07234d0c32ace2" target="id-2e87dfaca7804cd6a3944187865de51f"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3288,8 +3325,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-b49b787ac710444a80e1237501775d36" target="id-ed9d55765b7447a5a4ca8b08904ce153"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-ed9d55765b7447a5a4ca8b08904ce153" target="id-b49b787ac710444a80e1237501775d36"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3307,8 +3344,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-fa249d702c724766a08c8bb0aff88fda" target="id-cf03df8f4f2a425d826d45e36d8d2ab4"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-cf03df8f4f2a425d826d45e36d8d2ab4" target="id-fa249d702c724766a08c8bb0aff88fda"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3326,8 +3363,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-fa249d702c724766a08c8bb0aff88fda" target="id-efc57b9ca6604ba181142ee57a4f2556"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-efc57b9ca6604ba181142ee57a4f2556" target="id-fa249d702c724766a08c8bb0aff88fda"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3345,8 +3382,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-cf03df8f4f2a425d826d45e36d8d2ab4" target="id-59726a61c52e465896fe2958076557c6"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-59726a61c52e465896fe2958076557c6" target="id-cf03df8f4f2a425d826d45e36d8d2ab4"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3364,8 +3401,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-e1d2270b8f834764a70acf7dbb50d26c" target="id-441f9f9b976940868e4c0e26b41a9485"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-441f9f9b976940868e4c0e26b41a9485" target="id-e1d2270b8f834764a70acf7dbb50d26c"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3383,8 +3420,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-3ba23fd190c04aeeb0604c0aa94e3805" target="id-441f9f9b976940868e4c0e26b41a9485"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-441f9f9b976940868e4c0e26b41a9485" target="id-3ba23fd190c04aeeb0604c0aa94e3805"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3402,8 +3439,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-2e87dfaca7804cd6a3944187865de51f" target="id-14a9594db1ef42de8d31d2b47879765f"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-14a9594db1ef42de8d31d2b47879765f" target="id-2e87dfaca7804cd6a3944187865de51f"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">FlowRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3411,557 +3448,6 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">FlowRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-2e87dfaca7804cd6a3944187865de51f" target="id-efc57b9ca6604ba181142ee57a4f2556"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">FlowRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">FlowRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-57ee03511c77418d9a07234d0c32ace2" target="id-e1d2270b8f834764a70acf7dbb50d26c"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AggregationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AggregationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-45ed6b22a648424480e8042b8866033f" target="id-da5ad05e1911431bbed49773c706fd20"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AggregationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AggregationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-642a6d937669438dafc61d5255be7661" target="id-d780bc8094c746b78dde8ed6c3e5b774"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AssignmentRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-d780bc8094c746b78dde8ed6c3e5b774" target="id-d35b0ca9ee674328a2242f744e2513b4"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">RealizationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">RealizationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-d35b0ca9ee674328a2242f744e2513b4" target="id-da5ad05e1911431bbed49773c706fd20"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">RealizationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">RealizationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-d35b0ca9ee674328a2242f744e2513b4" target="id-2658fc71288143a2b8145f667c3efd89"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">RealizationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">RealizationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-d1454d30a18c450bbb00af2e52cfd5a0" target="id-57ee03511c77418d9a07234d0c32ace2"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AssignmentRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-423cc92eeae3499ca9836a67e2f9362b" target="id-57ee03511c77418d9a07234d0c32ace2"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AssignmentRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-27c6dc149a0e4790a3328a943b94e6ad" target="id-dacb0a4fa27947b0986e2963ebbe49af"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">SpecializationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-27c6dc149a0e4790a3328a943b94e6ad" target="id-57ee03511c77418d9a07234d0c32ace2"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">SpecializationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-6b4f9b6649a449818db7fc271e77e8be" target="id-27c6dc149a0e4790a3328a943b94e6ad"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AssignmentRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-3788c905ca0540e6986a7e2d6d367938" target="id-27c6dc149a0e4790a3328a943b94e6ad"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AssignmentRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-59726a61c52e465896fe2958076557c6" target="id-27c6dc149a0e4790a3328a943b94e6ad"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AssignmentRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-45034bbc39374885afd47e9d0f8c3f67" target="id-27c6dc149a0e4790a3328a943b94e6ad"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AssignmentRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-569455231a2e40f589aea6f02e1209e9" target="id-27c6dc149a0e4790a3328a943b94e6ad"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AssignmentRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-14a9594db1ef42de8d31d2b47879765f" target="id-032923942deb4d3681b66af5af0cae13"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AggregationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AggregationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-2e87dfaca7804cd6a3944187865de51f" target="id-032923942deb4d3681b66af5af0cae13"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AggregationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AggregationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-45ed6b22a648424480e8042b8866033f" target="id-032923942deb4d3681b66af5af0cae13"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AggregationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AggregationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-d1454d30a18c450bbb00af2e52cfd5a0" target="id-032923942deb4d3681b66af5af0cae13"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AggregationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AggregationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-423cc92eeae3499ca9836a67e2f9362b" target="id-032923942deb4d3681b66af5af0cae13"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AggregationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AggregationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-efc57b9ca6604ba181142ee57a4f2556" target="id-0e69088ee12147f183f63de1ed09d7df"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AggregationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AggregationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-3788c905ca0540e6986a7e2d6d367938" target="id-0e69088ee12147f183f63de1ed09d7df"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AggregationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AggregationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-59726a61c52e465896fe2958076557c6" target="id-0e69088ee12147f183f63de1ed09d7df"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AggregationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AggregationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-d780bc8094c746b78dde8ed6c3e5b774" target="id-2658fc71288143a2b8145f667c3efd89"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">ServingRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-0e69088ee12147f183f63de1ed09d7df" target="id-441f9f9b976940868e4c0e26b41a9485"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AssociationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssociationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-032923942deb4d3681b66af5af0cae13" target="id-441f9f9b976940868e4c0e26b41a9485"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AssociationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssociationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-b696d4d3e0ee47b8917873780feee788" target="id-ee9edc4769764e7cbf63771c853ab844"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AssociationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssociationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-efc57b9ca6604ba181142ee57a4f2556" target="id-27c6dc149a0e4790a3328a943b94e6ad"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">AssignmentRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -3973,7 +3459,7 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
       </data> 
 </edge> 
 <edge source="id-efc57b9ca6604ba181142ee57a4f2556" target="id-2e87dfaca7804cd6a3944187865de51f"> 
-<data key="ReferenceName">source</data> 
+<data key="ReferenceName">target</data> 
 <data key="Label">FlowRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3991,15 +3477,15 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-d780bc8094c746b78dde8ed6c3e5b774" target="id-2e87dfaca7804cd6a3944187865de51f"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">FlowRelationship</data> 
+<edge source="id-e1d2270b8f834764a70acf7dbb50d26c" target="id-57ee03511c77418d9a07234d0c32ace2"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">FlowRelationship<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AggregationRelationship<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -4010,15 +3496,15 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-3788c905ca0540e6986a7e2d6d367938" target="id-a011a84681874b988fcd798ce60d3f01"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">RealizationRelationship</data> 
+<edge source="id-da5ad05e1911431bbed49773c706fd20" target="id-45ed6b22a648424480e8042b8866033f"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">RealizationRelationship<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AggregationRelationship<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -4029,27 +3515,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-3788c905ca0540e6986a7e2d6d367938" target="id-7f845eb15046442bbda9ff9fc4eef47c"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">RealizationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">RealizationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-ee9edc4769764e7cbf63771c853ab844" target="id-12a64d2416c149b2827f0121dc14e334"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-d780bc8094c746b78dde8ed6c3e5b774" target="id-642a6d937669438dafc61d5255be7661"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4067,8 +3534,388 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-6278e38e467048bf8e091fbd14e27a47" target="id-ee9edc4769764e7cbf63771c853ab844"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-d35b0ca9ee674328a2242f744e2513b4" target="id-d780bc8094c746b78dde8ed6c3e5b774"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">RealizationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">RealizationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-da5ad05e1911431bbed49773c706fd20" target="id-d35b0ca9ee674328a2242f744e2513b4"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">RealizationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">RealizationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-2658fc71288143a2b8145f667c3efd89" target="id-d35b0ca9ee674328a2242f744e2513b4"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">RealizationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">RealizationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-57ee03511c77418d9a07234d0c32ace2" target="id-d1454d30a18c450bbb00af2e52cfd5a0"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssignmentRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-57ee03511c77418d9a07234d0c32ace2" target="id-423cc92eeae3499ca9836a67e2f9362b"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssignmentRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-dacb0a4fa27947b0986e2963ebbe49af" target="id-27c6dc149a0e4790a3328a943b94e6ad"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-57ee03511c77418d9a07234d0c32ace2" target="id-27c6dc149a0e4790a3328a943b94e6ad"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-27c6dc149a0e4790a3328a943b94e6ad" target="id-6b4f9b6649a449818db7fc271e77e8be"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssignmentRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-27c6dc149a0e4790a3328a943b94e6ad" target="id-3788c905ca0540e6986a7e2d6d367938"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssignmentRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-27c6dc149a0e4790a3328a943b94e6ad" target="id-59726a61c52e465896fe2958076557c6"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssignmentRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-27c6dc149a0e4790a3328a943b94e6ad" target="id-45034bbc39374885afd47e9d0f8c3f67"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssignmentRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-27c6dc149a0e4790a3328a943b94e6ad" target="id-569455231a2e40f589aea6f02e1209e9"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssignmentRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-032923942deb4d3681b66af5af0cae13" target="id-14a9594db1ef42de8d31d2b47879765f"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AggregationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AggregationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-032923942deb4d3681b66af5af0cae13" target="id-2e87dfaca7804cd6a3944187865de51f"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AggregationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AggregationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-032923942deb4d3681b66af5af0cae13" target="id-45ed6b22a648424480e8042b8866033f"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AggregationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AggregationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-032923942deb4d3681b66af5af0cae13" target="id-d1454d30a18c450bbb00af2e52cfd5a0"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AggregationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AggregationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-032923942deb4d3681b66af5af0cae13" target="id-423cc92eeae3499ca9836a67e2f9362b"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AggregationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AggregationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-0e69088ee12147f183f63de1ed09d7df" target="id-efc57b9ca6604ba181142ee57a4f2556"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AggregationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AggregationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-0e69088ee12147f183f63de1ed09d7df" target="id-3788c905ca0540e6986a7e2d6d367938"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AggregationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AggregationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-0e69088ee12147f183f63de1ed09d7df" target="id-59726a61c52e465896fe2958076557c6"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AggregationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AggregationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-2658fc71288143a2b8145f667c3efd89" target="id-d780bc8094c746b78dde8ed6c3e5b774"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4086,15 +3933,91 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-59726a61c52e465896fe2958076557c6" target="id-ee9edc4769764e7cbf63771c853ab844"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">ServingRelationship</data> 
+<edge source="id-441f9f9b976940868e4c0e26b41a9485" target="id-0e69088ee12147f183f63de1ed09d7df"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssociationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-441f9f9b976940868e4c0e26b41a9485" target="id-032923942deb4d3681b66af5af0cae13"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssociationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssociationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-ee9edc4769764e7cbf63771c853ab844" target="id-b696d4d3e0ee47b8917873780feee788"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssociationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssociationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-27c6dc149a0e4790a3328a943b94e6ad" target="id-efc57b9ca6604ba181142ee57a4f2556"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssignmentRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-2e87dfaca7804cd6a3944187865de51f" target="id-efc57b9ca6604ba181142ee57a4f2556"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">FlowRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">FlowRelationship<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -4106,7 +4029,7 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
       </data> 
 </edge> 
 <edge source="id-2e87dfaca7804cd6a3944187865de51f" target="id-d780bc8094c746b78dde8ed6c3e5b774"> 
-<data key="ReferenceName">source</data> 
+<data key="ReferenceName">target</data> 
 <data key="Label">FlowRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4124,84 +4047,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-14a9594db1ef42de8d31d2b47879765f" target="id-ee9edc4769764e7cbf63771c853ab844"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">ServingRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-d1454d30a18c450bbb00af2e52cfd5a0" target="id-ee9edc4769764e7cbf63771c853ab844"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">ServingRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-efc57b9ca6604ba181142ee57a4f2556" target="id-ee9edc4769764e7cbf63771c853ab844"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">ServingRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-61e3eacd60b44e84b054a92f75097e52" target="id-ee9edc4769764e7cbf63771c853ab844"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">ServingRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-31eaf3fb09034a048d4efaf4e2d33873" target="id-12a64d2416c149b2827f0121dc14e334"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-a011a84681874b988fcd798ce60d3f01" target="id-3788c905ca0540e6986a7e2d6d367938"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4219,8 +4066,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-12a64d2416c149b2827f0121dc14e334" target="id-2e87dfaca7804cd6a3944187865de51f"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-7f845eb15046442bbda9ff9fc4eef47c" target="id-3788c905ca0540e6986a7e2d6d367938"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4238,15 +4085,15 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-b696d4d3e0ee47b8917873780feee788" target="id-642a6d937669438dafc61d5255be7661"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">SpecializationRelationship</data> 
+<edge source="id-12a64d2416c149b2827f0121dc14e334" target="id-ee9edc4769764e7cbf63771c853ab844"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -4257,103 +4104,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-b696d4d3e0ee47b8917873780feee788" target="id-9074ad7b12cc4c26ae01ac90fa87c8ff"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">SpecializationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-0111f956f2f4455c8a1dd9786de4326a" target="id-081a3afea71e4c7c8ac72a84c1c9637f"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">SpecializationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-642a6d937669438dafc61d5255be7661" target="id-09a4ac7bebfa4f3d9c26afef1321b39d"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">SpecializationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-94443804ff094e61b1e0a7dfbc00b1c5" target="id-09a4ac7bebfa4f3d9c26afef1321b39d"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">CompositionRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-478dc503357d47f286ed2fdb793b5733" target="id-09a4ac7bebfa4f3d9c26afef1321b39d"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">CompositionRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-d780bc8094c746b78dde8ed6c3e5b774" target="id-45ed6b22a648424480e8042b8866033f"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-ee9edc4769764e7cbf63771c853ab844" target="id-6278e38e467048bf8e091fbd14e27a47"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4371,8 +4123,293 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-d780bc8094c746b78dde8ed6c3e5b774" target="id-e1d2270b8f834764a70acf7dbb50d26c"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-ee9edc4769764e7cbf63771c853ab844" target="id-59726a61c52e465896fe2958076557c6"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">ServingRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-d780bc8094c746b78dde8ed6c3e5b774" target="id-2e87dfaca7804cd6a3944187865de51f"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">FlowRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">FlowRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-ee9edc4769764e7cbf63771c853ab844" target="id-14a9594db1ef42de8d31d2b47879765f"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">ServingRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-ee9edc4769764e7cbf63771c853ab844" target="id-d1454d30a18c450bbb00af2e52cfd5a0"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">ServingRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-ee9edc4769764e7cbf63771c853ab844" target="id-efc57b9ca6604ba181142ee57a4f2556"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">ServingRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-ee9edc4769764e7cbf63771c853ab844" target="id-61e3eacd60b44e84b054a92f75097e52"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">ServingRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-12a64d2416c149b2827f0121dc14e334" target="id-31eaf3fb09034a048d4efaf4e2d33873"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">RealizationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">RealizationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-2e87dfaca7804cd6a3944187865de51f" target="id-12a64d2416c149b2827f0121dc14e334"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">RealizationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">RealizationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-642a6d937669438dafc61d5255be7661" target="id-b696d4d3e0ee47b8917873780feee788"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-9074ad7b12cc4c26ae01ac90fa87c8ff" target="id-b696d4d3e0ee47b8917873780feee788"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-081a3afea71e4c7c8ac72a84c1c9637f" target="id-0111f956f2f4455c8a1dd9786de4326a"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-09a4ac7bebfa4f3d9c26afef1321b39d" target="id-642a6d937669438dafc61d5255be7661"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-09a4ac7bebfa4f3d9c26afef1321b39d" target="id-94443804ff094e61b1e0a7dfbc00b1c5"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-09a4ac7bebfa4f3d9c26afef1321b39d" target="id-478dc503357d47f286ed2fdb793b5733"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-45ed6b22a648424480e8042b8866033f" target="id-d780bc8094c746b78dde8ed6c3e5b774"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">ServingRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-e1d2270b8f834764a70acf7dbb50d26c" target="id-d780bc8094c746b78dde8ed6c3e5b774"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4390,8 +4427,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-478dc503357d47f286ed2fdb793b5733" target="id-657dbb72d6e44e699b6e21345e916d62"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-657dbb72d6e44e699b6e21345e916d62" target="id-478dc503357d47f286ed2fdb793b5733"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AccessRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4409,8 +4446,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-94443804ff094e61b1e0a7dfbc00b1c5" target="id-657dbb72d6e44e699b6e21345e916d62"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-657dbb72d6e44e699b6e21345e916d62" target="id-94443804ff094e61b1e0a7dfbc00b1c5"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AccessRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4428,8 +4465,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-bb97e03081c64871af2be833cb5f21cf" target="id-569455231a2e40f589aea6f02e1209e9"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-569455231a2e40f589aea6f02e1209e9" target="id-bb97e03081c64871af2be833cb5f21cf"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4447,8 +4484,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-bb97e03081c64871af2be833cb5f21cf" target="id-6278e38e467048bf8e091fbd14e27a47"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-6278e38e467048bf8e091fbd14e27a47" target="id-bb97e03081c64871af2be833cb5f21cf"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4466,8 +4503,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-63a5e67a79ab4c079db2412fbd6c9217" target="id-2e87dfaca7804cd6a3944187865de51f"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-2e87dfaca7804cd6a3944187865de51f" target="id-63a5e67a79ab4c079db2412fbd6c9217"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4485,8 +4522,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-63a5e67a79ab4c079db2412fbd6c9217" target="id-bb97e03081c64871af2be833cb5f21cf"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-bb97e03081c64871af2be833cb5f21cf" target="id-63a5e67a79ab4c079db2412fbd6c9217"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">TriggeringRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4504,8 +4541,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-a0b0ac58f8224882b5765abeba67788d" target="id-2e87dfaca7804cd6a3944187865de51f"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-2e87dfaca7804cd6a3944187865de51f" target="id-a0b0ac58f8224882b5765abeba67788d"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4523,8 +4560,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-d0149369f25145708dd6877f9000221c" target="id-14a9594db1ef42de8d31d2b47879765f"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-14a9594db1ef42de8d31d2b47879765f" target="id-d0149369f25145708dd6877f9000221c"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4542,8 +4579,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-b06fffa6df664f58998ce17dfc68a4a1" target="id-63a5e67a79ab4c079db2412fbd6c9217"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-63a5e67a79ab4c079db2412fbd6c9217" target="id-b06fffa6df664f58998ce17dfc68a4a1"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AccessRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4561,8 +4598,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-3fe0cc71d2ec441ab1f71f553245d3e5" target="id-140fc498620844be9db81e0822c0de3e"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-140fc498620844be9db81e0822c0de3e" target="id-3fe0cc71d2ec441ab1f71f553245d3e5"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AccessRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4580,8 +4617,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-d0149369f25145708dd6877f9000221c" target="id-a0b0ac58f8224882b5765abeba67788d"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-a0b0ac58f8224882b5765abeba67788d" target="id-d0149369f25145708dd6877f9000221c"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">TriggeringRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4599,8 +4636,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-140fc498620844be9db81e0822c0de3e" target="id-d0149369f25145708dd6877f9000221c"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-d0149369f25145708dd6877f9000221c" target="id-140fc498620844be9db81e0822c0de3e"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">TriggeringRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4618,8 +4655,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-140fc498620844be9db81e0822c0de3e" target="id-2e87dfaca7804cd6a3944187865de51f"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-2e87dfaca7804cd6a3944187865de51f" target="id-140fc498620844be9db81e0822c0de3e"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4637,8 +4674,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-a0b0ac58f8224882b5765abeba67788d" target="id-63a5e67a79ab4c079db2412fbd6c9217"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-63a5e67a79ab4c079db2412fbd6c9217" target="id-a0b0ac58f8224882b5765abeba67788d"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">TriggeringRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4656,8 +4693,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-f1665ae51516455290d12d0bdc2217d6" target="id-2e87dfaca7804cd6a3944187865de51f"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-2e87dfaca7804cd6a3944187865de51f" target="id-f1665ae51516455290d12d0bdc2217d6"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4675,8 +4712,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-32b04e3ce3154defba7f064f57c8393e" target="id-efc57b9ca6604ba181142ee57a4f2556"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-efc57b9ca6604ba181142ee57a4f2556" target="id-32b04e3ce3154defba7f064f57c8393e"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4694,8 +4731,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-fa249d702c724766a08c8bb0aff88fda" target="id-32b04e3ce3154defba7f064f57c8393e"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-32b04e3ce3154defba7f064f57c8393e" target="id-fa249d702c724766a08c8bb0aff88fda"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">TriggeringRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4713,8 +4750,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-106bdab1ae2d4bab891fbbfed8c4665a" target="id-2e87dfaca7804cd6a3944187865de51f"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-2e87dfaca7804cd6a3944187865de51f" target="id-106bdab1ae2d4bab891fbbfed8c4665a"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4732,8 +4769,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-106bdab1ae2d4bab891fbbfed8c4665a" target="id-32b04e3ce3154defba7f064f57c8393e"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-32b04e3ce3154defba7f064f57c8393e" target="id-106bdab1ae2d4bab891fbbfed8c4665a"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">TriggeringRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4751,8 +4788,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-b06fffa6df664f58998ce17dfc68a4a1" target="id-106bdab1ae2d4bab891fbbfed8c4665a"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-106bdab1ae2d4bab891fbbfed8c4665a" target="id-b06fffa6df664f58998ce17dfc68a4a1"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AccessRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4770,8 +4807,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-32b04e3ce3154defba7f064f57c8393e" target="id-f1665ae51516455290d12d0bdc2217d6"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-f1665ae51516455290d12d0bdc2217d6" target="id-32b04e3ce3154defba7f064f57c8393e"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">TriggeringRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4789,8 +4826,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-f1665ae51516455290d12d0bdc2217d6" target="id-140fc498620844be9db81e0822c0de3e"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-140fc498620844be9db81e0822c0de3e" target="id-f1665ae51516455290d12d0bdc2217d6"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">TriggeringRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4808,8 +4845,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-09a4ac7bebfa4f3d9c26afef1321b39d" target="id-b06fffa6df664f58998ce17dfc68a4a1"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-b06fffa6df664f58998ce17dfc68a4a1" target="id-09a4ac7bebfa4f3d9c26afef1321b39d"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4827,8 +4864,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-642a6d937669438dafc61d5255be7661" target="id-3fe0cc71d2ec441ab1f71f553245d3e5"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-3fe0cc71d2ec441ab1f71f553245d3e5" target="id-642a6d937669438dafc61d5255be7661"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4846,8 +4883,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-ed9d55765b7447a5a4ca8b08904ce153" target="id-3788c905ca0540e6986a7e2d6d367938"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-3788c905ca0540e6986a7e2d6d367938" target="id-ed9d55765b7447a5a4ca8b08904ce153"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4865,8 +4902,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-32b04e3ce3154defba7f064f57c8393e" target="id-3788c905ca0540e6986a7e2d6d367938"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-3788c905ca0540e6986a7e2d6d367938" target="id-32b04e3ce3154defba7f064f57c8393e"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4884,8 +4921,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-ee9edc4769764e7cbf63771c853ab844" target="id-bb97e03081c64871af2be833cb5f21cf"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-bb97e03081c64871af2be833cb5f21cf" target="id-ee9edc4769764e7cbf63771c853ab844"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">TriggeringRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4903,8 +4940,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-3593d9ec09f24283a231041cae306dbf" target="id-642a6d937669438dafc61d5255be7661"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-642a6d937669438dafc61d5255be7661" target="id-3593d9ec09f24283a231041cae306dbf"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4922,8 +4959,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-ef9a24639a554603b0fa592b81aeb8a6" target="id-2e87dfaca7804cd6a3944187865de51f"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-2e87dfaca7804cd6a3944187865de51f" target="id-ef9a24639a554603b0fa592b81aeb8a6"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4941,8 +4978,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-efc57b9ca6604ba181142ee57a4f2556" target="id-3788c905ca0540e6986a7e2d6d367938"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-3788c905ca0540e6986a7e2d6d367938" target="id-efc57b9ca6604ba181142ee57a4f2556"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4960,8 +4997,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-09a4ac7bebfa4f3d9c26afef1321b39d" target="id-ab82540482754f1db51a72d5c56eb3ad"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-ab82540482754f1db51a72d5c56eb3ad" target="id-09a4ac7bebfa4f3d9c26afef1321b39d"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4979,8 +5016,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-09a4ac7bebfa4f3d9c26afef1321b39d" target="id-7b452eb1db374de494124e7378a8d56e"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-7b452eb1db374de494124e7378a8d56e" target="id-09a4ac7bebfa4f3d9c26afef1321b39d"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -4998,8 +5035,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-b06fffa6df664f58998ce17dfc68a4a1" target="id-14a9594db1ef42de8d31d2b47879765f"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-14a9594db1ef42de8d31d2b47879765f" target="id-b06fffa6df664f58998ce17dfc68a4a1"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5017,8 +5054,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-c7a48bfdb29348a797b8f8db90628529" target="id-0ea2e29e04fb4abe93d4377cdd3ba9a4"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0ea2e29e04fb4abe93d4377cdd3ba9a4" target="id-c7a48bfdb29348a797b8f8db90628529"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5036,8 +5073,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-99c36f92306f405c8bc41b89e8269e73" target="id-a228c496d6fd43e68b91a7977ea976b7"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-a228c496d6fd43e68b91a7977ea976b7" target="id-99c36f92306f405c8bc41b89e8269e73"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5055,8 +5092,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-99c36f92306f405c8bc41b89e8269e73" target="id-06da6fe7247545e2aca65feedc5858ce"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-06da6fe7247545e2aca65feedc5858ce" target="id-99c36f92306f405c8bc41b89e8269e73"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5074,8 +5111,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-3f25872b77a24d2d9be5b8dbd265a3fd" target="id-0dc2654de3be40df9809f5c1754fa94a"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0dc2654de3be40df9809f5c1754fa94a" target="id-3f25872b77a24d2d9be5b8dbd265a3fd"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5093,8 +5130,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-390765d370374879b0dac465a1088181" target="id-0dc2654de3be40df9809f5c1754fa94a"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0dc2654de3be40df9809f5c1754fa94a" target="id-390765d370374879b0dac465a1088181"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5112,8 +5149,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-a228c496d6fd43e68b91a7977ea976b7" target="id-4d0df77f4241484a945626d06d95337d"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-4d0df77f4241484a945626d06d95337d" target="id-a228c496d6fd43e68b91a7977ea976b7"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5131,8 +5168,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-06da6fe7247545e2aca65feedc5858ce" target="id-4d0df77f4241484a945626d06d95337d"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-4d0df77f4241484a945626d06d95337d" target="id-06da6fe7247545e2aca65feedc5858ce"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5150,8 +5187,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-0ea2e29e04fb4abe93d4377cdd3ba9a4" target="id-4d0df77f4241484a945626d06d95337d"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-4d0df77f4241484a945626d06d95337d" target="id-0ea2e29e04fb4abe93d4377cdd3ba9a4"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5169,8 +5206,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-4d0df77f4241484a945626d06d95337d" target="id-642a6d937669438dafc61d5255be7661"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-642a6d937669438dafc61d5255be7661" target="id-4d0df77f4241484a945626d06d95337d"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5188,8 +5225,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-642a6d937669438dafc61d5255be7661" target="id-0dc2654de3be40df9809f5c1754fa94a"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0dc2654de3be40df9809f5c1754fa94a" target="id-642a6d937669438dafc61d5255be7661"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5207,8 +5244,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-9074ad7b12cc4c26ae01ac90fa87c8ff" target="id-0111f956f2f4455c8a1dd9786de4326a"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0111f956f2f4455c8a1dd9786de4326a" target="id-9074ad7b12cc4c26ae01ac90fa87c8ff"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5226,8 +5263,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-7b452eb1db374de494124e7378a8d56e" target="id-de9f5211db4e4d978d687b7b0460ba77"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-de9f5211db4e4d978d687b7b0460ba77" target="id-7b452eb1db374de494124e7378a8d56e"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5245,8 +5282,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-9003526e6ce241edb0c4c81ae1713694" target="id-de9f5211db4e4d978d687b7b0460ba77"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-de9f5211db4e4d978d687b7b0460ba77" target="id-9003526e6ce241edb0c4c81ae1713694"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5264,8 +5301,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-6620864d305a4041a0e798a9490cca10" target="id-d1454d30a18c450bbb00af2e52cfd5a0"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-d1454d30a18c450bbb00af2e52cfd5a0" target="id-6620864d305a4041a0e798a9490cca10"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5283,8 +5320,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-ab82540482754f1db51a72d5c56eb3ad" target="id-4ebff5a8a6934881ba57188c8a7561b9"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-4ebff5a8a6934881ba57188c8a7561b9" target="id-ab82540482754f1db51a72d5c56eb3ad"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5302,8 +5339,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-9003526e6ce241edb0c4c81ae1713694" target="id-4ebff5a8a6934881ba57188c8a7561b9"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-4ebff5a8a6934881ba57188c8a7561b9" target="id-9003526e6ce241edb0c4c81ae1713694"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5321,8 +5358,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-657dbb72d6e44e699b6e21345e916d62" target="id-9003526e6ce241edb0c4c81ae1713694"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-9003526e6ce241edb0c4c81ae1713694" target="id-657dbb72d6e44e699b6e21345e916d62"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5340,8 +5377,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-074425a36487468ea0b7321e048a1f79" target="id-de9f5211db4e4d978d687b7b0460ba77"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-de9f5211db4e4d978d687b7b0460ba77" target="id-074425a36487468ea0b7321e048a1f79"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5359,8 +5396,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-ab82540482754f1db51a72d5c56eb3ad" target="id-7b452eb1db374de494124e7378a8d56e"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-7b452eb1db374de494124e7378a8d56e" target="id-ab82540482754f1db51a72d5c56eb3ad"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5378,8 +5415,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-b06fffa6df664f58998ce17dfc68a4a1" target="id-ab82540482754f1db51a72d5c56eb3ad"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-ab82540482754f1db51a72d5c56eb3ad" target="id-b06fffa6df664f58998ce17dfc68a4a1"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5397,8 +5434,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-437cbb8287584894b406c239de3b7a47" target="id-4ebff5a8a6934881ba57188c8a7561b9"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-4ebff5a8a6934881ba57188c8a7561b9" target="id-437cbb8287584894b406c239de3b7a47"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5416,8 +5453,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-de9f5211db4e4d978d687b7b0460ba77" target="id-6620864d305a4041a0e798a9490cca10"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-6620864d305a4041a0e798a9490cca10" target="id-de9f5211db4e4d978d687b7b0460ba77"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5435,8 +5472,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-4ebff5a8a6934881ba57188c8a7561b9" target="id-6620864d305a4041a0e798a9490cca10"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-6620864d305a4041a0e798a9490cca10" target="id-4ebff5a8a6934881ba57188c8a7561b9"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5454,8 +5491,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-45b431b3025846c293b63a686e469d87" target="id-6620864d305a4041a0e798a9490cca10"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-6620864d305a4041a0e798a9490cca10" target="id-45b431b3025846c293b63a686e469d87"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5473,8 +5510,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-b06fffa6df664f58998ce17dfc68a4a1" target="id-fa249d702c724766a08c8bb0aff88fda"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-fa249d702c724766a08c8bb0aff88fda" target="id-b06fffa6df664f58998ce17dfc68a4a1"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5492,8 +5529,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-ed9d55765b7447a5a4ca8b08904ce153" target="id-fa249d702c724766a08c8bb0aff88fda"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-fa249d702c724766a08c8bb0aff88fda" target="id-ed9d55765b7447a5a4ca8b08904ce153"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5511,8 +5548,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-fa249d702c724766a08c8bb0aff88fda" target="id-13f9b72c71b54117a4cfd024c543e6a8"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-13f9b72c71b54117a4cfd024c543e6a8" target="id-fa249d702c724766a08c8bb0aff88fda"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5530,8 +5567,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-642a6d937669438dafc61d5255be7661" target="id-b06fffa6df664f58998ce17dfc68a4a1"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-b06fffa6df664f58998ce17dfc68a4a1" target="id-642a6d937669438dafc61d5255be7661"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5549,8 +5586,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-3788c905ca0540e6986a7e2d6d367938" target="id-a011a84681874b988fcd798ce60d3f01"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-a011a84681874b988fcd798ce60d3f01" target="id-3788c905ca0540e6986a7e2d6d367938"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5568,8 +5605,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-45034bbc39374885afd47e9d0f8c3f67" target="id-d7772506f5d6403882c33b629a0b8b4a"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-d7772506f5d6403882c33b629a0b8b4a" target="id-45034bbc39374885afd47e9d0f8c3f67"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -5587,8 +5624,8 @@ https://docs.microsoft.com/ru-ru/learn/modules/intro-to-kubernetes/3-how-kuberne
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-3788c905ca0540e6986a7e2d6d367938" target="id-e8c6360a1c3a46e992f1cb8c0394331c"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-e8c6360a1c3a46e992f1cb8c0394331c" target="id-3788c905ca0540e6986a7e2d6d367938"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>

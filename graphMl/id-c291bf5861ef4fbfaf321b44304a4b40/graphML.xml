@@ -1,0 +1,1680 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" 
+xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" 
+xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" 
+xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:y="http://www.yworks.com/xml/graphml" 
+xmlns:yed="http://www.yworks.com/xml/yed/3" 
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">  
+  <key attr.name="Description" attr.type="string" for="graph" id="d0"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d7" yfiles.type="resources"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/> 
+<key id="ClassName" for="node" attr.name="ClassName" attr.type="string"/> 
+<key id="Label" for="node" attr.name="Label" attr.type="string"/> 
+<key id="ArchimateLayer" for="node" attr.name="ArchimateLayer" attr.type="string"/> 
+<key id="name" for="node" attr.name="name" attr.type="string"/> 
+<key id="documentation" for="node" attr.name="documentation" attr.type="string"/> 
+<key id="type" for="node" attr.name="type" attr.type="string"/> 
+<key id="ReferenceName" for="edge" attr.name="ReferenceName" attr.type="string"/> 
+<graph id="init_graph_01" edgedefault="directed"> 
+<node id="id-1f4bc94c2e63465c930e2a4e571b6340"> 
+<data key="ClassName">BusinessActor</data> 
+<data key="Label">Диспетчер</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Диспетчер<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Диспетчер</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-90097ddd49b44de497e4661493bdce82"> 
+<data key="ClassName">BusinessEvent</data> 
+<data key="Label">Требуется организовать движение поезда между заданными станциями</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Требуется организовать движение поезда между заданными станциями<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Требуется организовать движение поезда между заданными станциями</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-7d8357b267cf400eaedc583725802b59"> 
+<data key="ClassName">BusinessRole</data> 
+<data key="Label">Машинист</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Машинист<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Машинист</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-e6cfd87b07cb4496b84caf82d89ddf00"> 
+<data key="ClassName">BusinessProcess</data> 
+<data key="Label">Проложить маршрут</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Проложить маршрут<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Проложить маршрут</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-77c94fe73ba043b0abf3c2274a9b8d70"> 
+<data key="ClassName">BusinessProcess</data> 
+<data key="Label">Встроить маршрут в расписание</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Встроить маршрут в расписание<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Встроить маршрут в расписание</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-3724c59179db40b0ac5ac3c6f03acfec"> 
+<data key="ClassName">BusinessProcess</data> 
+<data key="Label">Уведомить времени начала движения</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Уведомить времени начала движения<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Уведомить времени начала движения</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-edf57edbd499491592a3bd10a018b9bb"> 
+<data key="ClassName">BusinessObject</data> 
+<data key="Label">Маршрут</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Маршрут<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Маршрут</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-8f508cbaec0342fabd781be5fff9a33e"> 
+<data key="ClassName">BusinessEvent</data> 
+<data key="Label">Движение запланировано</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Движение запланировано<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Движение запланировано</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-eec9a85510c2452681f26e96a438e49d"> 
+<data key="ClassName">BusinessEvent</data> 
+<data key="Label">Поезд изменил местоположение</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Поезд изменил местоположение<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Поезд изменил местоположение</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-ac5d8a4940554ad08f474f2705187516"> 
+<data key="ClassName">Equipment</data> 
+<data key="Label">Поезд</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Поезд<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IPhysicalElement</data> 
+<data key="name">Поезд</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-e27e47a9dd594530a256c66360daa32e"> 
+<data key="ClassName">Equipment</data> 
+<data key="Label">Семафоры</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Семафоры<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IPhysicalElement</data> 
+<data key="name">Семафоры</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-2fbc4b56851b442bb08daa75b5197fe9"> 
+<data key="ClassName">BusinessFunction</data> 
+<data key="Label">Маршрутизация движения</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Маршрутизация движения<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Маршрутизация движения</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-f19ecd21b06b490b930c0d7e6614ac95"> 
+<data key="ClassName">BusinessFunction</data> 
+<data key="Label">Телеметрия поезда</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Телеметрия поезда<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Телеметрия поезда</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-6c8a3a9177eb426bb48fc2d4a7e44da3"> 
+<data key="ClassName">BusinessProcess</data> 
+<data key="Label">Сравнить местоположения</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Сравнить местоположения<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Сравнить местоположения</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-d475307b645d4598b50bdcdff4948c9d"> 
+<data key="ClassName">BusinessProcess</data> 
+<data key="Label">Отправка местоположения</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Отправка местоположения<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Отправка местоположения</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-cbc56af6a1474d72a9e0fc059f41e36d"> 
+<data key="ClassName">Equipment</data> 
+<data key="Label">Инфраструктура путей</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Инфраструктура путей<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IPhysicalElement</data> 
+<data key="name">Инфраструктура путей</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-5a76fcfff9e04d2d8bc8f901d731f1d8"> 
+<data key="ClassName">Equipment</data> 
+<data key="Label">Стрелки</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Стрелки<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IPhysicalElement</data> 
+<data key="name">Стрелки</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-8832fa56e6d4470e9ef1c82ea86ddaf8"> 
+<data key="ClassName">BusinessObject</data> 
+<data key="Label">Местоположение поезда</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Местоположение поезда<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Местоположение поезда</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-c96cc4fe034747c792048384155b4397"> 
+<data key="ClassName">BusinessEvent</data> 
+<data key="Label">Новые данные местоположения</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Новые данные местоположения<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Новые данные местоположения</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-870d9d0c14314545a807d2dfd8e8fc6e"> 
+<data key="ClassName">Node</data> 
+<data key="Label">Сервер поезда</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Сервер поезда<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="name">Сервер поезда</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-9881827e186e407281c01dee0526cc60"> 
+<data key="ClassName">Node</data> 
+<data key="Label">Сервер диспетчеризации</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Сервер диспетчеризации<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="name">Сервер диспетчеризации</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-0cf1d76bc664497786824a06f3853c88"> 
+<data key="ClassName">BusinessFunction</data> 
+<data key="Label">Автоматическое переключение</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Автоматическое переключение<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Автоматическое переключение</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-f61867f081af4b1aabae52a4b266356c"> 
+<data key="ClassName">Junction</data> 
+<data key="Label">Junction</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Junction<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="name">Junction</data> 
+<data key="documentation"></data> 
+<data key="type">or</data> 
+</node> 
+<node id="id-84ece5f3ff5d4e6baef6f88812da3acd"> 
+<data key="ClassName">BusinessObject</data> 
+<data key="Label">Карта путей и стрелок</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Карта путей и стрелок<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Карта путей и стрелок</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-75632526bf274b4dbd3a66361a160474"> 
+<data key="ClassName">BusinessProcess</data> 
+<data key="Label">Переключить стрелки</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Переключить стрелки<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Переключить стрелки</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-ccbce54b930e4c5a8161ccdcc2ffc457"> 
+<data key="ClassName">BusinessEvent</data> 
+<data key="Label">Новое видео с камер наблюдения</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Новое видео с камер наблюдения<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Новое видео с камер наблюдения</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-dfc163218a67412aab059f5b423496b8"> 
+<data key="ClassName">BusinessObject</data> 
+<data key="Label">Видео о работоспособности</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Видео о работоспособности<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Видео о работоспособности</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-5b4bbedd67e04cbaa26c3b5ee79ddcb4"> 
+<data key="ClassName">Equipment</data> 
+<data key="Label">Видео камеры на путях</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Видео камеры на путях<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IPhysicalElement</data> 
+<data key="name">Видео камеры на путях</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-ac7ff8195bbb446fa5150284e87d8e09"> 
+<data key="ClassName">BusinessProcess</data> 
+<data key="Label">Оценить возможность повреждений</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Оценить возможность повреждений<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Оценить возможность повреждений</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-1db8db824f1344758614adca5f72dd9e"> 
+<data key="ClassName">Junction</data> 
+<data key="Label">Junction</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Junction<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="name">Junction</data> 
+<data key="documentation"></data> 
+<data key="type">or</data> 
+</node> 
+<node id="id-ab7b3fc17564477fa43b8b4baa07f3a7"> 
+<data key="ClassName">BusinessEvent</data> 
+<data key="Label">Требуется ремонт</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Требуется ремонт<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Требуется ремонт</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-54bdc372cdf24b64a0333c85d94630db"> 
+<data key="ClassName">BusinessActor</data> 
+<data key="Label">Монтер пути</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Монтер пути<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Монтер пути</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-e3523ddecfcd4c4897a460f2227370e0"> 
+<data key="ClassName">BusinessProcess</data> 
+<data key="Label">Выполнение ремонта</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Выполнение ремонта<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Выполнение ремонта</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-d347193b54e34220a8fe4b6f27e9945a"> 
+<data key="ClassName">BusinessEvent</data> 
+<data key="Label">Обнаружен поезд не зарегистрированный в системе</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Обнаружен поезд не зарегистрированный в системе<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Обнаружен поезд не зарегистрированный в системе</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-946962b4b3d34a4fbfb1a7989cd153ad"> 
+<data key="ClassName">BusinessProcess</data> 
+<data key="Label">Уведомить машинистов</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Уведомить машинистов<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">IBusinessElement</data> 
+<data key="name">Уведомить машинистов</data> 
+<data key="documentation"></data> 
+</node> 
+<node id="id-a4fb3438ffb64700aa667211dce36af1"> 
+<data key="ClassName">Junction</data> 
+<data key="Label">Junction</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">Junction<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+<data key="ArchimateLayer">null</data> 
+<data key="name">Junction</data> 
+<data key="documentation"></data> 
+<data key="type"></data> 
+</node> 
+<edge source="id-1f4bc94c2e63465c930e2a4e571b6340" target="id-90097ddd49b44de497e4661493bdce82"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">TriggeringRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">TriggeringRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-e6cfd87b07cb4496b84caf82d89ddf00" target="id-edf57edbd499491592a3bd10a018b9bb"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AccessRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AccessRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-90097ddd49b44de497e4661493bdce82" target="id-e6cfd87b07cb4496b84caf82d89ddf00"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">TriggeringRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">TriggeringRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-e6cfd87b07cb4496b84caf82d89ddf00" target="id-77c94fe73ba043b0abf3c2274a9b8d70"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">TriggeringRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">TriggeringRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-77c94fe73ba043b0abf3c2274a9b8d70" target="id-3724c59179db40b0ac5ac3c6f03acfec"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">TriggeringRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">TriggeringRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-3724c59179db40b0ac5ac3c6f03acfec" target="id-8f508cbaec0342fabd781be5fff9a33e"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">TriggeringRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">TriggeringRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-3724c59179db40b0ac5ac3c6f03acfec" target="id-7d8357b267cf400eaedc583725802b59"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssociationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssociationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-ac5d8a4940554ad08f474f2705187516" target="id-edf57edbd499491592a3bd10a018b9bb"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssociationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssociationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-7d8357b267cf400eaedc583725802b59" target="id-ac5d8a4940554ad08f474f2705187516"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">ServingRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-ac5d8a4940554ad08f474f2705187516" target="id-eec9a85510c2452681f26e96a438e49d"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssignmentRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-2fbc4b56851b442bb08daa75b5197fe9" target="id-e6cfd87b07cb4496b84caf82d89ddf00"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-2fbc4b56851b442bb08daa75b5197fe9" target="id-77c94fe73ba043b0abf3c2274a9b8d70"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-e27e47a9dd594530a256c66360daa32e" target="id-7d8357b267cf400eaedc583725802b59"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">ServingRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-cbc56af6a1474d72a9e0fc059f41e36d" target="id-e27e47a9dd594530a256c66360daa32e"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-cbc56af6a1474d72a9e0fc059f41e36d" target="id-5a76fcfff9e04d2d8bc8f901d731f1d8"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-5a76fcfff9e04d2d8bc8f901d731f1d8" target="id-7d8357b267cf400eaedc583725802b59"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">ServingRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-eec9a85510c2452681f26e96a438e49d" target="id-d475307b645d4598b50bdcdff4948c9d"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">TriggeringRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">TriggeringRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-870d9d0c14314545a807d2dfd8e8fc6e" target="id-f19ecd21b06b490b930c0d7e6614ac95"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssignmentRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-9881827e186e407281c01dee0526cc60" target="id-0cf1d76bc664497786824a06f3853c88"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssignmentRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-0cf1d76bc664497786824a06f3853c88" target="id-6c8a3a9177eb426bb48fc2d4a7e44da3"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f19ecd21b06b490b930c0d7e6614ac95" target="id-d475307b645d4598b50bdcdff4948c9d"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-d475307b645d4598b50bdcdff4948c9d" target="id-8832fa56e6d4470e9ef1c82ea86ddaf8"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AccessRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AccessRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-6c8a3a9177eb426bb48fc2d4a7e44da3" target="id-8832fa56e6d4470e9ef1c82ea86ddaf8"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AccessRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AccessRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-c96cc4fe034747c792048384155b4397" target="id-6c8a3a9177eb426bb48fc2d4a7e44da3"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">TriggeringRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">TriggeringRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-6c8a3a9177eb426bb48fc2d4a7e44da3" target="id-f61867f081af4b1aabae52a4b266356c"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">TriggeringRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">TriggeringRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-e6cfd87b07cb4496b84caf82d89ddf00" target="id-84ece5f3ff5d4e6baef6f88812da3acd"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AccessRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AccessRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-6c8a3a9177eb426bb48fc2d4a7e44da3" target="id-84ece5f3ff5d4e6baef6f88812da3acd"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AccessRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AccessRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f61867f081af4b1aabae52a4b266356c" target="id-75632526bf274b4dbd3a66361a160474"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">TriggeringRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">TriggeringRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-75632526bf274b4dbd3a66361a160474" target="id-cbc56af6a1474d72a9e0fc059f41e36d"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssociationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssociationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-dfc163218a67412aab059f5b423496b8" target="id-cbc56af6a1474d72a9e0fc059f41e36d"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssociationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssociationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-ccbce54b930e4c5a8161ccdcc2ffc457" target="id-dfc163218a67412aab059f5b423496b8"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AccessRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AccessRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-5b4bbedd67e04cbaa26c3b5ee79ddcb4" target="id-ccbce54b930e4c5a8161ccdcc2ffc457"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssignmentRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-ccbce54b930e4c5a8161ccdcc2ffc457" target="id-ac7ff8195bbb446fa5150284e87d8e09"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">TriggeringRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">TriggeringRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-ac7ff8195bbb446fa5150284e87d8e09" target="id-dfc163218a67412aab059f5b423496b8"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AccessRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AccessRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-ac7ff8195bbb446fa5150284e87d8e09" target="id-1db8db824f1344758614adca5f72dd9e"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">TriggeringRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">TriggeringRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-1db8db824f1344758614adca5f72dd9e" target="id-ab7b3fc17564477fa43b8b4baa07f3a7"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">TriggeringRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">TriggeringRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-ac7ff8195bbb446fa5150284e87d8e09" target="id-84ece5f3ff5d4e6baef6f88812da3acd"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AccessRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AccessRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-ab7b3fc17564477fa43b8b4baa07f3a7" target="id-e3523ddecfcd4c4897a460f2227370e0"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">TriggeringRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">TriggeringRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-54bdc372cdf24b64a0333c85d94630db" target="id-e3523ddecfcd4c4897a460f2227370e0"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssignmentRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-54bdc372cdf24b64a0333c85d94630db" target="id-dfc163218a67412aab059f5b423496b8"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AccessRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AccessRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-1f4bc94c2e63465c930e2a4e571b6340" target="id-d347193b54e34220a8fe4b6f27e9945a"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssignmentRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssignmentRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-d347193b54e34220a8fe4b6f27e9945a" target="id-a4fb3438ffb64700aa667211dce36af1"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">TriggeringRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">TriggeringRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-a4fb3438ffb64700aa667211dce36af1" target="id-75632526bf274b4dbd3a66361a160474"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">TriggeringRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">TriggeringRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-a4fb3438ffb64700aa667211dce36af1" target="id-946962b4b3d34a4fbfb1a7989cd153ad"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">TriggeringRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">TriggeringRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-946962b4b3d34a4fbfb1a7989cd153ad" target="id-7d8357b267cf400eaedc583725802b59"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">AssociationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">AssociationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+</graph> 
+</graphml> 

@@ -23,6 +23,55 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
 <key id="ArchimateLayer" for="node" attr.name="ArchimateLayer" attr.type="string"/> 
 <key id="name" for="node" attr.name="name" attr.type="string"/> 
 <key id="documentation" for="node" attr.name="documentation" attr.type="string"/> 
+<key id="fda_id" for="node" attr.name="fda_id" attr.type="string"/> 
+<key id="eira_id" for="node" attr.name="eira_id" attr.type="string"/> 
+<key id="dct_type" for="node" attr.name="dct_type" attr.type="string"/> 
+<key id="dct_publisher" for="node" attr.name="dct_publisher" attr.type="string"/> 
+<key id="dct_modified" for="node" attr.name="dct_modified" attr.type="string"/> 
+<key id="eira_reuse_status" for="node" attr.name="eira_reuse_status" attr.type="string"/> 
+<key id="eira_spatial" for="node" attr.name="eira_spatial" attr.type="string"/> 
+<key id="fda_definition" for="node" attr.name="fda_definition" attr.type="string"/> 
+<key id="fda_beskrivelse" for="node" attr.name="fda_beskrivelse" attr.type="string"/> 
+<key id="fda_ejer" for="node" attr.name="fda_ejer" attr.type="string"/> 
+<key id="fda_version" for="node" attr.name="fda_version" attr.type="string"/> 
+<key id="fda_status" for="node" attr.name="fda_status" attr.type="string"/> 
+<key id="fda_kilde" for="node" attr.name="fda_kilde" attr.type="string"/> 
+<key id="fda_mærke" for="node" attr.name="fda_mærke" attr.type="string"/> 
+<key id="fda_EIRA engelsk/dansk" for="node" attr.name="fda_EIRA engelsk/dansk" attr.type="string"/> 
+<key id="English" for="node" attr.name="English" attr.type="string"/> 
+<key id="EIRA Stereotype" for="node" attr.name="EIRA Stereotype" attr.type="string"/> 
+<key id="Referencedatakatalog" for="node" attr.name="Referencedatakatalog" attr.type="string"/> 
+<key id="eira_reusability" for="node" attr.name="eira_reusability" attr.type="string"/> 
+<key id="Engelsk" for="node" attr.name="Engelsk" attr.type="string"/> 
+<key id="eira_unit_in_DG" for="node" attr.name="eira_unit_in_DG" attr.type="string"/> 
+<key id="Ejerskab/Ownership" for="node" attr.name="Ejerskab/Ownership" attr.type="string"/> 
+<key id="eira_status" for="node" attr.name="eira_status" attr.type="string"/> 
+<key id="Anvendes-af" for="node" attr.name="Anvendes-af" attr.type="string"/> 
+<key id="UUID" for="node" attr.name="UUID" attr.type="string"/> 
+<key id="dct_description" for="node" attr.name="dct_description" attr.type="string"/> 
+<key id="eira_owner" for="node" attr.name="eira_owner" attr.type="string"/> 
+<key id="Ejerskab/Owner" for="node" attr.name="Ejerskab/Owner" attr.type="string"/> 
+<key id="dct_references" for="node" attr.name="dct_references" attr.type="string"/> 
+<key id="eira_state" for="node" attr.name="eira_state" attr.type="string"/> 
+<key id="eira_operational_date" for="node" attr.name="eira_operational_date" attr.type="string"/> 
+<key id="eira_policy_area_extension" for="node" attr.name="eira_policy_area_extension" attr.type="string"/> 
+<key id="eira_actual_policy_coverage" for="node" attr.name="eira_actual_policy_coverage" attr.type="string"/> 
+<key id="eira_importance_for_the_functioning_of_the_EU" for="node" attr.name="eira_importance_for_the_functioning_of_the_EU" attr.type="string"/> 
+<key id="eira_confidentiality_level" for="node" attr.name="eira_confidentiality_level" attr.type="string"/> 
+<key id="eira_integrity_and_availability_level" for="node" attr.name="eira_integrity_and_availability_level" attr.type="string"/> 
+<key id="eira_security_requirements" for="node" attr.name="eira_security_requirements" attr.type="string"/> 
+<key id="eira_scalability" for="node" attr.name="eira_scalability" attr.type="string"/> 
+<key id="eira_rationalisation_domain" for="node" attr.name="eira_rationalisation_domain" attr.type="string"/> 
+<key id="eira_published_in_catalogue_or_software_forge" for="node" attr.name="eira_published_in_catalogue_or_software_forge" attr.type="string"/> 
+<key id="eira_GovIS_ID" for="node" attr.name="eira_GovIS_ID" attr.type="string"/> 
+<key id="eira_iop_score_governance" for="node" attr.name="eira_iop_score_governance" attr.type="string"/> 
+<key id="eira_iop_score_sw_architecture" for="node" attr.name="eira_iop_score_sw_architecture" attr.type="string"/> 
+<key id="eira_iop_score_h2m" for="node" attr.name="eira_iop_score_h2m" attr.type="string"/> 
+<key id="eira_iop_score_m2m" for="node" attr.name="eira_iop_score_m2m" attr.type="string"/> 
+<key id="eira_iop_score_overall" for="node" attr.name="eira_iop_score_overall" attr.type="string"/> 
+<key id="eira_url" for="node" attr.name="eira_url" attr.type="string"/> 
+<key id="eira_identifier" for="node" attr.name="eira_identifier" attr.type="string"/> 
+<key id="eira_body" for="node" attr.name="eira_body" attr.type="string"/> 
 <key id="ReferenceName" for="edge" attr.name="ReferenceName" attr.type="string"/> 
 <graph id="init_graph_01" edgedefault="directed"> 
 <node id="id-47a3b63d-8202-49d2-a910-fac955978a01"> 
@@ -88,6 +137,21 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-97</data> 
+<data key="eira_id">ABB124</data> 
+<data key="dct_type">eira:PublicServiceCatalogue</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">xx</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Public Service Catalogue/Katalog over offentlige services</data> 
 <data key="name">Tjenestekatalog forretningstjenester</data> 
 <data key="documentation">A catalogue of public services is a collection of descriptions of active public services that are provided by public administrations at any administrative level (i.e. local, regional, national or pan-European). All public service descriptions published in a catalogue of public services conform to a common data model for representing public services.
 This ABB is a key interoperability enabler (*) for sharing/PROVISIONING and reusing/CONSUMING of front-office public services.
@@ -138,6 +202,18 @@ https://joinup.ec.europa.eu/catalogue/distribution/cpsv-ap-specification-v20-pdf
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-123</data> 
+<data key="eira_id"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">IT-system katalog er en service som indeholder fællesoffentlige klassifikationer for brugerrettede sager og dets relation til forvaltningsmæssige klassifikationer (fx KLE og FORM) samt relationen mellem it-systemer og klassifkationer og relationer mellem offentlige institutioner og it-systemer.</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">8.2</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde">Referencearkitektur - Sags og ydelsesoverblik</data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk"></data> 
 <data key="name">Systemkatalog</data> 
 <data key="documentation"></data> 
 </node> 
@@ -182,6 +258,19 @@ https://joinup.ec.europa.eu/catalogue/distribution/cpsv-ap-specification-v20-pdf
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-91</data> 
+<data key="English">Data Sets Catalog</data> 
+<data key="EIRA Stereotype">Data Sets Catalogue</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">8.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Data Set Catalogue/Datasætkatalog</data> 
 <data key="name">Datasettkatalog</data> 
 <data key="documentation"></data> 
 </node> 
@@ -204,6 +293,19 @@ https://joinup.ec.europa.eu/catalogue/distribution/cpsv-ap-specification-v20-pdf
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-90</data> 
+<data key="English">Data Models Catalog</data> 
+<data key="EIRA Stereotype">Data Sets Catalogue</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">8.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk"></data> 
 <data key="name">Datamodellkatalog</data> 
 <data key="documentation"></data> 
 </node> 
@@ -226,6 +328,19 @@ https://joinup.ec.europa.eu/catalogue/distribution/cpsv-ap-specification-v20-pdf
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-113</data> 
+<data key="Referencedatakatalog">Referencedata Catalog</data> 
+<data key="EIRA Stereotype">Data Sets Catalogue</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">8.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Data Set Catalogue/Datasætkatalog</data> 
 <data key="name">Referansedata-katalog</data> 
 <data key="documentation"></data> 
 </node> 
@@ -248,6 +363,22 @@ https://joinup.ec.europa.eu/catalogue/distribution/cpsv-ap-specification-v20-pdf
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-201</data> 
+<data key="eira_id">ABB24</data> 
+<data key="dct_type">eira:DataSetCatalogue</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">xx</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Data Set Catalogue/Datasætkatalog</data> 
 <data key="name">Referencedata katalog</data> 
 <data key="documentation">A collection of datasets.  
 This ABB is a key interoperability enabler (*) for sharing/PROVISIONING and reusing/CONSUMING Data.
@@ -276,6 +407,22 @@ http://www.w3.org/TR/vocab-dcat/#class-catalog
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-190</data> 
+<data key="eira_id">ABB24</data> 
+<data key="dct_type">eira:DataSetCatalogue</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">xx</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Data Set Catalogue/Datasætkatalog</data> 
 <data key="name">Katalog over selvbetjening</data> 
 <data key="documentation">A collection of datasets.  
 This ABB is a key interoperability enabler (*) for sharing/PROVISIONING and reusing/CONSUMING Data.
@@ -304,6 +451,22 @@ http://www.w3.org/TR/vocab-dcat/#class-catalog
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-184</data> 
+<data key="eira_id">ABB181</data> 
+<data key="dct_type">eira:MasterData</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">7.3</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde">Referencearkitektur - Brugerstyring</data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Master Data/Masterdata</data> 
 <data key="name">Brugerkatalog</data> 
 <data key="documentation">EIRA dokumentation
 The authoritative, most accurate data that is available about key business entities, used to establish the context for business transactions and transactional data.
@@ -352,6 +515,21 @@ http://www.dama.org</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-63</data> 
+<data key="eira_id">ABB8</data> 
+<data key="dct_type">eira:Citizen</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Udlændinge er udenlandske statsborgere, bosiddende i Danmark eller i udlandet</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Citizen/Borger</data> 
 <data key="name">Udlending</data> 
 <data key="documentation">Norsk: Utlending
 Dansk: Udlænding
@@ -389,6 +567,22 @@ http://dictionary.cambridge.org/dictionary/english/citizen</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-66</data> 
+<data key="eira_id">ABB169</data> 
+<data key="dct_type">eira:Business</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="Engelsk">Business</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">En registreret organisation med et forretningsformål</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Business/Forretning</data> 
 <data key="name">Virksomhet</data> 
 <data key="documentation">Employment, occupation, profession, or commercial activity engaged in for gain or livelihood. Activity or enterprise for gain, benefit, advantage or livelihood. Enterprise in which person engaged shows willingness to invest time and capital on future outcome.
 
@@ -414,6 +608,22 @@ http://iate.europa.eu/</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-48</data> 
+<data key="eira_id">ABB7</data> 
+<data key="dct_type">eira:Organisation</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="English">Registered Organisation</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">xx</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Organisation/Organisation</data> 
 <data key="name">Registreret organisation</data> 
 <data key="documentation">Dansk: Registreret organisation
 
@@ -445,6 +655,21 @@ https://joinup.ec.europa.eu/asset/cpov/asset_release/core-public-organisation-vo
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-37</data> 
+<data key="eira_id">ABB172</data> 
+<data key="dct_type">eira:PublicAdministration</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">xx</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Public Administration/Offentlig administration</data> 
 <data key="name">Myndighet-sorgan</data> 
 <data key="documentation">Dansk: Myndighet (authority)
 
@@ -472,6 +697,21 @@ http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2014.257.01.0
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-17</data> 
+<data key="eira_id">ABB8</data> 
+<data key="dct_type">eira:Citizen</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Borgere er danske statsborgere, bosiddende i Danmark eller i udlandet, og som har et CPR-nummer</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Citizen/Borger</data> 
 <data key="name">Borger</data> 
 <data key="documentation">A Citizen is a person who is a member of a particular country and who has rights because of being born there or because of being given rights, or a person who lives in a particular town or city.
 
@@ -504,6 +744,21 @@ http://dictionary.cambridge.org/dictionary/english/citizen</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-16</data> 
+<data key="eira_id">ABB5</data> 
+<data key="dct_type">eira:PublicServiceConsumer</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">En bisidder er en af borgeren eller udlændingen valgt fortrolig, som assisterer en borger eller en udlænding i at gennemføre brugerrejsen</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Public Service Consumer/Offentlig service forbruger</data> 
 <data key="name">Bisidder</data> 
 <data key="documentation">Norsk: 
 Engelsk: 
@@ -534,6 +789,21 @@ http://ec.europa.eu/isa/documents/isa_annex_ii_eif_en.pdf</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-21</data> 
+<data key="eira_id">ABB5</data> 
+<data key="dct_type">eira:PublicServiceConsumer</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Ejer af virksomhed</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Public Service Consumer/Offentlig service forbruger</data> 
 <data key="name">Ejer</data> 
 <data key="documentation">Erik?: 
 
@@ -567,6 +837,22 @@ http://ec.europa.eu/isa/documents/isa_annex_ii_eif_en.pdf</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-36</data> 
+<data key="eira_id">ABB5</data> 
+<data key="dct_type">eira:PublicServiceConsumer</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="Engelsk">Employee</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Medarbejder i virksomhed</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Public Service Consumer/Offentlig service forbruger</data> 
 <data key="name">Medarbeider</data> 
 <data key="documentation">Norsk: Medarbeider
 Engelsk: 
@@ -597,6 +883,21 @@ http://ec.europa.eu/isa/documents/isa_annex_ii_eif_en.pdf</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-46</data> 
+<data key="eira_id">ABB173</data> 
+<data key="dct_type">eira:PublicServiceDeliveryAgent</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">EIRA</data> 
+<data key="fda_version">2.0</data> 
+<data key="fda_status">Godkendt</data> 
+<data key="fda_kilde">EIRA 2.0</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Public Service Delivery Agent/Offentlig sevice leveranceagent</data> 
 <data key="name">Public Service Delivery Agent</data> 
 <data key="documentation">Norsk: 
 Engelsk: 
@@ -628,6 +929,21 @@ https://joinup.ec.europa.eu/catalogue/distribution/cpsv-ap-specification-v20-pdf
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-49</data> 
+<data key="eira_id">ABB5</data> 
+<data key="dct_type">eira:PublicServiceConsumer</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Rådgiveren kan enten repræsentere virksomheden eller vejlede virksomheden</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Public Service Consumer/Offentlig service forbruger</data> 
 <data key="name">Rådgiver</data> 
 <data key="documentation">Norsk: 
 Engelsk: 
@@ -658,6 +974,22 @@ http://ec.europa.eu/isa/documents/isa_annex_ii_eif_en.pdf</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-52</data> 
+<data key="eira_id">ABB174</data> 
+<data key="dct_type">eira:PublicServiceProvider</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_unit_in_DG"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">xx</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Public Service Provider/Offentlig service udbyder</data> 
 <data key="name">Service Consumer</data> 
 <data key="documentation">Norsk: 
 Engelsk: 
@@ -688,6 +1020,22 @@ http://iate.europa.eu/</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-57</data> 
+<data key="eira_id">ABB174</data> 
+<data key="dct_type">eira:PublicServiceProvider</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_unit_in_DG"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">EIRA</data> 
+<data key="fda_version">2.0</data> 
+<data key="fda_status">Godkendt</data> 
+<data key="fda_kilde">EIRA 2.0</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Public Service Provider/Offentlig service udbyder</data> 
 <data key="name">Service Provider</data> 
 <data key="documentation">Norsk: 
 Engelsk: 
@@ -740,6 +1088,19 @@ http://iate.europa.eu/</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-67</data> 
+<data key="English">Accreditation</data> 
+<data key="EIRA Stereotype">Identity Management Component</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">7.3</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde">Referencearkitektur - Brugerstyring</data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Identity Management Component/Identitetsstyringskomponent</data> 
 <data key="name">Tildele akkreditiv</data> 
 <data key="documentation"></data> 
 </node> 
@@ -762,6 +1123,20 @@ http://iate.europa.eu/</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="English">Registration</data> 
+<data key="Ejerskab/Ownership">7.2</data> 
+<data key="EIRA Stereotype">Identiy Management Component</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">7.3</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde">Referencearkitektur - Brugerstyring</data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk"></data> 
+<data key="fda_id">FDA-340</data> 
 <data key="name">Registrering</data> 
 <data key="documentation"></data> 
 </node> 
@@ -784,6 +1159,24 @@ http://iate.europa.eu/</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-283</data> 
+<data key="eira_id">ABB69</data> 
+<data key="dct_type">eira:TrustServiceProvisioningComponent</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="fda_status">Godkendt</data> 
+<data key="eira_reusability">Reusable</data> 
+<data key="eira_spatial">Fælles-offentlig</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">xx</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Trust Service Provisioning Component/Tillidstjeneste provisioneringskomponent</data> 
 <data key="name">Signering (e-signing)</data> 
 <data key="documentation">Implements the functionalities encapsulating the trust services functionalities.
 A ‘trust service’ means an electronic service normally provided for remuneration which consists of these functionalities:
@@ -813,6 +1206,23 @@ http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2014.257.01.0
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-269</data> 
+<data key="eira_id">ABB204</data> 
+<data key="dct_type">eira:IdentityManagementService</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">EIRA</data> 
+<data key="fda_version">2.0</data> 
+<data key="fda_status">Godkendt</data> 
+<data key="fda_kilde">EIRA 2.0</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Identity Management Service/Identitetsstyringsservice</data> 
 <data key="name">Identity Management Service</data> 
 <data key="documentation">Shares the functionality of user authentication.
 ‘Electronic identification’ means the process of using person identification data in electronic form uniquely representing either a natural or legal person, or a natural person representing a legal person;
@@ -840,6 +1250,23 @@ http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2014.257.01.0
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-256</data> 
+<data key="eira_id">ABB158</data> 
+<data key="dct_type">eira:IdentityManagementComponent</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">7.3</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde">Referencearkitektur - Brugerstyring</data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Identity Management Component/Identitetsstyringskomponent</data> 
 <data key="name">Akkreditiv tilknytning</data> 
 <data key="documentation">Implements the functionality of user authentication.
 ‘Electronic identification’ means the process of using person identification data in electronic form uniquely representing either a natural or legal person, or a natural person representing a legal person;
@@ -867,6 +1294,19 @@ http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2014.257.01.0
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-219</data> 
+<data key="English">Access Management</data> 
+<data key="EIRA Stereotype">Access Management Component</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">7.3</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde">Referencearkitektur - Brugerstyring</data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Access Management Component/Adgangsstyringskomponent</data> 
 <data key="name">Adgangskontrol</data> 
 <data key="documentation"></data> 
 </node> 
@@ -889,6 +1329,19 @@ http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2014.257.01.0
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-214</data> 
+<data key="English">Autentification</data> 
+<data key="EIRA Stereotype">Identiy Management Component</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">7.3</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde">Referencearkitektur - Brugerstyring</data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Identity Management Component/Identitetsstyringskomponent</data> 
 <data key="name">Autentificering</data> 
 <data key="documentation"></data> 
 </node> 
@@ -911,6 +1364,19 @@ http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2014.257.01.0
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-220</data> 
+<data key="English">Tickett-issue</data> 
+<data key="EIRA Stereotype">Access Management Component</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">7.2</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Access Management Component/Adgangsstyringskomponent</data> 
 <data key="name">Billetudstedelse</data> 
 <data key="documentation"></data> 
 </node> 
@@ -933,6 +1399,23 @@ http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2014.257.01.0
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-284</data> 
+<data key="eira_id">ABB69</data> 
+<data key="dct_type">eira:TrustServiceProvisioningComponent</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">7.3</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde">Referencearkitektur - Brugerstyring</data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Trust Service Provisioning Component/Tillidstjeneste provisioneringskomponent</data> 
 <data key="name">Tillidsservices Komponent</data> 
 <data key="documentation">Implements the functionalities encapsulating the trust services functionalities.
 A ‘trust service’ means an electronic service normally provided for remuneration which consists of these functionalities:
@@ -962,6 +1445,24 @@ http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2014.257.01.0
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-271</data> 
+<data key="eira_id">ABB59</data> 
+<data key="dct_type">eira:LoggingService</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="Anvendes-af">1.1</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">EIRA</data> 
+<data key="fda_version">2.0</data> 
+<data key="fda_status">Godkendt</data> 
+<data key="fda_kilde">EIRA 2.0</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Logging Service/Logningsservice</data> 
 <data key="name">Logging Service</data> 
 <data key="documentation">Shares the functionality of tracing all events and user actions impacting a data entity throughout its lifecycle (from its creation to its disposal). It can be used to reproduce a certain state of a data entity at a certain moment in time.
 Logging = To record details of information or events in an organized record-keeping system, usually sequenced in the order in which they occurred.
@@ -988,6 +1489,21 @@ https://www.isaca.org</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-69</data> 
+<data key="eira_id">ABB1</data> 
+<data key="dct_type">eira:PublicService</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">7.3</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde">Referencearkitektur - Brugerstyring</data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Public Service/Offentlig service</data> 
 <data key="name">Validere identiteten</data> 
 <data key="documentation">EIRA dokumentation
 A European public service comprises any public sector service exposed to a cross-border dimension and supplied by public administrations, either to one another or to businesses and citizens in the Union. A Public Service is a mandatory or discretionary set of acts performed, or able to be performed, by or on behalf of a public organisation. Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. The capacity to act exists whether it is used or not, and the term 'benefit' may apply in the sense of enabling the fulfilment of an obligation. As defined in the revised version of the European Interoperability Framework, a European public service comprises any service provided by public administrations in Europe, or by other organisations on their behalf, to businesses, citizens or others public administrations. Public service – activities that public authorities identify as being of particular importance to citizens (A2C), businesses (A2B) and public administrations (A2A) and that would not be supplied (or would be supplied under different conditions) if there was no public intervention.
@@ -1017,6 +1533,21 @@ https://ec.europa.eu/isa2/actions/assessing-progress-being-made-towards-interope
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-146</data> 
+<data key="eira_id">ABB1</data> 
+<data key="dct_type">eira:PublicService</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_ejer">7.3</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Public Service/Offentlig service</data> 
+<data key="fda_kilde">Referencearkitektur - Brugerstyring</data> 
+<data key="UUID"></data> 
 <data key="name">Billetudstedelse</data> 
 <data key="documentation">EIRA dokumentation
 A European public service comprises any public sector service exposed to a cross-border dimension and supplied by public administrations, either to one another or to businesses and citizens in the Union. A Public Service is a mandatory or discretionary set of acts performed, or able to be performed, by or on behalf of a public organisation. Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. The capacity to act exists whether it is used or not, and the term 'benefit' may apply in the sense of enabling the fulfilment of an obligation. As defined in the revised version of the European Interoperability Framework, a European public service comprises any service provided by public administrations in Europe, or by other organisations on their behalf, to businesses, citizens or others public administrations. Public service – activities that public authorities identify as being of particular importance to citizens (A2C), businesses (A2B) and public administrations (A2A) and that would not be supplied (or would be supplied under different conditions) if there was no public intervention.
@@ -1046,6 +1577,21 @@ https://ec.europa.eu/isa2/actions/assessing-progress-being-made-towards-interope
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-70</data> 
+<data key="eira_id">ABB1</data> 
+<data key="dct_type">eira:PublicService</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">7.3</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde">Referencearkitektur - Brugerstyring</data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Public Service/Offentlig service</data> 
 <data key="name">Adgangskontrol</data> 
 <data key="documentation">A European public service comprises any public sector service exposed to a cross-border dimension and supplied by public administrations, either to one another or to businesses and citizens in the Union. A Public Service is a mandatory or discretionary set of acts performed, or able to be performed, by or on behalf of a public organisation. Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. The capacity to act exists whether it is used or not, and the term 'benefit' may apply in the sense of enabling the fulfilment of an obligation. As defined in the revised version of the European Interoperability Framework, a European public service comprises any service provided by public administrations in Europe, or by other organisations on their behalf, to businesses, citizens or others public administrations. Public service – activities that public authorities identify as being of particular importance to citizens (A2C), businesses (A2B) and public administrations (A2A) and that would not be supplied (or would be supplied under different conditions) if there was no public intervention.
 
@@ -1074,6 +1620,21 @@ https://ec.europa.eu/isa2/actions/assessing-progress-being-made-towards-interope
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-71</data> 
+<data key="eira_id">ABB1</data> 
+<data key="dct_type">eira:PublicService</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">7.3</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde">Referencearkitektur - Brugerstyring</data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Public Service/Offentlig service</data> 
 <data key="name">Attributbeskrivelse</data> 
 <data key="documentation">A European public service comprises any public sector service exposed to a cross-border dimension and supplied by public administrations, either to one another or to businesses and citizens in the Union. A Public Service is a mandatory or discretionary set of acts performed, or able to be performed, by or on behalf of a public organisation. Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. The capacity to act exists whether it is used or not, and the term 'benefit' may apply in the sense of enabling the fulfilment of an obligation. As defined in the revised version of the European Interoperability Framework, a European public service comprises any service provided by public administrations in Europe, or by other organisations on their behalf, to businesses, citizens or others public administrations. Public service – activities that public authorities identify as being of particular importance to citizens (A2C), businesses (A2B) and public administrations (A2A) and that would not be supplied (or would be supplied under different conditions) if there was no public intervention.
 
@@ -1124,6 +1685,21 @@ https://ec.europa.eu/isa2/actions/assessing-progress-being-made-towards-interope
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-54</data> 
+<data key="eira_id">ABB15</data> 
+<data key="dct_type">eira:ServiceDeliveryModel</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Service Delivery Model/Service leverancemodel</data> 
 <data key="name">Service Leverance Model (Brugerkanaler)</data> 
 <data key="documentation">The way in which a public service is provided to its consumer. 
 
@@ -1149,6 +1725,21 @@ https://www.innovationpolicyplatform.org/printpdf/12406</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-59</data> 
+<data key="eira_id">ABB1</data> 
+<data key="dct_type">eira:PublicService</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Public Service/Offentlig service</data> 
 <data key="name">Servicelevering af et Selvbetjeningsforløb</data> 
 <data key="documentation">Selvbetjeningsforløb leveres gennem et antal forskellige digitale kommunikationskanaler og kom-munikationsredskaber, som vælges af den myndighed, der har ansvaret for selvbetjeningen. Brugeren skal gennem serviceleveringen præsenteres for et link, der igangsætter Forberedelse af et selvbetjeningsforløb. 
 
@@ -1180,6 +1771,24 @@ https://ec.europa.eu/isa2/actions/assessing-progress-being-made-towards-interope
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-40</data> 
+<data key="eira_id">ABB12</data> 
+<data key="dct_type">eira:BusinessCapability</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="dct_description"></data> 
+<data key="eira_owner"></data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Når en situation for en bruger kræver, at der løses to eller flere opgaver, der har hver sit selvbetjeningsforløb, skal man gennem Overdragelse sikre, at brugeren oplever brugerrejsen som smidig og sammenhængende.</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Business Capability/Forretningskapabilitet</data> 
 <data key="name">Overdragelse</data> 
 <data key="documentation">EIRA dokumentation
 A particular ability or capacity that an organisation may possess or exchange to achieve a specific purpose or outcome.
@@ -1208,6 +1817,24 @@ https://www2.opengroup.org/ogsys/catalog/g161</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-14</data> 
+<data key="eira_id">ABB12</data> 
+<data key="dct_type">eira:BusinessCapability</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="dct_description"></data> 
+<data key="eira_owner"></data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">En Afrunding består af en beskrivelse af den (nye) kontekst, som Kernens forløb har bragt brugeren i, hvilke konsekven-ser den ændrede kontekst har for bru-geren og anvisning af et videre forløb, hvis dette er relevant.</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Business Capability/Forretningskapabilitet</data> 
 <data key="name">Afrunding</data> 
 <data key="documentation">A particular ability or capacity that an organisation may possess or exchange to achieve a specific purpose or outcome.
 Defining a business capability involves identifying and describing what needs to be done by the business in support of its overall mission. 
@@ -1235,6 +1862,24 @@ https://www2.opengroup.org/ogsys/catalog/g161</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-33</data> 
+<data key="eira_id">ABB12</data> 
+<data key="dct_type">eira:BusinessCapability</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="dct_description"></data> 
+<data key="eira_owner"></data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Det er i Kernen, at selve selvbetjeningsforløbets opgave skal udføres. Set fra brugeren, er dette et eller flere kontaktpunkter, hvorigennem brugeren gennemlæser og accepterer eller godkender og afleverer informationer, som skal indberettes eller anvendes til at ansøge om ydelser, tilladelse o.l. fra det offentlige. Set fra myndigheden, er disse kontaktpunkter, hvorigennem myndigheden ind-samler informationer i form af data, der er nødvendige for at udføre den forvaltningsopgave, myn-digheden skal løse</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Business Capability/Forretningskapabilitet</data> 
 <data key="name">Kernen</data> 
 <data key="documentation">A particular ability or capacity that an organisation may possess or exchange to achieve a specific purpose or outcome.
 Defining a business capability involves identifying and describing what needs to be done by the business in support of its overall mission. 
@@ -1262,6 +1907,24 @@ https://www2.opengroup.org/ogsys/catalog/g161</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-22</data> 
+<data key="eira_id">ABB12</data> 
+<data key="dct_type">eira:BusinessCapability</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="dct_description"></data> 
+<data key="eira_owner"></data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Forberedelsen kortlægger brugerens kontekst og forudsætninger for at løse opgaven.</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Business Capability/Forretningskapabilitet</data> 
 <data key="name">Forberedelse</data> 
 <data key="documentation">A particular ability or capacity that an organisation may possess or exchange to achieve a specific purpose or outcome.
 Defining a business capability involves identifying and describing what needs to be done by the business in support of its overall mission. 
@@ -1289,6 +1952,21 @@ https://www2.opengroup.org/ogsys/catalog/g161</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-61</data> 
+<data key="eira_id">ABB1</data> 
+<data key="dct_type">eira:PublicService</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Valg af sprog, der læses, skrives eller tales på</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Public Service/Offentlig service</data> 
 <data key="name">Sprogvalg</data> 
 <data key="documentation">A European public service comprises any public sector service exposed to a cross-border dimension and supplied by public administrations, either to one another or to businesses and citizens in the Union. A Public Service is a mandatory or discretionary set of acts performed, or able to be performed, by or on behalf of a public organisation. Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. The capacity to act exists whether it is used or not, and the term 'benefit' may apply in the sense of enabling the fulfilment of an obligation. As defined in the revised version of the European Interoperability Framework, a European public service comprises any service provided by public administrations in Europe, or by other organisations on their behalf, to businesses, citizens or others public administrations. Public service – activities that public authorities identify as being of particular importance to citizens (A2C), businesses (A2B) and public administrations (A2A) and that would not be supplied (or would be supplied under different conditions) if there was no public intervention.
 
@@ -1317,6 +1995,22 @@ https://ec.europa.eu/isa2/actions/assessing-progress-being-made-towards-interope
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-32</data> 
+<data key="eira_id">ABB1</data> 
+<data key="Ejerskab/Owner">1.1</data> 
+<data key="dct_type">eira:PublicService</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Indeholder en introduktion til, hvad et givent selvbetjeningsforløb kan udrette for brugeren</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Public Service/Offentlig service</data> 
 <data key="name">Introduktion</data> 
 <data key="documentation">A European public service comprises any public sector service exposed to a cross-border dimension and supplied by public administrations, either to one another or to businesses and citizens in the Union. A Public Service is a mandatory or discretionary set of acts performed, or able to be performed, by or on behalf of a public organisation. Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. The capacity to act exists whether it is used or not, and the term 'benefit' may apply in the sense of enabling the fulfilment of an obligation. As defined in the revised version of the European Interoperability Framework, a European public service comprises any service provided by public administrations in Europe, or by other organisations on their behalf, to businesses, citizens or others public administrations. Public service – activities that public authorities identify as being of particular importance to citizens (A2C), businesses (A2B) and public administrations (A2A) and that would not be supplied (or would be supplied under different conditions) if there was no public intervention.
 
@@ -1345,6 +2039,21 @@ https://ec.europa.eu/isa2/actions/assessing-progress-being-made-towards-interope
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-64</data> 
+<data key="eira_id">ABB1</data> 
+<data key="dct_type">eira:PublicService</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Service til validering af brugerafgivne informationer</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Public Service/Offentlig service</data> 
 <data key="name">Validering</data> 
 <data key="documentation">A European public service comprises any public sector service exposed to a cross-border dimension and supplied by public administrations, either to one another or to businesses and citizens in the Union. A Public Service is a mandatory or discretionary set of acts performed, or able to be performed, by or on behalf of a public organisation. Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. The capacity to act exists whether it is used or not, and the term 'benefit' may apply in the sense of enabling the fulfilment of an obligation. As defined in the revised version of the European Interoperability Framework, a European public service comprises any service provided by public administrations in Europe, or by other organisations on their behalf, to businesses, citizens or others public administrations. Public service – activities that public authorities identify as being of particular importance to citizens (A2C), businesses (A2B) and public administrations (A2A) and that would not be supplied (or would be supplied under different conditions) if there was no public intervention.
 
@@ -1373,6 +2082,21 @@ https://ec.europa.eu/isa2/actions/assessing-progress-being-made-towards-interope
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-15</data> 
+<data key="eira_id">ABB1</data> 
+<data key="dct_type">eira:PublicService</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Er en service for betaling, der omfatter valg af betalingsform, indtastning af betalingsoplysninger, godkendelse heraf og overførsel af betalingsinformation til selvbetjeningsløsningen,</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Public Service/Offentlig service</data> 
 <data key="name">Betaling</data> 
 <data key="documentation">A European public service comprises any public sector service exposed to a cross-border dimension and supplied by public administrations, either to one another or to businesses and citizens in the Union. A Public Service is a mandatory or discretionary set of acts performed, or able to be performed, by or on behalf of a public organisation. Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. The capacity to act exists whether it is used or not, and the term 'benefit' may apply in the sense of enabling the fulfilment of an obligation. As defined in the revised version of the European Interoperability Framework, a European public service comprises any service provided by public administrations in Europe, or by other organisations on their behalf, to businesses, citizens or others public administrations. Public service – activities that public authorities identify as being of particular importance to citizens (A2C), businesses (A2B) and public administrations (A2A) and that would not be supplied (or would be supplied under different conditions) if there was no public intervention.
 
@@ -1401,6 +2125,21 @@ https://ec.europa.eu/isa2/actions/assessing-progress-being-made-towards-interope
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-30</data> 
+<data key="eira_id">ABB1</data> 
+<data key="dct_type">eira:PublicService</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Service til oversigt/opsummering af det indtastede/valgte og en knap med ”godkend”.</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Public Service/Offentlig service</data> 
 <data key="name">Godkendelse</data> 
 <data key="documentation">A European public service comprises any public sector service exposed to a cross-border dimension and supplied by public administrations, either to one another or to businesses and citizens in the Union. A Public Service is a mandatory or discretionary set of acts performed, or able to be performed, by or on behalf of a public organisation. Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. The capacity to act exists whether it is used or not, and the term 'benefit' may apply in the sense of enabling the fulfilment of an obligation. As defined in the revised version of the European Interoperability Framework, a European public service comprises any service provided by public administrations in Europe, or by other organisations on their behalf, to businesses, citizens or others public administrations. Public service – activities that public authorities identify as being of particular importance to citizens (A2C), businesses (A2B) and public administrations (A2A) and that would not be supplied (or would be supplied under different conditions) if there was no public intervention.
 
@@ -1429,6 +2168,21 @@ https://ec.europa.eu/isa2/actions/assessing-progress-being-made-towards-interope
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-35</data> 
+<data key="eira_id">ABB1</data> 
+<data key="dct_type">eira:PublicService</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Dokumentation for de informationer og dokumenter, brugeren har leveret i Forberedelse eller Kernen</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Public Service/Offentlig service</data> 
 <data key="name">Kvittering</data> 
 <data key="documentation">A European public service comprises any public sector service exposed to a cross-border dimension and supplied by public administrations, either to one another or to businesses and citizens in the Union. A Public Service is a mandatory or discretionary set of acts performed, or able to be performed, by or on behalf of a public organisation. Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. The capacity to act exists whether it is used or not, and the term 'benefit' may apply in the sense of enabling the fulfilment of an obligation. As defined in the revised version of the European Interoperability Framework, a European public service comprises any service provided by public administrations in Europe, or by other organisations on their behalf, to businesses, citizens or others public administrations. Public service – activities that public authorities identify as being of particular importance to citizens (A2C), businesses (A2B) and public administrations (A2A) and that would not be supplied (or would be supplied under different conditions) if there was no public intervention.
 
@@ -1457,6 +2211,21 @@ https://ec.europa.eu/isa2/actions/assessing-progress-being-made-towards-interope
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-65</data> 
+<data key="eira_id">ABB1</data> 
+<data key="dct_type">eira:PublicService</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Vejledning til brugerne om gennemførelsen af forløbet. Det er materiale med råd, retningslinjer og instruktioner i at gennemføre selvbetjeningsforløbet.</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Public Service/Offentlig service</data> 
 <data key="name">Vejledning</data> 
 <data key="documentation">A European public service comprises any public sector service exposed to a cross-border dimension and supplied by public administrations, either to one another or to businesses and citizens in the Union. A Public Service is a mandatory or discretionary set of acts performed, or able to be performed, by or on behalf of a public organisation. Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. The capacity to act exists whether it is used or not, and the term 'benefit' may apply in the sense of enabling the fulfilment of an obligation. As defined in the revised version of the European Interoperability Framework, a European public service comprises any service provided by public administrations in Europe, or by other organisations on their behalf, to businesses, citizens or others public administrations. Public service – activities that public authorities identify as being of particular importance to citizens (A2C), businesses (A2B) and public administrations (A2A) and that would not be supplied (or would be supplied under different conditions) if there was no public intervention.
 
@@ -1485,6 +2254,21 @@ https://ec.europa.eu/isa2/actions/assessing-progress-being-made-towards-interope
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-252</data> 
+<data key="eira_id">ABB37</data> 
+<data key="dct_type">eira:HumanInterface</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">EIRA</data> 
+<data key="fda_version">2.0</data> 
+<data key="fda_status">Godkendt</data> 
+<data key="fda_kilde">EIRA 2.0</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Human Interface/Brugerinterface</data> 
 <data key="name">Human Interface</data> 
 <data key="documentation">A boundary set of means enabling the exchange of data between an individual and a service.
 This ABB is a key interoperability enabler (*) for assessing compatible interfaces.
@@ -1512,6 +2296,23 @@ Source: ISA2 - EIA Action
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-228</data> 
+<data key="eira_id">ABB66</data> 
+<data key="dct_type">eira:BusinessIntelligenceComponent</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Brugerprofiler produceres af en analyseplatform, hvor der opsamles oplysninger om brugerens valg og interaktioner med det aktuelle selvbetjeningsforløb, og evt. andre selvbetjeningsforløb</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Business Intelligence Component/Business Intelligence komponent</data> 
 <data key="name">Generering af brugerprofiler</data> 
 <data key="documentation">Implements the functionalities that include i) the applications, ii) infrastructure and tools, and/or iii) best practices that enable access to and analysis of information to improve and optimize decisions and performance.
 
@@ -1537,6 +2338,24 @@ http://www.gartner.com/it-glossary/business-intelligence-bi/</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-226</data> 
+<data key="eira_id">ABB187</data> 
+<data key="dct_type">eira:ApplicationService</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="dct_references"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Lokalt overblik vise et overblik i offentlige eller private brugergrænseflader.</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.3</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Sags og ydelsesoverblik</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Application Service/Applikationsservice</data> 
 <data key="name">Lokale Overblik</data> 
 <data key="documentation">Represents an explicitly defined shared application behavior.
 
@@ -1562,6 +2381,24 @@ http://pubs.opengroup.org/architecture/archimate3-doc/chap09.html</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-225</data> 
+<data key="eira_id">ABB187</data> 
+<data key="dct_type">eira:ApplicationService</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="dct_references"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Globale overblik viser data på tværs af sager og ydelser.</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.3</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Sags og ydelsesoverblik</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Application Service/Applikationsservice</data> 
 <data key="name">Globale overblik</data> 
 <data key="documentation">Represents an explicitly defined shared application behavior.
 
@@ -1587,6 +2424,24 @@ http://pubs.opengroup.org/architecture/archimate3-doc/chap09.html</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-222</data> 
+<data key="eira_id">ABB187</data> 
+<data key="dct_type">eira:ApplicationService</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="dct_references"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Adviseringsoverblik indeholder en et overblik over brugerens adviseringer</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.3</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Sags og ydelsesoverblik</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Application Service/Applikationsservice</data> 
 <data key="name">Adviserings-overblik</data> 
 <data key="documentation">Represents an explicitly defined shared application behavior.
 
@@ -1612,6 +2467,23 @@ http://pubs.opengroup.org/architecture/archimate3-doc/chap09.html</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-242</data> 
+<data key="eira_id">ABB77</data> 
+<data key="dct_type">eira:FormsManagementComponent</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Selvbetjeningsløsningsbrugerflader der kan anvendes både almindelig computerskærm, tablet, smartphones og specialapparater</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Forms Management Component/Formularstyringskomponent</data> 
 <data key="name">Brugerflader på brugerapparater</data> 
 <data key="documentation">Implements the functionalities of i) dynamic creation, ii) distribution and ii) analysis of forms and online surveys.
 
@@ -1658,6 +2530,24 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-380</data> 
+<data key="eira_id">ABB75</data> 
+<data key="dct_type">eira:ContentManagementComponent</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="Engelsk">Classification Handler</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">xx</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Content Management Component/Indholdsstyringskomponent</data> 
 <data key="name">Klassifikations håndtering (klassifikationer)</data> 
 <data key="documentation">Implements the functionality of the categorisation of information resources so that they can be stored, published and reused in multiple contexts.
 
@@ -1683,6 +2573,40 @@ http://www.dama.org/</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-378</data> 
+<data key="eira_id">ABB60</data> 
+<data key="dct_type">eira:InteroperableEuropeanSolution</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="dct_description"></data> 
+<data key="eira_state">[ Study | Development | Pilot | Operational | Phased out ]</data> 
+<data key="eira_operational_date"></data> 
+<data key="eira_policy_area_extension">[ Yes | No ]</data> 
+<data key="eira_actual_policy_coverage">[ Sectoral | Multi-sectoral | Cross-sectoral ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_importance_for_the_functioning_of_the_EU">[ Critical | Essential | Necessary ]</data> 
+<data key="eira_confidentiality_level">[ Public | Limited ]</data> 
+<data key="eira_integrity_and_availability_level">[ Moderate | Critical | Strategic ]</data> 
+<data key="eira_security_requirements">[ Standard | Specific ]</data> 
+<data key="eira_scalability">[ High | Medium | Low ]</data> 
+<data key="eira_rationalisation_domain">[ Asset management | Audit | External communication | Internal communication | Document management | Financial management | Grant management | Human resources | IT | Legislative lifecycle | Procurement | Program management | Strategic planning and programming | Statistics management | Case management | Trans-European Systems and Infrastructure management | Crisis management | Structured Data Exchange Management | Committee and expert group meeting management | None of them ]*</data> 
+<data key="eira_published_in_catalogue_or_software_forge">[ Yes | No ]</data> 
+<data key="eira_GovIS_ID"></data> 
+<data key="eira_iop_score_governance"></data> 
+<data key="eira_iop_score_sw_architecture"></data> 
+<data key="eira_iop_score_h2m"></data> 
+<data key="eira_iop_score_m2m"></data> 
+<data key="eira_iop_score_overall"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">xx</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Interoperable European Solution/Interoperabel løsning</data> 
 <data key="name">Kommunale fagsystemer (Municipal Business Application)</data> 
 <data key="documentation">A solution, developed by Public Administrations that facilitate the delivery of electronic Public Services and cross-border exchange of information between Public Administrations (or Citizens) in support to the implementation and advancement of EU, national or local Public Policies.
 
@@ -1708,6 +2632,40 @@ https://joinup.ec.europa.eu/node/149889</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-244</data> 
+<data key="eira_id">ABB60</data> 
+<data key="dct_type">eira:InteroperableEuropeanSolution</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="dct_description"></data> 
+<data key="eira_state">[ Study | Development | Pilot | Operational | Phased out ]</data> 
+<data key="eira_operational_date"></data> 
+<data key="eira_policy_area_extension">[ Yes | No ]</data> 
+<data key="eira_actual_policy_coverage">[ Sectoral | Multi-sectoral | Cross-sectoral ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_importance_for_the_functioning_of_the_EU">[ Critical | Essential | Necessary ]</data> 
+<data key="eira_confidentiality_level">[ Public | Limited ]</data> 
+<data key="eira_integrity_and_availability_level">[ Moderate | Critical | Strategic ]</data> 
+<data key="eira_security_requirements">[ Standard | Specific ]</data> 
+<data key="eira_scalability">[ High | Medium | Low ]</data> 
+<data key="eira_rationalisation_domain">[ Asset management | Audit | External communication | Internal communication | Document management | Financial management | Grant management | Human resources | IT | Legislative lifecycle | Procurement | Program management | Strategic planning and programming | Statistics management | Case management | Trans-European Systems and Infrastructure management | Crisis management | Structured Data Exchange Management | Committee and expert group meeting management | None of them ]*</data> 
+<data key="eira_published_in_catalogue_or_software_forge">[ Yes | No ]</data> 
+<data key="eira_GovIS_ID"></data> 
+<data key="eira_iop_score_governance"></data> 
+<data key="eira_iop_score_sw_architecture"></data> 
+<data key="eira_iop_score_h2m"></data> 
+<data key="eira_iop_score_m2m"></data> 
+<data key="eira_iop_score_overall"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">xx</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Interoperable European Solution/Interoperabel løsning</data> 
 <data key="name">Statslige fagsystemer (Governmental Business Application)</data> 
 <data key="documentation">A solution, developed by Public Administrations that facilitate the delivery of electronic Public Services and cross-border exchange of information between Public Administrations (or Citizens) in support to the implementation and advancement of EU, national or local Public Policies.
 
@@ -1733,6 +2691,40 @@ https://joinup.ec.europa.eu/node/149889</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-243</data> 
+<data key="eira_id">ABB60</data> 
+<data key="dct_type">eira:InteroperableEuropeanSolution</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="dct_description"></data> 
+<data key="eira_state">[ Study | Development | Pilot | Operational | Phased out ]</data> 
+<data key="eira_operational_date"></data> 
+<data key="eira_policy_area_extension">[ Yes | No ]</data> 
+<data key="eira_actual_policy_coverage">[ Sectoral | Multi-sectoral | Cross-sectoral ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_importance_for_the_functioning_of_the_EU">[ Critical | Essential | Necessary ]</data> 
+<data key="eira_confidentiality_level">[ Public | Limited ]</data> 
+<data key="eira_integrity_and_availability_level">[ Moderate | Critical | Strategic ]</data> 
+<data key="eira_security_requirements">[ Standard | Specific ]</data> 
+<data key="eira_scalability">[ High | Medium | Low ]</data> 
+<data key="eira_rationalisation_domain">[ Asset management | Audit | External communication | Internal communication | Document management | Financial management | Grant management | Human resources | IT | Legislative lifecycle | Procurement | Program management | Strategic planning and programming | Statistics management | Case management | Trans-European Systems and Infrastructure management | Crisis management | Structured Data Exchange Management | Committee and expert group meeting management | None of them ]*</data> 
+<data key="eira_published_in_catalogue_or_software_forge">[ Yes | No ]</data> 
+<data key="eira_GovIS_ID"></data> 
+<data key="eira_iop_score_governance"></data> 
+<data key="eira_iop_score_sw_architecture"></data> 
+<data key="eira_iop_score_h2m"></data> 
+<data key="eira_iop_score_m2m"></data> 
+<data key="eira_iop_score_overall"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">xx</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Interoperable European Solution/Interoperabel løsning</data> 
 <data key="name">Regionale fagsystemer (Regional Business Applications)</data> 
 <data key="documentation">A solution, developed by Public Administrations that facilitate the delivery of electronic Public Services and cross-border exchange of information between Public Administrations (or Citizens) in support to the implementation and advancement of EU, national or local Public Policies.
 
@@ -1758,6 +2750,24 @@ https://joinup.ec.europa.eu/node/149889</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-267</data> 
+<data key="eira_id">ABB64</data> 
+<data key="dct_type">eira:DataExchangeComponent</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="dct_description"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Data Exchange Component/Dataudvekslingskomponent</data> 
 <data key="name">Digital post</data> 
 <data key="documentation">Implements the functionality that enables the secure exchange of messages, records, forms and other kinds of data between different ICT systems. This includes data routing, except endpoint discovery. 
 
@@ -1783,6 +2793,22 @@ http://ec.europa.eu/isa/documents/isa_annex_ii_eif_en.pdf</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-188</data> 
+<data key="eira_id">ABB225</data> 
+<data key="dct_type">eira:BaseRegistry</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="Engelsk">Base registry</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">xx</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Base Registry/Grunddataregister</data> 
 <data key="name">Grunddata</data> 
 <data key="documentation">A trusted authentic source of information under the control of an appointed public administration or organisation appointed by government.
 
@@ -1811,6 +2837,23 @@ http://eur-lex.europa.eu/resource.html?uri=cellar:2c2f2554-0faf-11e7-8a35-01aa75
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-265</data> 
+<data key="eira_id">ABB186</data> 
+<data key="dct_type">eira:BusinessProcessManagementComponent</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">xx</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Business Process Management Component/Business process management komponent</data> 
 <data key="name">Datafordeler</data> 
 <data key="documentation">Implements the functionality that uses various methods to discover, model, analyse, measure, improve, and optimize business processes. A business process coordinates the behavior of people, systems, information, and things to produce business outcomes in support of the business strategy. Processes can be structured and repeatable or unstructured and variable. 
 
@@ -1836,6 +2879,19 @@ http://www.gartner.com/it-glossary/business-process-management-bpm/</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-215</data> 
+<data key="English">Data Index</data> 
+<data key="EIRA Stereotype"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Dataindeks er en komponent, som opbevarer cache data fra myndighedernes kildesystemer.</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">8.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Sags og ydelsesoverblik</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk"></data> 
 <data key="name">Data Index</data> 
 <data key="documentation"></data> 
 </node> 
@@ -1858,6 +2914,24 @@ http://www.gartner.com/it-glossary/business-process-management-bpm/</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-239</data> 
+<data key="eira_id">ABB187</data> 
+<data key="dct_type">eira:ApplicationService</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="dct_references"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Kontaktkataloget indeholder brugerens relevante kontaktinformationer og hvilke kanaler brugeren vil kontaktes på.</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde">Referencearkitektur - Sags og ydelsesoverblik</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Business Process Management Component/Business process management komponent</data> 
 <data key="name">Kontaktkatalog</data> 
 <data key="documentation">Represents an explicitly defined shared application behavior.
 
@@ -1883,6 +2957,40 @@ http://pubs.opengroup.org/architecture/archimate3-doc/chap09.html</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-242</data> 
+<data key="eira_id">ABB60</data> 
+<data key="dct_type">eira:InteroperableEuropeanSolution</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="dct_description"></data> 
+<data key="eira_state">[ Study | Development | Pilot | Operational | Phased out ]</data> 
+<data key="eira_operational_date"></data> 
+<data key="eira_policy_area_extension">[ Yes | No ]</data> 
+<data key="eira_actual_policy_coverage">[ Sectoral | Multi-sectoral | Cross-sectoral ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_importance_for_the_functioning_of_the_EU">[ Critical | Essential | Necessary ]</data> 
+<data key="eira_confidentiality_level">[ Public | Limited ]</data> 
+<data key="eira_integrity_and_availability_level">[ Moderate | Critical | Strategic ]</data> 
+<data key="eira_security_requirements">[ Standard | Specific ]</data> 
+<data key="eira_scalability">[ High | Medium | Low ]</data> 
+<data key="eira_rationalisation_domain">[ Asset management | Audit | External communication | Internal communication | Document management | Financial management | Grant management | Human resources | IT | Legislative lifecycle | Procurement | Program management | Strategic planning and programming | Statistics management | Case management | Trans-European Systems and Infrastructure management | Crisis management | Structured Data Exchange Management | Committee and expert group meeting management | None of them ]*</data> 
+<data key="eira_published_in_catalogue_or_software_forge">[ Yes | No ]</data> 
+<data key="eira_GovIS_ID"></data> 
+<data key="eira_iop_score_governance"></data> 
+<data key="eira_iop_score_sw_architecture"></data> 
+<data key="eira_iop_score_h2m"></data> 
+<data key="eira_iop_score_m2m"></data> 
+<data key="eira_iop_score_overall"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">8.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Interoperable European Solution/Interoperabel løsning</data> 
 <data key="name">Myndighedsregister</data> 
 <data key="documentation">A solution, developed by Public Administrations that facilitate the delivery of electronic Public Services and cross-border exchange of information between Public Administrations (or Citizens) in support to the implementation and advancement of EU, national or local Public Policies.
 
@@ -1908,6 +3016,23 @@ https://joinup.ec.europa.eu/node/149889</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-379</data> 
+<data key="eira_id">ABB76</data> 
+<data key="dct_type">eira:RecordManagementComponent</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Record Management Component/Record styringskomponent</data> 
 <data key="name">Kontaktregister</data> 
 <data key="documentation">Implements the functionalities responsible for the efficient and systematic control of the i) creation, ii) receipt, iii) maintenance, iv) use and v) disposal of records, including processes for capturing and maintaining evidence of, and information about, business activities and transactions in the form of records. 
 ISO 15489-1:2001 defines records as "information created, received, and maintained as evidence and information by an organization or person, in pursuance of legal obligations or in the transaction of business".
@@ -1956,6 +3081,22 @@ https://www.iso.org/standard/62542.html</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-198</data> 
+<data key="eira_id">ABB185</data> 
+<data key="dct_type">eira:TransactionalData</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Dataobjektet for den del af selvbetjeningskonteksten, som har relevans for et givent efterfølgende selvbetjeningsforløb</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Transactional Data/Transaktiondata</data> 
 <data key="name">Overdragelses-kontekst</data> 
 <data key="documentation">Data that covers the business information related to business transactions and information exchanges .
 
@@ -1981,6 +3122,22 @@ http://www.dama.org</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-203</data> 
+<data key="eira_id">ABB185</data> 
+<data key="dct_type">eira:TransactionalData</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Dataobjektet for forretningsobjektet Selvbetjeningskomponent. Kortvarig persistering af hvad der beskriver selvbetjeningskonteksten</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Transactional Data/Transaktiondata</data> 
 <data key="name">Selvbetjenings-kontekst</data> 
 <data key="documentation">Data that covers the business information related to business transactions and information exchanges .
 
@@ -2006,6 +3163,24 @@ http://www.dama.org</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-236</data> 
+<data key="eira_id">ABB75</data> 
+<data key="dct_type">eira:ContentManagementComponent</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="Engelsk">Rules handling</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Forretningsreglerne kan gemmes og vedligeholdes af myndighedens medarbejdere, samtidig med at de kan kaldes af funktioner og processer</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Content Management Component/Indholdsstyringskomponent</data> 
 <data key="name">Regelmotor</data> 
 <data key="documentation">Implements the functionality of the categorisation of information resources so that they can be stored, published and reused in multiple contexts.
 
@@ -2031,6 +3206,23 @@ http://www.dama.org/</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-237</data> 
+<data key="eira_id">ABB186</data> 
+<data key="dct_type">eira:BusinessProcessManagementComponent</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Proceshåndteringen afvikler spørgsmål/svar-forløb i den interaktive afklaring og det interaktive bi-drag. Proceshåndteringen kan også styre kaldene til de forskellige funktionaliteter og eksterne da-taressourcer.</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Business Process Management Component/Business process management komponent</data> 
 <data key="name">Proceshåndtering</data> 
 <data key="documentation">Implements the functionality that uses various methods to discover, model, analyse, measure, improve, and optimize business processes. A business process coordinates the behavior of people, systems, information, and things to produce business outcomes in support of the business strategy. Processes can be structured and repeatable or unstructured and variable. 
 
@@ -2056,6 +3248,23 @@ http://www.gartner.com/it-glossary/business-process-management-bpm/</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-238</data> 
+<data key="eira_id">ABB62</data> 
+<data key="dct_type">eira:MachineTranslationComponent</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Sproghåndtering indeholder de funktionaliteter, der skal til, for at et selvbetjeningsforløb kan præ-senteres på flere sprog</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Machine Translation Component/Maskinoversættelseskomponent</data> 
 <data key="name">Sproghåndte-ring</data> 
 <data key="documentation">Sproghåndtering indeholder de funktionaliteter, der skal til, for at et selvbetjeningsforløb kan præ-senteres på flere sprog. Det indebærer, at indholdet kan redigeres på flere sprog, og at de forskellige kald af funktionalitet også anvender det valgte sprog såvel som forstår information, der afgives på dette sprog.
 
@@ -2084,6 +3293,23 @@ https://ec.europa.eu/digital-single-market/en/news/tools-and-resources-cef-autom
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-240</data> 
+<data key="eira_id">ABB75</data> 
+<data key="dct_type">eira:ContentManagementComponent</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Styring af tekst, lyd, tegninger, billeder, videos relevante for det konkrete selvbetjeningsforløb</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Content Management Component/Indholdsstyringskomponent</data> 
 <data key="name">Indholdsstyring</data> 
 <data key="documentation">Selvbetjeningsløsninger præsenterer tekst, lyd, tegninger, billeder, videos relevante for det konkrete selvbetjeningsforløb. Redigering, layout og navigation heraf samt kald af services og funktionalitet er det, byggeblokken Indholdsstyring tager sig af. 
 
@@ -2112,6 +3338,23 @@ http://www.dama.org/</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-292</data> 
+<data key="eira_id">ABB72</data> 
+<data key="dct_type">eira:CollaborationComponent</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Integration til at hente eller opdatere data fra andre kilder</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Selvbetjening</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Collaboration Component/Samarbejdskomponent</data> 
 <data key="name">Integration/ Collaboration komponent</data> 
 <data key="documentation">Implements the functionalities of i) transmission of text and/or ii) broadcasting of “audio and video” content.
 
@@ -2136,6 +3379,24 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-376</data> 
+<data key="eira_id">ABB186</data> 
+<data key="dct_type">eira:BusinessProcessManagementComponent</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="Engelsk">Orchestration of Data Sources</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Er en komponent, som modtager data fra mange forskellige kildesystemer på baggrund af en forespørgsel.</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.3</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Sags og ydelsesoverblik</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Business Process Management Component/Business process management komponent</data> 
 <data key="name">Svar/Kombinering af kilder</data> 
 <data key="documentation">Implements the functionality that uses various methods to discover, model, analyse, measure, improve, and optimize business processes. A business process coordinates the behavior of people, systems, information, and things to produce business outcomes in support of the business strategy. Processes can be structured and repeatable or unstructured and variable. 
 
@@ -2161,6 +3422,24 @@ http://www.gartner.com/it-glossary/business-process-management-bpm/</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-262</data> 
+<data key="eira_id">ABB64</data> 
+<data key="dct_type">eira:DataExchangeComponent</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="Engelsk">Message handler</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">8.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Data Exchange Component/Dataudvekslingskomponent</data> 
 <data key="name">Beskedfordeler</data> 
 <data key="documentation">Implements the functionality that enables the secure exchange of messages, records, forms and other kinds of data between different ICT systems. This includes data routing, except endpoint discovery. 
 
@@ -2186,6 +3465,23 @@ http://ec.europa.eu/isa/documents/isa_annex_ii_eif_en.pdf</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-285</data> 
+<data key="eira_id">ABB61</data> 
+<data key="dct_type">eira:DataTransformationComponent</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.3</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Data Transformation Component/Datatransformations-komponent</data> 
 <data key="name">Transformation</data> 
 <data key="documentation">Implements the functionality of conversion of data from one data format to another.
 
@@ -2210,6 +3506,18 @@ Source: ISA2 – EIA Action</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-232</data> 
+<data key="eira_id"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Komponent i tværgående søgning, som har ansvaret for at konstruere en forespørgsel baseret på brugerens klassifikationer og stamdata samt input fra præsentationslaget</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.3</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Sags og ydelsesoverblik</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk"></data> 
 <data key="name">Query</data> 
 <data key="documentation"></data> 
 </node> 
@@ -2232,6 +3540,21 @@ Source: ISA2 – EIA Action</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-381</data> 
+<data key="eira_id">ABB64</data> 
+<data key="dct_type">eira:DataExchangeComponent</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">Egnet til genbrug</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">Fælles-offentligt;</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">xx</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_EIRA engelsk/dansk">Data Exchange Component/Dataudvekslingskomponent</data> 
 <data key="name">Adviseringsmotor</data> 
 <data key="documentation">Implements the functionality that enables the secure exchange of messages, records, forms and other kinds of data between different ICT systems. This includes data routing, except endpoint discovery. 
 
@@ -2257,6 +3580,20 @@ http://ec.europa.eu/isa/documents/isa_annex_ii_eif_en.pdf</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-218</data> 
+<data key="English">Cross-platform Search/Search</data> 
+<data key="Ejerskab/Ownership">1.3/8.1</data> 
+<data key="EIRA Stereotype"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">En tjeneste, som varetager forespørgsler fra præsentationslaget og henter data fra kildesystemet.</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.3/8.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Sags og ydelsesoverblik</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk"></data> 
 <data key="name">Tværgående søgning /søgning</data> 
 <data key="documentation"></data> 
 </node> 
@@ -2279,6 +3616,23 @@ http://ec.europa.eu/isa/documents/isa_annex_ii_eif_en.pdf</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-221</data> 
+<data key="eira_id">ABB53</data> 
+<data key="dct_type">eira:MessagingService</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition">Advisering er en service som kan modtage, videresende og generere advis.</data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">1.3</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Under udvikling</data> 
+<data key="fda_kilde">Referencearkitektur - Sags og ydelsesoverblik</data> 
+<data key="fda_mærke">Defineret</data> 
+<data key="fda_EIRA engelsk/dansk">Messaging Service/Beskedservice</data> 
 <data key="name">Advisering</data> 
 <data key="documentation">Shares the functionalities of i) transmission of text and/or ii) broadcasting of “audio and video” content.
 
@@ -2303,6 +3657,24 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-134</data> 
+<data key="eira_id">ABB162</data> 
+<data key="dct_type">eira:InteroperabilitySpecification</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_url"></data> 
+<data key="eira_identifier"></data> 
+<data key="eira_body"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">8.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Interoperability Specification/Specifikation af interoperabilitet</data> 
 <data key="name">Integrationsmønster - Datadistribution</data> 
 <data key="documentation">An Interoperability Specification is a document  containing agreed  normative statements for solution building blocks used in an information exchange context.  It  can refer to existing  standards or  specifications.</data> 
 </node> 
@@ -2325,6 +3697,24 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-135</data> 
+<data key="eira_id">ABB162</data> 
+<data key="dct_type">eira:InteroperabilitySpecification</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_url"></data> 
+<data key="eira_identifier"></data> 
+<data key="eira_body"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">8.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Interoperability Specification/Specifikation af interoperabilitet</data> 
 <data key="name">Integrationsmønster - Direkte adgang</data> 
 <data key="documentation">An Interoperability Specification is a document  containing agreed  normative statements for solution building blocks used in an information exchange context.  It  can refer to existing  standards or  specifications.</data> 
 </node> 
@@ -2347,6 +3737,24 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-136</data> 
+<data key="eira_id">ABB162</data> 
+<data key="dct_type">eira:InteroperabilitySpecification</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_url"></data> 
+<data key="eira_identifier"></data> 
+<data key="eira_body"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">8.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Interoperability Specification/Specifikation af interoperabilitet</data> 
 <data key="name">Integrationsmønster - Distribueret services og data-platform</data> 
 <data key="documentation">An Interoperability Specification is a document  containing agreed  normative statements for solution building blocks used in an information exchange context.  It  can refer to existing  standards or  specifications.</data> 
 </node> 
@@ -2369,6 +3777,24 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-137</data> 
+<data key="eira_id">ABB162</data> 
+<data key="dct_type">eira:InteroperabilitySpecification</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_url"></data> 
+<data key="eira_identifier"></data> 
+<data key="eira_body"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">8.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Interoperability Specification/Specifikation af interoperabilitet</data> 
 <data key="name">Integrationsmønster - Fælles system</data> 
 <data key="documentation">An Interoperability Specification is a document  containing agreed  normative statements for solution building blocks used in an information exchange context.  It  can refer to existing  standards or  specifications.</data> 
 </node> 
@@ -2391,6 +3817,24 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-138</data> 
+<data key="eira_id">ABB162</data> 
+<data key="dct_type">eira:InteroperabilitySpecification</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_url"></data> 
+<data key="eira_identifier"></data> 
+<data key="eira_body"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">8.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Interoperability Specification/Specifikation af interoperabilitet</data> 
 <data key="name">Integrationsmønster - Sikker e-mail</data> 
 <data key="documentation">An Interoperability Specification is a document  containing agreed  normative statements for solution building blocks used in an information exchange context.  It  can refer to existing  standards or  specifications.</data> 
 </node> 
@@ -2413,6 +3857,24 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="fda_id">FDA-139</data> 
+<data key="eira_id">ABB162</data> 
+<data key="dct_type">eira:InteroperabilitySpecification</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_url"></data> 
+<data key="eira_identifier"></data> 
+<data key="eira_body"></data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">8.1</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Interoperability Specification/Specifikation af interoperabilitet</data> 
 <data key="name">Integrationsmønster - Økosystem/service providers</data> 
 <data key="documentation">An Interoperability Specification is a document  containing agreed  normative statements for solution building blocks used in an information exchange context.  It  can refer to existing  standards or  specifications.</data> 
 </node> 
@@ -2435,6 +3897,23 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="fda_id">FDA-274</data> 
+<data key="eira_id">ABB64</data> 
+<data key="dct_type">eira:DataExchangeComponent</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_beskrivelse"></data> 
+<data key="fda_ejer">xx</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Data Exchange Component/Dataudvekslingskomponent</data> 
 <data key="name">Message Gateway</data> 
 <data key="documentation">Implements the functionality that enables the secure exchange of messages, records, forms and other kinds of data between different ICT systems. This includes data routing, except endpoint discovery. 
 
@@ -2460,13 +3939,29 @@ http://ec.europa.eu/isa/documents/isa_annex_ii_eif_en.pdf</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="fda_id">FDA-298</data> 
+<data key="eira_id">ABB190</data> 
+<data key="dct_type">eira:HostingAndNetworkingInfrastructureService</data> 
+<data key="dct_publisher"></data> 
+<data key="dct_modified"></data> 
+<data key="eira_status">[ Exists | Development planned ]</data> 
+<data key="eira_reusability">[ Reusable | Not reusable ]</data> 
+<data key="eira_reuse_status">[Genbrugt | Ikke genbrugt]</data> 
+<data key="eira_spatial">EU; Fælles-offentligt; Domæne; Lokal</data> 
+<data key="fda_definition"></data> 
+<data key="fda_ejer">8.2</data> 
+<data key="fda_version">0.1</data> 
+<data key="fda_status">Kandidat</data> 
+<data key="fda_kilde"></data> 
+<data key="fda_mærke">Udledt</data> 
+<data key="fda_EIRA engelsk/dansk">Hosting and Networking Infrastructure/Drift og netværksinfrastruktur</data> 
 <data key="name">Hosting og netværks infrastruktur services</data> 
 <data key="documentation">Shares the functionalities for i) hosting Interoperable European Solutions and ii) providing the necessary networks for operating these solutions.
 
 Source: ISA2 - EIA Action</data> 
 </node> 
-<edge source="id-9922190f-e59e-466e-b7a2-8b98f4f6fd8e" target="id-5397bfcd-1130-42b4-9077-b53c40836876"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-5397bfcd-1130-42b4-9077-b53c40836876" target="id-9922190f-e59e-466e-b7a2-8b98f4f6fd8e"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2484,8 +3979,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="ca39abc2-4468-4343-9536-1aa34da688be" target="id-5397bfcd-1130-42b4-9077-b53c40836876"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-5397bfcd-1130-42b4-9077-b53c40836876" target="ca39abc2-4468-4343-9536-1aa34da688be"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2503,8 +3998,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="c49cbde5-3791-4890-b961-a7d6209ed152" target="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27"> 
-<data key="ReferenceName">source</data> 
+<edge source="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27" target="c49cbde5-3791-4890-b961-a7d6209ed152"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2522,8 +4017,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-681f4b78-8d64-44dd-b39a-f33a3d172442" target="id-0e548d33-4885-4943-b3b5-242379e73c93"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0e548d33-4885-4943-b3b5-242379e73c93" target="id-681f4b78-8d64-44dd-b39a-f33a3d172442"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2541,8 +4036,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="da3e2b24-ba30-426d-b0cd-5512d195f339" target="id-5397bfcd-1130-42b4-9077-b53c40836876"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-5397bfcd-1130-42b4-9077-b53c40836876" target="da3e2b24-ba30-426d-b0cd-5512d195f339"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2560,8 +4055,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-0a3098e7-5f22-46ac-a52a-added0d001ec" target="id-137d1206-4460-455a-baf8-2e11b48a969b"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-137d1206-4460-455a-baf8-2e11b48a969b" target="id-0a3098e7-5f22-46ac-a52a-added0d001ec"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2579,8 +4074,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="de236f97-f5b0-430c-9959-4aacedfc036d" target="id-137d1206-4460-455a-baf8-2e11b48a969b"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-137d1206-4460-455a-baf8-2e11b48a969b" target="de236f97-f5b0-430c-9959-4aacedfc036d"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2598,8 +4093,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="b17d6518-295b-4c3f-9650-0249abc9f9ed" target="id-5397bfcd-1130-42b4-9077-b53c40836876"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-5397bfcd-1130-42b4-9077-b53c40836876" target="b17d6518-295b-4c3f-9650-0249abc9f9ed"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2617,8 +4112,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-5c3cc856-2373-4702-8b5f-64254195f603" target="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27"> 
-<data key="ReferenceName">source</data> 
+<edge source="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27" target="id-5c3cc856-2373-4702-8b5f-64254195f603"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2636,8 +4131,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="d73b1878-72b2-4045-b01c-6bca22119fe6" target="id-5397bfcd-1130-42b4-9077-b53c40836876"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-5397bfcd-1130-42b4-9077-b53c40836876" target="d73b1878-72b2-4045-b01c-6bca22119fe6"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2655,8 +4150,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="f0317320-66fc-40eb-99b0-e1cdd8ea1956" target="id-47b7b5e4-423b-41f9-9de2-739eb9db6311"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47b7b5e4-423b-41f9-9de2-739eb9db6311" target="f0317320-66fc-40eb-99b0-e1cdd8ea1956"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2674,8 +4169,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-29cbd365-00b1-4500-b790-2bc748dc620b" target="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27"> 
-<data key="ReferenceName">source</data> 
+<edge source="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27" target="id-29cbd365-00b1-4500-b790-2bc748dc620b"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2693,8 +4188,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-4b79ea6d-5095-4306-a7b1-f503e08d7a19" target="id-5397bfcd-1130-42b4-9077-b53c40836876"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-5397bfcd-1130-42b4-9077-b53c40836876" target="id-4b79ea6d-5095-4306-a7b1-f503e08d7a19"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2712,8 +4207,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-1fae27e5-8f73-4826-9454-5404f811de66" target="id-0e548d33-4885-4943-b3b5-242379e73c93"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0e548d33-4885-4943-b3b5-242379e73c93" target="id-1fae27e5-8f73-4826-9454-5404f811de66"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2731,8 +4226,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="cc08cde9-28e0-4de1-bcd8-5a090baa2ad9" target="id-5397bfcd-1130-42b4-9077-b53c40836876"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-5397bfcd-1130-42b4-9077-b53c40836876" target="cc08cde9-28e0-4de1-bcd8-5a090baa2ad9"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2750,8 +4245,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="dd86b781-36c8-439a-b579-e4f2f587a817" target="id-5397bfcd-1130-42b4-9077-b53c40836876"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-5397bfcd-1130-42b4-9077-b53c40836876" target="dd86b781-36c8-439a-b579-e4f2f587a817"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2769,8 +4264,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="ba45aa94-2fbd-47d9-9c6c-f6ec80774aef" target="id-5397bfcd-1130-42b4-9077-b53c40836876"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-5397bfcd-1130-42b4-9077-b53c40836876" target="ba45aa94-2fbd-47d9-9c6c-f6ec80774aef"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2788,8 +4283,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-2abc8c33-9b49-4f21-88cd-781888e74978" target="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27"> 
-<data key="ReferenceName">source</data> 
+<edge source="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27" target="id-2abc8c33-9b49-4f21-88cd-781888e74978"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2807,8 +4302,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-5be70504-0673-4098-85ed-e44dc46869b4" target="id-5397bfcd-1130-42b4-9077-b53c40836876"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-5397bfcd-1130-42b4-9077-b53c40836876" target="id-5be70504-0673-4098-85ed-e44dc46869b4"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2826,8 +4321,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-60c9b0c8-aad2-47e9-9f37-5655e03f3c94" target="id-47a3b63d-8202-49d2-a910-fac955978a01"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47a3b63d-8202-49d2-a910-fac955978a01" target="id-60c9b0c8-aad2-47e9-9f37-5655e03f3c94"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2845,8 +4340,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-6632959c-6ad0-409a-9c7e-41e43d6e70a6" target="id-0e548d33-4885-4943-b3b5-242379e73c93"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0e548d33-4885-4943-b3b5-242379e73c93" target="id-6632959c-6ad0-409a-9c7e-41e43d6e70a6"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2864,8 +4359,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="b270beca-d503-4641-8ea7-3accf2f59d13" target="id-0e548d33-4885-4943-b3b5-242379e73c93"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0e548d33-4885-4943-b3b5-242379e73c93" target="b270beca-d503-4641-8ea7-3accf2f59d13"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2883,8 +4378,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-12dbd4d4-cffb-4f8d-82ba-5a820d142e4b" target="id-137d1206-4460-455a-baf8-2e11b48a969b"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-137d1206-4460-455a-baf8-2e11b48a969b" target="id-12dbd4d4-cffb-4f8d-82ba-5a820d142e4b"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2902,8 +4397,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-8b704759-de3f-4def-820d-60818b3c9b0a" target="id-5397bfcd-1130-42b4-9077-b53c40836876"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-5397bfcd-1130-42b4-9077-b53c40836876" target="id-8b704759-de3f-4def-820d-60818b3c9b0a"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2921,8 +4416,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="efe29a39-554c-4bbd-a96b-ac853008ebea" target="id-47b7b5e4-423b-41f9-9de2-739eb9db6311"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47b7b5e4-423b-41f9-9de2-739eb9db6311" target="efe29a39-554c-4bbd-a96b-ac853008ebea"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2940,8 +4435,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-71245231-b912-44ec-b220-f8d9813de0e3" target="id-47a3b63d-8202-49d2-a910-fac955978a01"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47a3b63d-8202-49d2-a910-fac955978a01" target="id-71245231-b912-44ec-b220-f8d9813de0e3"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2959,8 +4454,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-416bf647-5aa8-4f3d-8692-09b364653ad0" target="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27"> 
-<data key="ReferenceName">source</data> 
+<edge source="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27" target="id-416bf647-5aa8-4f3d-8692-09b364653ad0"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2978,8 +4473,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-99fa5c60-09f9-4f5c-a50f-4513f8d8cbf6" target="id-47a3b63d-8202-49d2-a910-fac955978a01"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47a3b63d-8202-49d2-a910-fac955978a01" target="id-99fa5c60-09f9-4f5c-a50f-4513f8d8cbf6"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2997,8 +4492,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="f4c6a438-1cf8-4d9e-b47b-07e9626dceb8" target="id-47b7b5e4-423b-41f9-9de2-739eb9db6311"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47b7b5e4-423b-41f9-9de2-739eb9db6311" target="f4c6a438-1cf8-4d9e-b47b-07e9626dceb8"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3016,8 +4511,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-6d59a3a7-435d-4cc8-959c-5ac13314fe02" target="id-47b7b5e4-423b-41f9-9de2-739eb9db6311"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47b7b5e4-423b-41f9-9de2-739eb9db6311" target="id-6d59a3a7-435d-4cc8-959c-5ac13314fe02"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3035,8 +4530,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-8e921d2f-bba7-48a4-a585-8e45a6e12ff8" target="id-47b7b5e4-423b-41f9-9de2-739eb9db6311"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47b7b5e4-423b-41f9-9de2-739eb9db6311" target="id-8e921d2f-bba7-48a4-a585-8e45a6e12ff8"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3054,8 +4549,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="ad7eb81e-a46c-4f03-828f-6e7fece3e61c" target="id-137d1206-4460-455a-baf8-2e11b48a969b"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-137d1206-4460-455a-baf8-2e11b48a969b" target="ad7eb81e-a46c-4f03-828f-6e7fece3e61c"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3073,8 +4568,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-3cfafaca-0e2d-47b5-8fbe-7eb7014292ed" target="id-47b7b5e4-423b-41f9-9de2-739eb9db6311"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47b7b5e4-423b-41f9-9de2-739eb9db6311" target="id-3cfafaca-0e2d-47b5-8fbe-7eb7014292ed"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3092,8 +4587,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-85588f7f-db97-451b-9ea0-24bff2d0d000" target="id-47b7b5e4-423b-41f9-9de2-739eb9db6311"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47b7b5e4-423b-41f9-9de2-739eb9db6311" target="id-85588f7f-db97-451b-9ea0-24bff2d0d000"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3111,8 +4606,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="efc53c0e-f4df-4bd8-8ef0-9187df5881ee" target="id-5397bfcd-1130-42b4-9077-b53c40836876"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-5397bfcd-1130-42b4-9077-b53c40836876" target="efc53c0e-f4df-4bd8-8ef0-9187df5881ee"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3130,8 +4625,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="e2ea4a22-4b6f-4bb7-ae9f-d6572b27f21a" target="id-47b7b5e4-423b-41f9-9de2-739eb9db6311"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47b7b5e4-423b-41f9-9de2-739eb9db6311" target="e2ea4a22-4b6f-4bb7-ae9f-d6572b27f21a"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3149,8 +4644,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-2386b507-3a5d-4a85-8bf5-c0564e3bdf47" target="id-0e548d33-4885-4943-b3b5-242379e73c93"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0e548d33-4885-4943-b3b5-242379e73c93" target="id-2386b507-3a5d-4a85-8bf5-c0564e3bdf47"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3168,8 +4663,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-86990d0c-5e83-4303-9d11-ef211d1f0851" target="id-47b7b5e4-423b-41f9-9de2-739eb9db6311"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47b7b5e4-423b-41f9-9de2-739eb9db6311" target="id-86990d0c-5e83-4303-9d11-ef211d1f0851"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3187,8 +4682,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-0f1bacfe-30d7-48c0-a61a-bf555b440fb9" target="id-0e548d33-4885-4943-b3b5-242379e73c93"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0e548d33-4885-4943-b3b5-242379e73c93" target="id-0f1bacfe-30d7-48c0-a61a-bf555b440fb9"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3206,8 +4701,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-66eef04c-7f39-4cc4-b7f3-84086d7f7f80" target="id-5397bfcd-1130-42b4-9077-b53c40836876"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-5397bfcd-1130-42b4-9077-b53c40836876" target="id-66eef04c-7f39-4cc4-b7f3-84086d7f7f80"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3225,8 +4720,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-9e250080-7eae-4d25-bbe2-4d3919130063" target="id-137d1206-4460-455a-baf8-2e11b48a969b"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-137d1206-4460-455a-baf8-2e11b48a969b" target="id-9e250080-7eae-4d25-bbe2-4d3919130063"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3244,8 +4739,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-1d5fbb0f-bac9-4202-b1f0-b97c23483b46" target="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27"> 
-<data key="ReferenceName">source</data> 
+<edge source="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27" target="id-1d5fbb0f-bac9-4202-b1f0-b97c23483b46"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3263,8 +4758,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-4fca4a21-2b86-4780-bf0c-d04ef5f3ca1a" target="id-47a3b63d-8202-49d2-a910-fac955978a01"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47a3b63d-8202-49d2-a910-fac955978a01" target="id-4fca4a21-2b86-4780-bf0c-d04ef5f3ca1a"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3282,8 +4777,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="b1b7a7ac-756f-41c4-adec-63d1025fc07d" target="id-137d1206-4460-455a-baf8-2e11b48a969b"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-137d1206-4460-455a-baf8-2e11b48a969b" target="b1b7a7ac-756f-41c4-adec-63d1025fc07d"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3301,8 +4796,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="de74ecde-50cd-4d31-831e-2df894640465" target="id-47a3b63d-8202-49d2-a910-fac955978a01"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47a3b63d-8202-49d2-a910-fac955978a01" target="de74ecde-50cd-4d31-831e-2df894640465"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3320,8 +4815,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-1649e3df-0be8-40fe-b8eb-5a9fd2938379" target="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27"> 
-<data key="ReferenceName">source</data> 
+<edge source="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27" target="id-1649e3df-0be8-40fe-b8eb-5a9fd2938379"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3339,8 +4834,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-684213ea-d94c-4285-aa8b-3fc79dafe766" target="id-47a3b63d-8202-49d2-a910-fac955978a01"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47a3b63d-8202-49d2-a910-fac955978a01" target="id-684213ea-d94c-4285-aa8b-3fc79dafe766"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3358,8 +4853,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="c80cc3c5-eac9-4525-8e7f-35eb97370908" target="id-47b7b5e4-423b-41f9-9de2-739eb9db6311"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47b7b5e4-423b-41f9-9de2-739eb9db6311" target="c80cc3c5-eac9-4525-8e7f-35eb97370908"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3377,8 +4872,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-50d07948-56f0-4fa4-a82d-a41e2e8f1bc4" target="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27"> 
-<data key="ReferenceName">source</data> 
+<edge source="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27" target="id-50d07948-56f0-4fa4-a82d-a41e2e8f1bc4"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3396,8 +4891,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-426a8284-97af-4e8c-b7cb-6ff6b78ef5ad" target="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27"> 
-<data key="ReferenceName">source</data> 
+<edge source="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27" target="id-426a8284-97af-4e8c-b7cb-6ff6b78ef5ad"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3415,8 +4910,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-2c401c1d-a924-4e11-8283-ea5828b595c1" target="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27"> 
-<data key="ReferenceName">source</data> 
+<edge source="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27" target="id-2c401c1d-a924-4e11-8283-ea5828b595c1"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3434,8 +4929,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="b75ad185-4abc-4518-b2e7-8bc4dd4b99e8" target="id-47b7b5e4-423b-41f9-9de2-739eb9db6311"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47b7b5e4-423b-41f9-9de2-739eb9db6311" target="b75ad185-4abc-4518-b2e7-8bc4dd4b99e8"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3453,8 +4948,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-0e1bb19b-36f5-4f55-837f-b11b15376d45" target="id-5397bfcd-1130-42b4-9077-b53c40836876"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-5397bfcd-1130-42b4-9077-b53c40836876" target="id-0e1bb19b-36f5-4f55-837f-b11b15376d45"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3472,8 +4967,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="a4cc68af-df05-49da-8c72-ee1e1f8a8245" target="id-47a3b63d-8202-49d2-a910-fac955978a01"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47a3b63d-8202-49d2-a910-fac955978a01" target="a4cc68af-df05-49da-8c72-ee1e1f8a8245"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3491,8 +4986,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-5b56a9b9-03a3-434a-bc26-599ea85e046a" target="id-47b7b5e4-423b-41f9-9de2-739eb9db6311"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47b7b5e4-423b-41f9-9de2-739eb9db6311" target="id-5b56a9b9-03a3-434a-bc26-599ea85e046a"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3510,8 +5005,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-2c785bd4-c43c-435b-81be-ac790129718c" target="id-5397bfcd-1130-42b4-9077-b53c40836876"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-5397bfcd-1130-42b4-9077-b53c40836876" target="id-2c785bd4-c43c-435b-81be-ac790129718c"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3529,8 +5024,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-7f8eb5ca-96fc-481a-8ac4-93040ca5ff09" target="id-5397bfcd-1130-42b4-9077-b53c40836876"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-5397bfcd-1130-42b4-9077-b53c40836876" target="id-7f8eb5ca-96fc-481a-8ac4-93040ca5ff09"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3548,8 +5043,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-169dc60d-13f4-46f1-8eb7-9a146d113ef4" target="id-5397bfcd-1130-42b4-9077-b53c40836876"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-5397bfcd-1130-42b4-9077-b53c40836876" target="id-169dc60d-13f4-46f1-8eb7-9a146d113ef4"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3567,8 +5062,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="d3543884-1248-429c-85e9-82e6a57b2d1e" target="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27"> 
-<data key="ReferenceName">source</data> 
+<edge source="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27" target="d3543884-1248-429c-85e9-82e6a57b2d1e"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3586,8 +5081,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-71a3d1f1-4082-48aa-ba0d-9e831b7a1f8b" target="id-0e548d33-4885-4943-b3b5-242379e73c93"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0e548d33-4885-4943-b3b5-242379e73c93" target="id-71a3d1f1-4082-48aa-ba0d-9e831b7a1f8b"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3605,8 +5100,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-529301b5-4f78-4e4a-a65d-3b1593f7d821" target="id-5397bfcd-1130-42b4-9077-b53c40836876"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-5397bfcd-1130-42b4-9077-b53c40836876" target="id-529301b5-4f78-4e4a-a65d-3b1593f7d821"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3624,8 +5119,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-4f36382a-f721-4481-afce-22dd59e83218" target="id-47a3b63d-8202-49d2-a910-fac955978a01"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47a3b63d-8202-49d2-a910-fac955978a01" target="id-4f36382a-f721-4481-afce-22dd59e83218"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3643,8 +5138,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-3348b3ea-d1f3-4497-a326-eadd38d7d2d6" target="id-47b7b5e4-423b-41f9-9de2-739eb9db6311"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47b7b5e4-423b-41f9-9de2-739eb9db6311" target="id-3348b3ea-d1f3-4497-a326-eadd38d7d2d6"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3662,8 +5157,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="b8d7c1a0-75b5-421f-ac17-77ce24dbb47f" target="id-0e548d33-4885-4943-b3b5-242379e73c93"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0e548d33-4885-4943-b3b5-242379e73c93" target="b8d7c1a0-75b5-421f-ac17-77ce24dbb47f"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3681,8 +5176,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="f7c9663c-4007-4365-89d1-d5e4aa5f85d4" target="id-47a3b63d-8202-49d2-a910-fac955978a01"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47a3b63d-8202-49d2-a910-fac955978a01" target="f7c9663c-4007-4365-89d1-d5e4aa5f85d4"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3700,8 +5195,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-48597cfa-65e8-48d1-8820-fb0c165e95af" target="id-137d1206-4460-455a-baf8-2e11b48a969b"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-137d1206-4460-455a-baf8-2e11b48a969b" target="id-48597cfa-65e8-48d1-8820-fb0c165e95af"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3719,8 +5214,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="f9f6dcaa-68ff-478e-a642-9bc4d52b9f34" target="id-137d1206-4460-455a-baf8-2e11b48a969b"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-137d1206-4460-455a-baf8-2e11b48a969b" target="f9f6dcaa-68ff-478e-a642-9bc4d52b9f34"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3738,8 +5233,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="c92f1aea-a08d-42cd-8070-49bc5f556de5" target="id-137d1206-4460-455a-baf8-2e11b48a969b"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-137d1206-4460-455a-baf8-2e11b48a969b" target="c92f1aea-a08d-42cd-8070-49bc5f556de5"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3757,8 +5252,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="e41553e4-d435-488e-9d0d-35206107ab3e" target="id-0e548d33-4885-4943-b3b5-242379e73c93"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0e548d33-4885-4943-b3b5-242379e73c93" target="e41553e4-d435-488e-9d0d-35206107ab3e"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3776,8 +5271,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="aa3ec831-646d-475f-b49b-ab5e4fafcfa4" target="id-5397bfcd-1130-42b4-9077-b53c40836876"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-5397bfcd-1130-42b4-9077-b53c40836876" target="aa3ec831-646d-475f-b49b-ab5e4fafcfa4"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3795,8 +5290,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-1f81658c-f3ec-421c-8fc4-dc10a26daf56" target="id-47b7b5e4-423b-41f9-9de2-739eb9db6311"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47b7b5e4-423b-41f9-9de2-739eb9db6311" target="id-1f81658c-f3ec-421c-8fc4-dc10a26daf56"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3814,8 +5309,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-270b6d5b-4d40-4806-a360-95a9c6ebf8c0" target="id-47b7b5e4-423b-41f9-9de2-739eb9db6311"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-47b7b5e4-423b-41f9-9de2-739eb9db6311" target="id-270b6d5b-4d40-4806-a360-95a9c6ebf8c0"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3833,8 +5328,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="cdce2eda-a5e4-48db-af56-5d7f6f4f1962" target="id-137d1206-4460-455a-baf8-2e11b48a969b"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-137d1206-4460-455a-baf8-2e11b48a969b" target="cdce2eda-a5e4-48db-af56-5d7f6f4f1962"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3852,8 +5347,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="efc45b5f-c677-4a61-9009-73b67d2bc3c0" target="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27"> 
-<data key="ReferenceName">source</data> 
+<edge source="cf3ef6e1-25bb-4e4f-8098-3d0bae12ab27" target="efc45b5f-c677-4a61-9009-73b67d2bc3c0"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3871,8 +5366,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-1c7ff873-48a8-47d3-8f4d-d8fc56970be7" target="id-5397bfcd-1130-42b4-9077-b53c40836876"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-5397bfcd-1130-42b4-9077-b53c40836876" target="id-1c7ff873-48a8-47d3-8f4d-d8fc56970be7"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3890,8 +5385,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-12a06c2f-1da1-4004-a7eb-67a8f9a94d2e" target="id-137d1206-4460-455a-baf8-2e11b48a969b"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-137d1206-4460-455a-baf8-2e11b48a969b" target="id-12a06c2f-1da1-4004-a7eb-67a8f9a94d2e"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3909,8 +5404,8 @@ Source: ISA2 - EIA Action</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-3885d9bd-6d14-40e4-a2f5-673cf817ba7e" target="id-5397bfcd-1130-42b4-9077-b53c40836876"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-5397bfcd-1130-42b4-9077-b53c40836876" target="id-3885d9bd-6d14-40e4-a2f5-673cf817ba7e"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>

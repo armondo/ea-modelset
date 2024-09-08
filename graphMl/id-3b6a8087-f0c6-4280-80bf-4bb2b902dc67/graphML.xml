@@ -21,6 +21,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
 <key id="ClassName" for="node" attr.name="ClassName" attr.type="string"/> 
 <key id="Label" for="node" attr.name="Label" attr.type="string"/> 
 <key id="ArchimateLayer" for="node" attr.name="ArchimateLayer" attr.type="string"/> 
+<key id="Vrstva" for="node" attr.name="Vrstva" attr.type="string"/> 
 <key id="name" for="node" attr.name="name" attr.type="string"/> 
 <key id="documentation" for="node" attr.name="documentation" attr.type="string"/> 
 <key id="type" for="node" attr.name="type" attr.type="string"/> 
@@ -44,6 +45,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="Vrstva">Technologická vrstva</data> 
 <data key="name">Artefakt (Artifact)</data> 
 <data key="documentation">Artefaktem se rozumí fyzická reprezentace dat, která je používána či vytvářena systémem.</data> 
 </node> 
@@ -66,6 +68,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="Vrstva">Technologická vrstva</data> 
 <data key="name">Cesta (CommunicationPath)</data> 
 <data key="documentation">Spojení mezi dvěma nebo více uzly, skrze které si mohou tyto uzly vyměňovat data.</data> 
 </node> 
@@ -88,6 +91,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="Vrstva">Technologická vrstva</data> 
 <data key="name">Rozhraní infrastruktury (TechnologyInterface)</data> 
 <data key="documentation">Přístupový bod, kde služby infrastruktury nabízené uzlem mohou být využity jiným uzlem nebo komponentou aplikace.</data> 
 </node> 
@@ -110,6 +114,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="Vrstva">Technologická vrstva</data> 
 <data key="name">Služby infrastruktury (TechnologyService)</data> 
 <data key="documentation">Externě viditelná jednotka funkcionality poskytovaná jedním nebo více uzly, která je přístupná přes dobře definované rozhraní a má význam pro okolí.</data> 
 </node> 
@@ -132,6 +137,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="Vrstva">Technologická vrstva</data> 
 <data key="name">Systémový software (SystemSoftware)</data> 
 <data key="documentation">Softwarové prostředí pro speciální typ komponentů a objektů, které jsou na něm rozmístěny ve formě artefaktů.</data> 
 </node> 
@@ -154,6 +160,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IPhysicalElement</data> 
+<data key="Vrstva">Technologická vrstva</data> 
 <data key="name">Síť (Network)</data> 
 <data key="documentation">Komunikační medium mezi dvěma nebo více zařízeními.</data> 
 </node> 
@@ -176,6 +183,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="Vrstva">Technologická vrstva</data> 
 <data key="name">Uzel (Node)</data> 
 <data key="documentation">Výpočetní zdroj, na kterém mohou být skladovány, dislokovány nebo zpracovávány artefakty pro použití. Poskytuje především služby výpočetního výkonu a datových kapacit.</data> 
 </node> 
@@ -198,6 +206,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="Vrstva">Technologická vrstva</data> 
 <data key="name">Zařízení (Device)</data> 
 <data key="documentation">Hardwarový zdroj, na kterém mohou být skladovány nebo dislokovány artefakty pro použití.</data> 
 </node> 
@@ -220,6 +229,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="Vrstva">Aplikační vrstva</data> 
 <data key="name">Aplikace, Systém, Komponenta aplikace, Modul, Část aplikace (ApplicationComponent)</data> 
 <data key="documentation">Modulární, nasaditelná a nahraditelná část softwarového systému, zapouzdřující své chování a data, která poskytuje skrz sadu rozhraní. Může se jednat o celý logický informační systém, o nějakou ucelenou komponentu nebo modul, nebo o část aplikace, jež se nasazuje a rozvíjí jako část celku.</data> 
 </node> 
@@ -242,6 +252,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="Vrstva">Aplikační vrstva</data> 
 <data key="name">Aplikační funkce (ApplicationFunction)</data> 
 <data key="documentation">Aplikační funkce je definována jako interní chování jedné aplikační komponenty.</data> 
 </node> 
@@ -264,6 +275,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="Vrstva">Aplikační vrstva</data> 
 <data key="name">Aplikační služba (ApplicationService)</data> 
 <data key="documentation">Služba, která poskytuje automatizované chování.</data> 
 </node> 
@@ -286,6 +298,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="Vrstva">Aplikační vrstva</data> 
 <data key="name">Aplikační spolupráce (ApplicationCollaboration)</data> 
 <data key="documentation">Souhrn dvou nebo více komponent aplikací, které pracují společně za účelem vykonání kolektivního chování</data> 
 </node> 
@@ -308,6 +321,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="Vrstva">Aplikační vrstva</data> 
 <data key="name">Datový objekt (DataObject)</data> 
 <data key="documentation">Pasivní element, který je zpracováván za použití výpočetní techniky. Jedná se o data, soubor dat nebo údajů, které jsou zpracovávány většinou v rámci aplikační komponenty.</data> 
 </node> 
@@ -330,6 +344,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="Vrstva">Aplikační vrstva</data> 
 <data key="name">Interakce aplikace (ApplicationInteraction)</data> 
 <data key="documentation">Prvek chování, který popisuje chování aplikací při jejich kooperaci.</data> 
 </node> 
@@ -352,6 +367,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="Vrstva">Aplikační vrstva</data> 
 <data key="name">Rozhraní aplikace, Aplikační rozhraní (ApplicationInterface)</data> 
 <data key="documentation">Přístupový bod, ve kterém je služba aplikace dostupná pro využití uživatelem nebo jinou komponentou aplikace.</data> 
 </node> 
@@ -374,6 +390,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IMotivationElement</data> 
+<data key="Vrstva">Motivační vrstva</data> 
 <data key="name">Cíl (Goal)</data> 
 <data key="documentation">Koncový stav, kterého chce zainteresovaný subjekt (stakeholder) dosáhnout.</data> 
 </node> 
@@ -396,6 +413,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IMotivationElement</data> 
+<data key="Vrstva">Motivační vrstva</data> 
 <data key="name">Hodnota (Value)</data> 
 <data key="documentation">Hodnota představuje přínos, užitek nebo důležitost produktu či služby</data> 
 </node> 
@@ -418,6 +436,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IMotivationElement</data> 
+<data key="Vrstva">Motivační vrstva</data> 
 <data key="name">Motivátor (Driver)</data> 
 <data key="documentation">Motivátor je definován jako okolnost, která vytváří, motivuje a podporuje změnu v organizaci.</data> 
 </node> 
@@ -440,6 +459,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IMotivationElement</data> 
+<data key="Vrstva">Motivační vrstva</data> 
 <data key="name">Omezení (Constraint)</data> 
 <data key="documentation">Omezení na cestě k realizaci systému.</data> 
 </node> 
@@ -462,6 +482,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IMotivationElement</data> 
+<data key="Vrstva">Motivační vrstva</data> 
 <data key="name">Požadavek (Requirement)</data> 
 <data key="documentation">Stanovisko, formálně vyjádřená potřeba, která musí být v systému (resp. architekturou) realizována. Jedná se o architektonické nikoli byznysové požadavky.</data> 
 </node> 
@@ -484,6 +505,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IMotivationElement</data> 
+<data key="Vrstva">Motivační vrstva</data> 
 <data key="name">Princip (Principle)</data> 
 <data key="documentation">Normovaná vlastnost všech systémů v daném kontextu, nebo způsob jejich realizace. Principy vycházejí ze strategických cílů a svými důsledky formují a formulují architektonické požadavky.</data> 
 </node> 
@@ -506,6 +528,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IMotivationElement</data> 
+<data key="Vrstva">Motivační vrstva</data> 
 <data key="name">Výstup (Outcome)</data> 
 <data key="documentation">Reprezentuje jednoznačný výstup, zejména jako výsledek schopností organizace či výsledek obchodního snažení nebo realizace strategie. Výstup je buď hmatatelný na úrovni dovednosti vytvářet produkt, nebo se jedná o výstup jež se pozitivně odráží na podnikání či činnosti organizace. Jednou z motivací pro zlepšení organizace je tedy dovednost učinit výstup.</data> 
 </node> 
@@ -528,6 +551,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IMotivationElement</data> 
+<data key="Vrstva">Motivační vrstva</data> 
 <data key="name">Význam (Meaning)</data> 
 <data key="documentation">Znalost nebo odbornost přítomná v byznys objektu nebo v jeho reprezentaci</data> 
 </node> 
@@ -550,6 +574,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IMotivationElement</data> 
+<data key="Vrstva">Motivační vrstva</data> 
 <data key="name">Zainteresovaný subjekt (Stakeholder)</data> 
 <data key="documentation">Zainteresovaný jedinec, tým nebo organizace, která má zájem na přínosu architektury.</data> 
 </node> 
@@ -572,6 +597,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IMotivationElement</data> 
+<data key="Vrstva">Motivační vrstva</data> 
 <data key="name">Zhodnocení (Assesment)</data> 
 <data key="documentation">Výsledek analýzy motivátoru. Zhodnucuje dopad motivátoru na organizaci a zhodnocuje výsledek analýzy nasazení změn pro splnění daného motivátoru.</data> 
 </node> 
@@ -594,6 +620,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Vrstva">Implementační vrstva</data> 
 <data key="name">Dodaný výstup (Deliverable)</data> 
 <data key="documentation">Přesně definovaný výsledek pracovního bloku.</data> 
 </node> 
@@ -616,6 +643,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Vrstva">Implementační vrstva</data> 
 <data key="name">Pracovní blok (WorkPackage)</data> 
 <data key="documentation">Série akcí navržená tak, aby dosáhla vytyčeného cíle ve specifikovaném čase.</data> 
 </node> 
@@ -638,6 +666,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Vrstva">Implementační vrstva</data> 
 <data key="name">Rozdíl (Gap)</data> 
 <data key="documentation">Rozdíl je napojený na dva stavy architektury (např. výchozí a cílovou nebo dvě přechodové), a tudíž představuje znázornění rozdílů mezi těmito dvěma stavy architektury.</data> 
 </node> 
@@ -660,6 +689,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Vrstva">Implementační vrstva</data> 
 <data key="name">Stav architektury (Plateau)</data> 
 <data key="documentation">Relativně stabilní stav architektury, která existuje (existovala) během omezeného časového období.</data> 
 </node> 
@@ -682,6 +712,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Vrstva">Ostatní</data> 
 <data key="name">Lokalita, místo (Location)</data> 
 <data key="documentation">Místo v prostoru, kde se nacházejí aktéři nebo kde je vykonáváno chování.</data> 
 </node> 
@@ -704,6 +735,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Vrstva">Ostatní</data> 
 <data key="name">Spojení (Junction)</data> 
 <data key="documentation">Spojení slouží k vyjádření toho, že se na nějakém vztahu podílí více prvků. Může se jednat o více prvků na vstupu a jediný na výstupu, o jeden na vstupu a více na výstupu a nebo o více prvků na obou stranách. Slouží k vyjádření, že pro realizaci daného vztahu je nutno počítat se zapojením více elementů.</data> 
 <data key="type"></data> 
@@ -727,6 +759,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Vrstva">Byznysová vrstva</data> 
 <data key="name">Aktér, Účastník (BusinessActor)</data> 
 <data key="documentation">Aktér/Účastník je definován jako organizační jednotka schopna vykonávat aktivitu přiřazenou k jedné nebo více byznys rolím. Aktér je subjekt, může to být jedna organizace, organizační jednotka, OVM, nebo samozřejmě i osoba.</data> 
 </node> 
@@ -749,6 +782,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Vrstva">Byznysová vrstva</data> 
 <data key="name">Byznysová služba (BusinessService)</data> 
 <data key="documentation">Byznys služba je definována jako služba, která naplňuje potřeby zákazníka (interního nebo externího vůči poskytující organizaci).</data> 
 </node> 
@@ -771,6 +805,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Vrstva">Byznysová vrstva</data> 
 <data key="name">Funkce (byznysově) (BusinessFunction)</data> 
 <data key="documentation">Prvek chování, který seskupuje chování podle vybraná sady kritérií (typicky požadovaných dovedností, znalostí, zdrojů).</data> 
 </node> 
@@ -793,6 +828,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Vrstva">Byznysová vrstva</data> 
 <data key="name">Interakce (BusinessInteraction)</data> 
 <data key="documentation">Prvek chování, který popisuje chování spolupráce.</data> 
 </node> 
@@ -815,6 +851,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Vrstva">Byznysová vrstva</data> 
 <data key="name">Kontrakt, předpis (Contract)</data> 
 <data key="documentation">Formální nebo neformální specifikace dohody, která specifikuje práva a povinnosti spojené s produktem.</data> 
 </node> 
@@ -837,6 +874,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Vrstva">Byznysová vrstva</data> 
 <data key="name">Objekt (BusinessObject)</data> 
 <data key="documentation">Pasivní element, který má relevanci z předmětného pohledu. Jedná se o fyzický či logický objekt, o němž se vykonává proces či služba. Dokument, doklad, žádost, dávka, rozhodnutí, prakticky cokoliv, co se dá fyzicky či logicky reprezentovat.</data> 
 </node> 
@@ -859,6 +897,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Vrstva">Byznysová vrstva</data> 
 <data key="name">Proces (BusinessProcess)</data> 
 <data key="documentation">Prvek chování, který sdružuje skupiny chování na základě pořadí činností. Je určen k produkování sady produktů nebo byznys služeb.</data> 
 </node> 
@@ -881,6 +920,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Vrstva">Byznysová vrstva</data> 
 <data key="name">Produkt (Product)</data> 
 <data key="documentation">Produkt je soubor služeb definovaných kontraktem (zákonem), které jsou společně poskytovány klientovi (pro jeho životní situaci).</data> 
 </node> 
@@ -903,6 +943,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Vrstva">Byznysová vrstva</data> 
 <data key="name">Reprezentace (Representation)</data> 
 <data key="documentation">Smyslově vnímatelná forma informací spojených s byznys objektem. Tedy kupříkladu fyzický dokument, plastová kartička občanského průkazu apod.</data> 
 </node> 
@@ -925,6 +966,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Vrstva">Byznysová vrstva</data> 
 <data key="name">Role (BusinessRole)</data> 
 <data key="documentation">Role je fakticky zodpovědnost za vykonávání specifického chování, ke které může být přiřazen účastník procesu.</data> 
 </node> 
@@ -947,6 +989,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Vrstva">Byznysová vrstva</data> 
 <data key="name">Rozhraní (BusinessInterface)</data> 
 <data key="documentation">Přístupový bod, kde je procesní služba dostupná okolnímu prostředí. Tedy kupříkladu terminál, uživatelské rozhraní, rozhraní služby, ale může to de facto být i formulář.</data> 
 </node> 
@@ -969,6 +1012,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Vrstva">Byznysová vrstva</data> 
 <data key="name">Spolupráce (BusinessCollaboration)</data> 
 <data key="documentation">Spojení dvou a více rolí pracující společně k vykonání určitého kolektivního chování. Nebo jiná spolupráce rolí.</data> 
 </node> 
@@ -991,6 +1035,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Vrstva">Byznysová vrstva</data> 
 <data key="name">Událost, procesní událost (BusinessEvent)</data> 
 <data key="documentation">Něco, co se stává (interně nebo externě) a ovlivňuje chování.</data> 
 </node> 
@@ -1013,6 +1058,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Vrstva">Strategická vrstva</data> 
 <data key="name">Prováděcí postup (CourseOfAction)</data> 
 <data key="documentation">Prováděcí postup je přístup nebo plán pro konfiguraci některých schopností a zdrojů podniku, prováděných za účelem dosažení cíle. Prováděcí postup představuje to, co se podnik rozhodl udělat. Lze je kategorizovat jako strategie (dlouhodobé) a taktiky (krátkodobé).</data> 
 </node> 
@@ -1035,6 +1081,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Vrstva">Strategická vrstva</data> 
 <data key="name">Schopnost (Capability)</data> 
 <data key="documentation">Poskytuje pohled na vysoké úrovni o současných a požadovaných schopnostech organizace ve vztahu k její strategii a prostředí. Schopnost je ucelenou sadou dovedností, znalostí, potřeb, kontraktů, procesů, služeb a dalších objektů na všech úrovních, které dohromady dávají definovatelný celek.</data> 
 </node> 
@@ -1057,6 +1104,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Vrstva">Strategická vrstva</data> 
 <data key="name">Tok (ValueStream)</data> 
 <data key="documentation">Tok hodnot představuje sled činností, které vytvářejí celkový výsledek pro zákazníka, zúčastněné strany nebo koncového uživatele. Hodnotový tok popisuje, jak podnik organizuje své činnosti tak, aby vytvářel hodnotu. Proudy hodnot jsou obvykle realizovány podnikovými procesy, a případně dalšími klíčovými prvky chování. Proudy hodnot mohou být definovány na různých úrovních organizace, např. na úrovni podniku, obchodní jednotky nebo oddělení. Proudy hodnot mohou být složením nebo agregací činností s přidanou hodnotou. Tyto jsou také modelovány s prvkem hodnotového toku a jsou známé jako hodnotové (proudové) fáze, z nichž každá vytváří a přidává inkrementální hodnotu z jedné fáze do další. Tyto fáze jsou obvykle spojeny pomocí tokových vztahů k modelování toku hodnoty mezi nimi.</data> 
 </node> 
@@ -1079,6 +1127,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Vrstva">Strategická vrstva</data> 
 <data key="name">Zdroj (Resource)</data> 
 <data key="documentation">Představuje definovatelný zdroj, který je za potřebí mít k dodažení strategie a který se využije pro realizaci strategií, byznysu a procesů.</data> 
 </node> 

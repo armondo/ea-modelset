@@ -21,8 +21,23 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
 <key id="ClassName" for="node" attr.name="ClassName" attr.type="string"/> 
 <key id="Label" for="node" attr.name="Label" attr.type="string"/> 
 <key id="ArchimateLayer" for="node" attr.name="ArchimateLayer" attr.type="string"/> 
+<key id="Příklad" for="node" attr.name="Příklad" attr.type="string"/> 
 <key id="name" for="node" attr.name="name" attr.type="string"/> 
 <key id="documentation" for="node" attr.name="documentation" attr.type="string"/> 
+<key id="Označení" for="node" attr.name="Označení" attr.type="string"/> 
+<key id="Stereotype" for="node" attr.name="Stereotype" attr.type="string"/> 
+<key id="Název agendy" for="node" attr.name="Název agendy" attr.type="string"/> 
+<key id="Ohlašovatel" for="node" attr.name="Ohlašovatel" attr.type="string"/> 
+<key id="Zkratka" for="node" attr.name="Zkratka" attr.type="string"/> 
+<key id="IČ" for="node" attr.name="IČ" attr.type="string"/> 
+<key id="Název" for="node" attr.name="Název" attr.type="string"/> 
+<key id="Gestor" for="node" attr.name="Gestor" attr.type="string"/> 
+<key id="URL" for="node" attr.name="URL" attr.type="string"/> 
+<key id="Lze digitálně" for="node" attr.name="Lze digitálně" attr.type="string"/> 
+<key id="Předpis" for="node" attr.name="Předpis" attr.type="string"/> 
+<key id="Ustanovení" for="node" attr.name="Ustanovení" attr.type="string"/> 
+<key id="Správce" for="node" attr.name="Správce" attr.type="string"/> 
+<key id="Vrstva" for="node" attr.name="Vrstva" attr.type="string"/> 
 <key id="ReferenceName" for="edge" attr.name="ReferenceName" attr.type="string"/> 
 <graph id="init_graph_01" edgedefault="directed"> 
 <node id="id-metamodel-schopnost"> 
@@ -44,6 +59,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Příklad">Spisová služba, Ekonomické řízení, Architektura, Správa majetku, Správa ICT, Tvorba legislativy</data> 
 <data key="name">Schopnost</data> 
 <data key="documentation">Komplexní schopnost, zejména u schopností úřadu. Znamená společnou schopnost v úřadě, která se vykonává jednotně napříč celým úřadem a má i jednotné metodiky a jednotný rámec, ať už se dotýká jakékoliv agendy (v agendách může být pochopitelně parametricky přizpůsobena). Schopnost lze na byznysové vrstvě nejlépe rozpadnout na elementy typu [Služba] a [Proces], důležité jsou také [Role] zejména uvnitř úřadu. Na aplikační vrstvě se nesmí zapomínat zejména na [Informační systém veřejné správy] a [Informační systém], díky kterým můžeme schopnost realizovat. Schopnost plyne z nějakého byznysového prvku, a tedy zejména z typů [Povinnost].</data> 
 </node> 
@@ -66,6 +82,11 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Označení">A1234</data> 
+<data key="Stereotype">Agenda</data> 
+<data key="Název agendy">Název z RPP</data> 
+<data key="Ohlašovatel">Ministerstvo agend</data> 
+<data key="Příklad">Evidence obyvatel, cizinecká a ochrana hranic, sociální zabezpečení</data> 
 <data key="name">Agenda</data> 
 <data key="documentation">Jedna agenda ohlášená v Registru práv a povinností. Je zároveň stereotypem s povinnými atributy, jako je kód agendy a její gestor/ohlašovatel. Zaznamenává se jako element byznys funkce, jelikož zaznamenávat jako kontrakt by bylo nepřehledné.</data> 
 </node> 
@@ -88,6 +109,9 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Příklad">Zápis údajů do evidence obyvatel</data> 
+<data key="Označení">C1234</data> 
+<data key="Stereotype">Agendová činnost</data> 
 <data key="name">Agendová činnost</data> 
 <data key="documentation">Agendová činnost ohlášená v rámci agendy v RPP. Činnost je vždy součástí agendy a vždy je někým vykonávána v rámci jeho působnosti.</data> 
 </node> 
@@ -110,6 +134,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Stereotype">Evidence</data> 
 <data key="name">Evidence</data> 
 <data key="documentation">Evidence skutečností či dokumentů či informací na byznysové úrovni. Shromažďují a spravují se v ní skutečnosti důležité pro rozhodování v rámci činností úřadu. Na byznysové úrovni znamená logický prvek, který na aplikační vrstvě reprezentuje kupříkladu [evidence údajů]. Evidence je základem pro znalosti pro výkon byznysových objektů typu [služba veřejné správy], [služba] a [proces]. Evidence má i své důležité [role], jako je editor či subjekt zodpovědný za vedení evidence.</data> 
 </node> 
@@ -132,6 +157,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Příklad">Ministerstvo vnitra je gestorem Zákona 365/2000 o ISVS</data> 
 <data key="name">Gestor</data> 
 <data key="documentation">Subjekt, který je vůči předpisu či jinému objektu v roli gestora. Vazbu gestora lze zaznamenat přímou vazbou, nebo atributem. Objekt Gestor se využívá jen v popisném modelu. Nejčastěji je gestor zapsán příslušným atributem u objektu.</data> 
 </node> 
@@ -154,6 +180,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Příklad">Ministerstvo vnitra je ohlašovatelem agendy Evidence obyvatel</data> 
 <data key="name">Ohlašovatel</data> 
 <data key="documentation">Virtuální logický objekt role. Subjekt, který je ohlašovatelem agendy. Vazbu ohlašovatele lze zaznamenat přímou vazbou, objekt Ohlašovatel se využívá zřídka, anebo v obecném referenčním modelu. U agendy je ohlašovatel zapsán příslušným atributem.</data> 
 </node> 
@@ -176,6 +203,10 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Příklad">Ministerstvo vnitra, Úřad práce, Hlavní město Praha</data> 
+<data key="Zkratka">MA</data> 
+<data key="Stereotype">OVM</data> 
+<data key="IČ">12345678</data> 
 <data key="name">Orgán veřejné moci</data> 
 <data key="documentation">Subjekt, který je orgánem veřejné moci. Definuje se proto, že díky jeho OVMství má nějaké role, povinnosti a práva.</data> 
 </node> 
@@ -198,6 +229,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Příklad">Zpracovat Informační koncepci ČR, Zpracovat informační koncepci, Předložit ICT projekt ke stanovisku OHA, Využívat údaje z PPDF, Vykonávat spisovou službu</data> 
 <data key="name">Povinnost</data> 
 <data key="documentation">Povinnost definovaná právním předpisem, je ve skutečnosti základem kontraktu zúčastněných stran, přičemž pro stranu poskytovatele povinnosti je povinnou.</data> 
 </node> 
@@ -220,6 +252,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Příklad">Výběr barvy polstrování židle, Rozhodování o dávce, Přidělení a zapsání rodného čísla, Reklamování údajů v PPDF</data> 
 <data key="name">Proces</data> 
 <data key="documentation">Proces</data> 
 </node> 
@@ -242,6 +275,12 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Příklad">Zákon č. 365/2000 Sb., o informačních systémech veřejné správy</data> 
+<data key="Název">Zákon 333/2030 Sb., o zelených žabučkách</data> 
+<data key="Označení">333/2030 Sb.</data> 
+<data key="Gestor">Ministerstvo agend</data> 
+<data key="URL">http://www.zakonyprolidi.cz/cs/2030-333</data> 
+<data key="Stereotype">Právní předpis</data> 
 <data key="name">Právní předpis</data> 
 <data key="documentation">Jeden právní předpis. Je zároveň stereotypem s danou strukturou autributů.</data> 
 </node> 
@@ -264,6 +303,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Příklad">Právo na poskytnutí údajů, Právo na nedokládání údajů zapsaných v ZR, Právo podat žádost či učinit podání, Právo požádat o dávku</data> 
 <data key="name">Právo</data> 
 <data key="documentation">Právo definované právním předpisem či jiným předpisem. Většinou na druhé straně vztahu zakládá i související povinnost.</data> 
 </node> 
@@ -286,6 +326,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Příklad">Zaměstnavatel, Dotčený orgán, Rozhodný orgán, Původce, Subjekt veřejné správy, Zadavatel, Správce evidence</data> 
 <data key="name">Role</data> 
 <data key="documentation">Určitá byznysová role. Jsme vždy schopni k dané roli přiřadit někoho a role vykonává činnosti či pracuje s dalšími objekty. I role je klíčovým elementem v modelu architektury EG.</data> 
 </node> 
@@ -308,6 +349,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Příklad">Dávky sociální podpory, Vedení matriky, Poskytování údajů ze základních registrů, Výpis bodů řidiče</data> 
 <data key="name">Služba</data> 
 <data key="documentation">Služba z byznysového pohledu</data> 
 </node> 
@@ -330,6 +372,10 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Označení">(označení z RPP)</data> 
+<data key="Lze digitálně">Ano/ne</data> 
+<data key="Příklad">každá činnost registrovaná v RPP jako služba v rámci agendy</data> 
+<data key="Stereotype">Služba veřejné správy</data> 
 <data key="name">Služba veřejné správy</data> 
 <data key="documentation">Služba veřejné správy, která je ohlášená v RPP v rámci objektu [agenda]. Má svého poskytovatele v rámci agendy. Služba se uvnitř úřadu rozpadá na objekty [proces] pro její výkon a [úkon] pro zaznamenání formálního úkonu v dané agendě. Nezaměňovat za objekt [agendová činnost].</data> 
 </node> 
@@ -374,6 +420,10 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Příklad">§ 5a, Zákona 365/2000 Sb.</data> 
+<data key="Předpis">Zákon č. 333/2030 Sb., o zelených žavičkách</data> 
+<data key="Ustanovení">§ 2, odst. 1</data> 
+<data key="URL">http://www.zakonyprolidi.cz/cs/2030-333#p2-1</data> 
 <data key="name">Ustanovení právního předpisu</data> 
 <data key="documentation">Konkrétní ustanovení jednoho právního předpisu. Je zároveň stereotypem s určitými povinnými atributy, jako je odkaz na předpis a odkaz na daný fragment právního předpisu.</data> 
 </node> 
@@ -396,6 +446,9 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Stereotype">Vnitřní předpis</data> 
+<data key="Označení">Identifikace vnitřního předpisu (třeba ČJ dokumentu nebo číslo interního aktu řízení)</data> 
+<data key="Příklad">Spisový řád, Spisový plán, Organizační řád, Podpisový řád, Nařízení ministra, Závazný pokyn nadřízeného orgánu</data> 
 <data key="name">Vnitřní předpis</data> 
 <data key="documentation">Vnitřní závazný předpis upravující nějakou oblast. Často se využívá jako element pro úpravu [Schopnost] a nebo agendové konání. Je závazným předpisem pro daného vydavatele, či i pro jeho podřízené či řízené organizace.</data> 
 </node> 
@@ -418,6 +471,10 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Stereotype">Úkon</data> 
+<data key="Označení">(označení z RPP)</data> 
+<data key="Příklad">Podání žádosti, každý úkon ohlášený v agendě</data> 
+<data key="Lze digitálně">Ano/ne</data> 
 <data key="name">Úkon</data> 
 <data key="documentation">Úkon, zejména úkon ohlášený v RPP k dané agendě. Je součástí objektu [Služba veřejné správy] a uvnitř úřadu je vázán na [proces]. Může být i [agendová činnost], nicméně z pohledu agendy v RPP se jedná o ohlášený úkon.</data> 
 </node> 
@@ -440,6 +497,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="Zkratka">OU</data> 
+<data key="Příklad">Ekonomický odbor, Odbor hlavního architekta, Krajské pracoviště Kladno, Správní oddělení</data> 
 <data key="name">Útvar či organizační jednotka</data> 
 <data key="documentation">Uvádí konkrétní útvar v organizaci, či její organizační jednotku. Udává se pro detailnější rozpad struktury dané organizace (zejména u OVM) a pro vazbu konkrétního útvaru na jeho role či na další objekty. V detailnějších modelech úřadů může být zapsán i jako příslušný atribut u daného objektu.</data> 
 </node> 
@@ -462,6 +521,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="Příklad">Evidence faktur, Zaevidování dokumentu, Skartační řízení, Aktualizace údajů, Vygenerování PDF/a, Přijetí a zaevidování žádosti</data> 
 <data key="name">Aplikační služba</data> 
 <data key="documentation">Aplikační služba pro alespoň rámcový rozpis toho, co dělá aplikace či systém.</data> 
 </node> 
@@ -484,6 +544,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="Stereotype">Evidence</data> 
+<data key="Příklad">Evidence psů, Registr rodných čísel v rámci ISEO, Evidence faktur v rámci EKIS</data> 
 <data key="name">Evidence</data> 
 <data key="documentation">Evidence jako souvislá evidence údajů či dokumentů či informací. Je technickým prvkem datové architektury s tím, že se očekává, že evidence je součástí informačního systému, má své zodpovědné subjekty a obsahuje údaje či skupiny údajů a identifikátor(y)</data> 
 </node> 
@@ -506,6 +568,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="Příklad">Evidence psů, Registr rodných čísel v rámci ISEO, Evidence faktur v rámci EKIS</data> 
+<data key="Stereotype">Evidence údajů</data> 
 <data key="name">Evidence údajů</data> 
 <data key="documentation">Technický prvek [Evidence]. Evidence jako souvislá evidence údajů či dokumentů či informací. Je technickým prvkem datové architektury s tím, že se očekává, že evidence je součástí informačního systému, má své zodpovědné subjekty a obsahuje údaje či prvky [skupina údajů] a identifikátor(y). Je to důležité i pro daný [kontext].</data> 
 </node> 
@@ -528,6 +592,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="Příklad">Číslo jednací dokumentu, Číslo spisu, Číslo pobočky, Kód v evidenci</data> 
+<data key="Stereotype">Identifikátor</data> 
 <data key="name">Identifikátor</data> 
 <data key="documentation">Identifikátor (neurčuje se jeho vlastnost a podoba). Identifikuje údaje či informace vedené formou údajů.</data> 
 </node> 
@@ -550,6 +616,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="Stereotype">Identifikátor objektu</data> 
+<data key="Příklad">Registrační značka vozidla, číslo průkazu, Číslo oprávnění k odborné činnosti</data> 
 <data key="name">Identifikátor objektu</data> 
 <data key="documentation">Identifikátor objektu práva</data> 
 </node> 
@@ -572,6 +640,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="Příklad">AIFO v dané agendě</data> 
+<data key="Stereotype">Identifikátor subjektu</data> 
 <data key="name">Identifikátor subjektu</data> 
 <data key="documentation">Identifikátor subjektu práva (ve vazbě na jeho identitu)</data> 
 </node> 
@@ -594,6 +664,9 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="Stereotype">Provozní systém</data> 
+<data key="Příklad">Systém monitogingu, auditní systém, apod.</data> 
+<data key="Správce">¨Ministerstvo agend</data> 
 <data key="name">Informační systém</data> 
 <data key="documentation">Informační systém, který není [informační systém veřejné správy]. Pozor, systémy pro správu dokumentů, spisovou službu, ekonomiku a personalistiku vždy vedeme jako ISVS.</data> 
 </node> 
@@ -616,6 +689,12 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="Zkratka">ISZŽ</data> 
+<data key="Označení">označení z RPP), tedy identifikátor z evidence ISVS</data> 
+<data key="Stereotype">Informační systém</data> 
+<data key="Příklad">ISEO, ROB, ISZR, všechny ISVS</data> 
+<data key="Správce">Ministerstvo agend</data> 
+<data key="Název">Úplný oficiální název informačního systému</data> 
 <data key="name">Informační systém veřejné správy</data> 
 <data key="documentation">Jeden logický ISVS jako celek ohlášený do Registru práv a povinností jako ISVS. Je zároveň stereotypem s určitými atributy, jako je kód v EISVS, nebo jeho správce.</data> 
 </node> 
@@ -638,6 +717,10 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="Ohlašovatel">Ministerstvo agend</data> 
+<data key="Příklad">Kontext řidiče podle oprávnění k řízení, kontext zdravotního pojištění jako pojištěnce a pojišťovny, apod.</data> 
+<data key="Označení">ID označení z katalogu kontextů</data> 
+<data key="Stereotype">Kontext</data> 
 <data key="name">Kontext</data> 
 <data key="documentation">Kontext, jak je definován v rámci agend a sdílení v propojeném datovém fondu. Jedná se o soubor subjektů a objektů práva a u nich vedených a spravovaných údajů a o matici využívání těchto údajů. Zaznamená se na aplikační vrstvě, mělo by být vždy jasné, jaké [evidence] se týká, jaký [Informační systém veřejné správy] je dotčen (či dotčeny) a jaké logické skupiny [Skupina údajů] se to týká. U kontextu a evidence a sdílení údajů je nezbytné správně vést a využívat [Identifikátor], a to zejména pro [Identifikátor subjektu] a [Identifikátor objektu]. Kontext se využije pro sdílení údajů mezi jednotlivými agendovými informační systémy.</data> 
 </node> 
@@ -660,6 +743,9 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="Stereotype">Provozní systém</data> 
+<data key="Správce">Správce</data> 
+<data key="Příklad">Microsoft Office, LibreOffice, Poznámkový blok, Archi, apod.</data> 
 <data key="name">Provozní aplikace</data> 
 <data key="documentation">Aplikace či systém, které jsou ryze provozními. Jedná se třeba o kancelářské aplikace apod. Do architektury se většinou nezaznamenávají, nicméně je nutné je vést v evidenci aplikací a systémů i z důvodu udržování povědomí o jejich licencování, využívání, aktualizacích apod. V architektuře se ale vést může, a to zejména, pokud nějaký [Informační systém veřejné správy] takové klientské počítačové programy využívá (třeba spisová služba využívající Word, nebo aplikaci pro podepisování).</data> 
 </node> 
@@ -682,6 +768,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="Příklad">ISZR, EGSB, Uživatelské rozhraní EKIS, czechpoint at office</data> 
 <data key="name">Rozhraní mezi aplikacemi</data> 
 <data key="documentation">Technické rozhraní mezi aplikacemi, či uživatelské rozhraní. Je důležitým prvkem pro modelování integrací informačních systémů zejména na sdílené služby.</data> 
 </node> 
@@ -704,6 +791,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="Příklad">Údaje o fyzické osobě, Údaje o řidičském oprávnění, Údaje o platbách zdravotního pojištění, Údaje o přiznání a výplatě dávky</data> 
 <data key="name">Skupina údajů</data> 
 <data key="documentation">Udává skupinu údajů vztahující se většinou k nějakému subjektu či objektu práva. Údaje jsou evidovány v rámci příslušného informačního systému či evidence apod. Tento datový objekt je datovou reprezentací jednoho či více byznysových objektů jako fyzických údajů. Mimo jiné má v popisu atributů i identifikátor, kterým lze jednoznačně identifikovat věc, ke které se údaje vztahují a jak vznikají a kdo je za ně zodpovědný. V obecných modelech (až na výjimky) není vhodné rozebírat v modelu jednotlivé údaje, proto se využije daná skupina údajů.</data> 
 </node> 
@@ -726,6 +814,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IMotivationElement</data> 
+<data key="Vrstva">vysvětlení</data> 
 <data key="name">Aplikační vrstva</data> 
 <data key="documentation">Na aplikační vrstvě architektury úřadu se zaznamenají klíčové elementy, které souvisí s fungováním informačních systémů a aplikací a také s vedením a správou údajů po technické stránce.
 U systémů a aplikací jsou klíčovými objekty [Informační systém veřejné správy], a popřípadě další IS reprezentované jako [Informační systém] a provozní [Aplikace]. U každého systému musí být jasné, zda se jedná o vlastní IS, který je spravován právě tímto úřadem, nebo o cizí IS, který je úřadem využíván. U systémů může být pak i hlubší rozpad na objekty typu [Aplikační služba], a případně i [Aplikační funkce]. Pro uskutečňování integrací a vazeb se definují [Rozhraní aplikace] jako technická rozhraní služeb jednotlivých systémů. Tyto objekty mohou mít pak vazby na infrastrukturní a systémové objekty na technologické vrstvě.
@@ -750,6 +839,7 @@ U správy údajů je nutno si správně definovat údaje z agend zapsaných v RP
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IMotivationElement</data> 
+<data key="Vrstva">vysvětlení</data> 
 <data key="name">Byznysová vrstva</data> 
 <data key="documentation">Na byznysové vrstvě architektury úřadu jsou zaznamenány všechny klíčové objekty, které se týkají samotné činnosti úřadu. Čili jakákoliv činnost úřadu může být brána jako jeho byznys, přestože se nejedná o klasickou ziskovou firmu. Ať už se jedná o činnosti související s úřední činností v rámci působnosti daného úřadu v agendách, nebo o provozně-režijní činnosti, včetně personální a ekonomické a správní politiky úřadu. Na byznysové vrstvě se znázorňuje vše, co je činnostmi úřadu jako organizace a plyne ze strategie či z předpisů. 
 Samotný legislativní rámec se udává v podobě elementů typu Contract, a to především [Právní předpis], [Ustanovení právního předpisu], [Vnitřní předpis] a z toho plynoucí obecné prvky jako [Povinnost] a výkon zajišťující [Právo]. Dále se na byznysové vrstvě musí definovat začlenění úřadu v rámci agendového modelu veřejné správy, a to všechny objekty [Agenda], [Agendová činnost] atd.
@@ -774,6 +864,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IMotivationElement</data> 
+<data key="Příklad">Číslo jednací dokumentu, Číslo spisu, Číslo pobočky, Kód v evidenci</data> 
+<data key="Vrstva">vysvětlení</data> 
 <data key="name">Identifikátor</data> 
 <data key="documentation">Fiktivní logický objekt. Identifikátor (neurčuje se jeho vlastnost a podoba). Identifikuje údaje či informace vedené formou údajů. Nezaznamenává se jako samostatný element v architektuře, vždy je atributem objektu který identifikuje. V modelu je uveden pouze pro potřebu zdůraznění významu.</data> 
 </node> 
@@ -796,6 +888,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IMotivationElement</data> 
+<data key="Vrstva">vysvětlení</data> 
+<data key="Příklad">Registrační značka vozidla, číslo průkazu, Číslo oprávnění k odborné činnosti</data> 
 <data key="name">Identifikátor objektu</data> 
 <data key="documentation">Identifikátor objektu práva</data> 
 </node> 
@@ -818,6 +912,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IMotivationElement</data> 
+<data key="Vrstva">vysvětlení</data> 
+<data key="Příklad">AIFO v dané agendě</data> 
 <data key="name">Identifikátor subjektu</data> 
 <data key="documentation">Identifikátor subjektu práva (ve vazbě na jeho identitu)</data> 
 </node> 
@@ -840,6 +936,7 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IMotivationElement</data> 
+<data key="Vrstva">vysvětlení</data> 
 <data key="name">Implementační vrstva</data> 
 <data key="documentation">Implementační vrstva architektury úřadu</data> 
 </node> 
@@ -862,6 +959,7 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IMotivationElement</data> 
+<data key="Vrstva">vysvětlení</data> 
 <data key="name">Motivační vrstva</data> 
 <data key="documentation">Motivační vrstva architektury úřadu</data> 
 </node> 
@@ -884,6 +982,7 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IMotivationElement</data> 
+<data key="Vrstva">vysvětlení</data> 
 <data key="name">Strategická vrstva</data> 
 <data key="documentation">Strategický rámec určuje strategii úřadu a jeho služeb a jeho činností. Od strategie se vše odvíjí. Strategická vrstva je tedy tou první důležitou pro celý úřad a také pro jeho interakci s ostatními úřady a klienty. Ve strategické vrstvě je nejdůležitějším elementem pro úřad [Schopnost] - tedy je pro chod úřadu a pro jeho postupnou efektivizaci nutné si udělat základní mapu všech společných schopností úřadu.</data> 
 </node> 
@@ -906,6 +1005,7 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IMotivationElement</data> 
+<data key="Vrstva">vysvětlení</data> 
 <data key="name">Technologická vrstva</data> 
 <data key="documentation">Technologická vrstva není sice v architektuře úřadu povinná, přesto se ale doporučuje si na ní rozkreslit alespoň technologické a infrastrukturní prvky a zdroje. Jedná se o vrstvu, kde se reprezentuje technologie, infrastruktura, komunikační sítě a zařízení potřebné pro chod informačních systémů a pro zajištění byznysu (činností) úřadu.</data> 
 </node> 
@@ -928,11 +1028,16 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Název">Název skupiny orgánů vedené v RPP či jiný obecný úplný název</data> 
+<data key="Příklad">Ministerstva, Kraje, Orgány sociálního zabezpečení, Zdravotní pojišťovny</data> 
+<data key="Stereotype">Skupina OVM</data> 
+<data key="Označení">S1234</data> 
+<data key="Zkratka">ÚSÚ</data> 
 <data key="name">Skupina orgánů veřejné moci</data> 
 <data key="documentation">Definování skupiny orgánů veřejné moci, má odlišné atributy, než je jeden OVM, nicméně platí to samé, něco dělají a mají nějaké role a nějaké povinnosti.</data> 
 </node> 
-<edge source="id-metamodel-evidence-udaju" target="id-metamodel-isvs"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-isvs" target="id-metamodel-evidence-udaju"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AccessRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -950,8 +1055,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-skupina-udaju" target="id-metamodel-isvs"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-isvs" target="id-metamodel-skupina-udaju"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AccessRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -969,8 +1074,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-acinnost" target="id-metamodel-ovm"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-ovm" target="id-metamodel-acinnost"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -988,8 +1093,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-role" target="id-metamodel-subjekt"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-subjekt" target="id-metamodel-role"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1007,8 +1112,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-agenda" target="id-metamodel-ovm"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-ovm" target="id-metamodel-agenda"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1026,8 +1131,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-acinnost" target="id-metamodel-agenda"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-agenda" target="id-metamodel-acinnost"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1045,8 +1150,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-pravni-predpis" target="id-metamodel-ovm"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-ovm" target="id-metamodel-pravni-predpis"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1064,8 +1169,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-agenda" target="id-metamodel-ovm"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-ovm" target="id-metamodel-agenda"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1083,8 +1188,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-agenda" target="id-metamodel-ohlasovatel"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-ohlasovatel" target="id-metamodel-agenda"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1102,8 +1207,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-povinnost" target="id-metamodel-role"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-role" target="id-metamodel-povinnost"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1121,8 +1226,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-pravo" target="id-metamodel-role"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-role" target="id-metamodel-pravo"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1140,8 +1245,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-sluzba-agendy" target="id-metamodel-agenda"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-agenda" target="id-metamodel-sluzba-agendy"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1159,8 +1264,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-povinnost" target="id-metamodel-subjekt"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-subjekt" target="id-metamodel-povinnost"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1178,8 +1283,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-pravo" target="id-metamodel-subjekt"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-subjekt" target="id-metamodel-pravo"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1197,8 +1302,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-ukon" target="id-metamodel-agenda"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-agenda" target="id-metamodel-ukon"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1216,8 +1321,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-povinnost" target="id-metamodel-pravni-predpis"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-pravni-predpis" target="id-metamodel-povinnost"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1235,8 +1340,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-pravo" target="id-metamodel-pravni-predpis"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-pravni-predpis" target="id-metamodel-pravo"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1254,8 +1359,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-acinnost" target="id-metamodel-ustanoveni"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-ustanoveni" target="id-metamodel-acinnost"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1273,8 +1378,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-pravni-predpis" target="id-metamodel-ovm"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-ovm" target="id-metamodel-pravni-predpis"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1292,8 +1397,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-vnitrni-predpis" target="id-metamodel-ovm"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-ovm" target="id-metamodel-vnitrni-predpis"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1311,8 +1416,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-agenda" target="id-metamodel-pravni-predpis"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-pravni-predpis" target="id-metamodel-agenda"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1330,8 +1435,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-ustanoveni" target="id-metamodel-pravni-predpis"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-pravni-predpis" target="id-metamodel-ustanoveni"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1349,8 +1454,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-evidence-byznysove" target="id-metamodel-evidence-udaju"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-evidence-udaju" target="id-metamodel-evidence-byznysove"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1368,27 +1473,8 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-metamodel-isprovozni" target="id-metamodel-ovm"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">ServingRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-metamodel-isvs" target="id-metamodel-ovm"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-metamodel-ovm" target="id-metamodel-isprovozni"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1407,7 +1493,26 @@ Po definici těchto prvků je vhodné definovat základní byznysové objekty, j
       </data> 
 </edge> 
 <edge source="id-metamodel-ovm" target="id-metamodel-isvs"> 
-<data key="ReferenceName">source</data> 
+<data key="ReferenceName">target</data> 
+<data key="Label">ServingRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-metamodel-isvs" target="id-metamodel-ovm"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>

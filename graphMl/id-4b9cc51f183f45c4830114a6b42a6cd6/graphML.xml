@@ -21,8 +21,43 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
 <key id="ClassName" for="node" attr.name="ClassName" attr.type="string"/> 
 <key id="Label" for="node" attr.name="Label" attr.type="string"/> 
 <key id="ArchimateLayer" for="node" attr.name="ArchimateLayer" attr.type="string"/> 
+<key id="Azure Resource Group" for="node" attr.name="Azure Resource Group" attr.type="string"/> 
 <key id="name" for="node" attr.name="name" attr.type="string"/> 
 <key id="documentation" for="node" attr.name="documentation" attr.type="string"/> 
+<key id="IT Owner" for="node" attr.name="IT Owner" attr.type="string"/> 
+<key id="FQDN-prod" for="node" attr.name="FQDN-prod" attr.type="string"/> 
+<key id="IpAddress-prod" for="node" attr.name="IpAddress-prod" attr.type="string"/> 
+<key id="FQDN-uat" for="node" attr.name="FQDN-uat" attr.type="string"/> 
+<key id="IpAddress-uat" for="node" attr.name="IpAddress-uat" attr.type="string"/> 
+<key id="FQDN-dev" for="node" attr.name="FQDN-dev" attr.type="string"/> 
+<key id="IpAddress-dev" for="node" attr.name="IpAddress-dev" attr.type="string"/> 
+<key id="AzureResourceGroup-prod" for="node" attr.name="AzureResourceGroup-prod" attr.type="string"/> 
+<key id="AzureResourceGroup-uat" for="node" attr.name="AzureResourceGroup-uat" attr.type="string"/> 
+<key id="AzureResourceGroup-dev" for="node" attr.name="AzureResourceGroup-dev" attr.type="string"/> 
+<key id="Azure Instance type-prod" for="node" attr.name="Azure Instance type-prod" attr.type="string"/> 
+<key id="Azure Instance type-uat" for="node" attr.name="Azure Instance type-uat" attr.type="string"/> 
+<key id="Azure Instance type-dev" for="node" attr.name="Azure Instance type-dev" attr.type="string"/> 
+<key id="O/S prod" for="node" attr.name="O/S prod" attr.type="string"/> 
+<key id="O/S uat" for="node" attr.name="O/S uat" attr.type="string"/> 
+<key id="O/S dev" for="node" attr.name="O/S dev" attr.type="string"/> 
+<key id="CPU-prod" for="node" attr.name="CPU-prod" attr.type="string"/> 
+<key id="CPU-uat" for="node" attr.name="CPU-uat" attr.type="string"/> 
+<key id="CPU-dev" for="node" attr.name="CPU-dev" attr.type="string"/> 
+<key id="RAM-prod" for="node" attr.name="RAM-prod" attr.type="string"/> 
+<key id="RAM-uat" for="node" attr.name="RAM-uat" attr.type="string"/> 
+<key id="RAM-dev" for="node" attr.name="RAM-dev" attr.type="string"/> 
+<key id="Snapshot-prod" for="node" attr.name="Snapshot-prod" attr.type="string"/> 
+<key id="Snapshot-uat" for="node" attr.name="Snapshot-uat" attr.type="string"/> 
+<key id="Snapshot-dev" for="node" attr.name="Snapshot-dev" attr.type="string"/> 
+<key id="Backup Retention-prod" for="node" attr.name="Backup Retention-prod" attr.type="string"/> 
+<key id="Backup Retention-uat" for="node" attr.name="Backup Retention-uat" attr.type="string"/> 
+<key id="Backup Retention-dev" for="node" attr.name="Backup Retention-dev" attr.type="string"/> 
+<key id="TcpPort" for="node" attr.name="TcpPort" attr.type="string"/> 
+<key id="Business Owner" for="node" attr.name="Business Owner" attr.type="string"/> 
+<key id="Purpose" for="node" attr.name="Purpose" attr.type="string"/> 
+<key id="Database Backup-prod" for="node" attr.name="Database Backup-prod" attr.type="string"/> 
+<key id="Database Backup-uat" for="node" attr.name="Database Backup-uat" attr.type="string"/> 
+<key id="Database Backup-dev" for="node" attr.name="Database Backup-dev" attr.type="string"/> 
 <key id="ReferenceName" for="edge" attr.name="ReferenceName" attr.type="string"/> 
 <graph id="init_graph_01" edgedefault="directed"> 
 <node id="id-65e316020b694ca39a2321f72075b417"> 
@@ -44,6 +79,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="Azure Resource Group">rg-ccpa-prod-eu2</data> 
 <data key="name">Azure Cloud - Virtual Network</data> 
 <data key="documentation"></data> 
 </node> 
@@ -66,6 +102,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="IT Owner">??</data> 
 <data key="name">EDC Services - (Azure) Region - EAST US 2</data> 
 <data key="documentation"></data> 
 </node> 
@@ -88,6 +125,13 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="FQDN-prod">nslookup edc-catalogadmin.cnoinc.com</data> 
+<data key="FQDN-prod">nslookup edc-catalog.cnoinc.com</data> 
+<data key="IpAddress-prod">10.120.73.16</data> 
+<data key="FQDN-uat">nslookup edc-admin-console-uat.cnoinc.com</data> 
+<data key="IpAddress-uat">10.120.41.18</data> 
+<data key="FQDN-uat">nslookup edc-catalog-uat.cnoinc.com</data> 
+<data key="IpAddress-uat">10.120.41.19</data> 
 <data key="name">High-Availabiilty: F5 ASM WAF</data> 
 <data key="documentation">High-Availabiilty F5 ASM WAF and EDC Node02  do not exist in Development Environment
 
@@ -136,6 +180,33 @@ The BIG-IP Application Security Manager (ASM)  is a Layer 7 ICSA-certified Web A
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="FQDN-prod">nslookup LXINFEDCAPP02.conseco.ad</data> 
+<data key="FQDN-uat">nslookup LXINFEDCAPM02.conseco.ad</data> 
+<data key="FQDN-dev">nslookup LXINFEDCAPD02.conseco.ad</data> 
+<data key="IpAddress-prod">10.120.73.10</data> 
+<data key="IpAddress-uat">10.120.41.13</data> 
+<data key="IpAddress-dev">10.120.9.10</data> 
+<data key="AzureResourceGroup-prod">rg-ccpa-prod-eu2</data> 
+<data key="AzureResourceGroup-uat">rg-ccpa-uat-eu2</data> 
+<data key="AzureResourceGroup-dev">rg-ccpa-dev-eu2</data> 
+<data key="Azure Instance type-prod">D32a v4</data> 
+<data key="Azure Instance type-uat">D32a v4</data> 
+<data key="Azure Instance type-dev">D16a_v4</data> 
+<data key="O/S prod">RHEL 7.9</data> 
+<data key="O/S uat">RHEL 7.9</data> 
+<data key="O/S dev">RHEL 7.9</data> 
+<data key="CPU-prod">32 core</data> 
+<data key="CPU-uat">32 core</data> 
+<data key="CPU-dev">16 core</data> 
+<data key="RAM-prod">128GB</data> 
+<data key="RAM-uat">128GB</data> 
+<data key="RAM-dev">64GB</data> 
+<data key="Snapshot-prod">Daily Once</data> 
+<data key="Snapshot-uat">Daily Once</data> 
+<data key="Snapshot-dev">Daily Once</data> 
+<data key="Backup Retention-prod">14 days</data> 
+<data key="Backup Retention-uat">7 days</data> 
+<data key="Backup Retention-dev">7 days</data> 
 <data key="name">EDC NODE02 - LXINFEDCAPP02 (D32a V4)</data> 
 <data key="documentation">Purpose: The Administrator tool (Informatica Administrator) is the administration tool that you use to administer the Informatica domain and security. The Administrator tool is a thin or web client application.
 
@@ -185,6 +256,33 @@ For DEV:
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="FQDN-prod">nslookup LXINFEDCAPP01.conseco.ad</data> 
+<data key="FQDN-uat">nslookup LXINFEDCAPM01.conseco.ad</data> 
+<data key="FQDN-dev">nslookup LXINFEDCAPD01.conseco.ad</data> 
+<data key="IpAddress-prod">10.120.73.9</data> 
+<data key="IpAddress-uat">10.120.41.12</data> 
+<data key="IpAddress-dev">10.120.9.9</data> 
+<data key="AzureResourceGroup-prod">rg-ccpa-prod-eu2</data> 
+<data key="AzureResourceGroup-uat">rg-ccpa-uat-eu2</data> 
+<data key="AzureResourceGroup-dev">rg-ccpa-dev-eu2</data> 
+<data key="Azure Instance type-prod">D32a v4</data> 
+<data key="Azure Instance type-uat">D32a v4</data> 
+<data key="Azure Instance type-dev">D16a_v4</data> 
+<data key="O/S prod">RHEL 7.9</data> 
+<data key="O/S uat">RHEL 7.9</data> 
+<data key="O/S dev">RHEL 7.9</data> 
+<data key="CPU-prod">32 core</data> 
+<data key="CPU-uat">32 core</data> 
+<data key="CPU-dev">16 core</data> 
+<data key="RAM-prod">128GB</data> 
+<data key="RAM-uat">128GB</data> 
+<data key="RAM-dev">64GB</data> 
+<data key="Snapshot-prod">Daily Once</data> 
+<data key="Snapshot-uat">Daily Once</data> 
+<data key="Snapshot-dev">Daily Once</data> 
+<data key="Backup Retention-prod">14 days</data> 
+<data key="Backup Retention-uat">7 days</data> 
+<data key="Backup Retention-dev">7 days</data> 
 <data key="name">EDC NODE01 - LXINFEDCAPP01 (D32a V4)</data> 
 <data key="documentation">Purpose: The Administrator tool (Informatica Administrator) is the administration tool that you use to administer the Informatica domain and security. The Administrator tool is a thin or web client application.
 
@@ -212,6 +310,7 @@ For DEV:
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="TcpPort">6005</data> 
 <data key="name">Domain Core Service-6005</data> 
 <data key="documentation">Purpose: TBD</data> 
 </node> 
@@ -234,6 +333,7 @@ For DEV:
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="TcpPort">8443</data> 
 <data key="name">AdminConsole UI-8443</data> 
 <data key="documentation">The Administrator tool (Informatica Administrator) is the administration tool that you use to administer the Informatica domain and security. The Administrator tool is a thin or web client application.</data> 
 </node> 
@@ -256,6 +356,7 @@ For DEV:
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="TcpPort">8505</data> 
 <data key="name">Content Management Service-8505</data> 
 <data key="documentation">Purpose: The Content Management Service is an application service that 
      manages reference data. 
@@ -287,6 +388,7 @@ Probabilistic models and classifier</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="TcpPort">9475</data> 
 <data key="name">Informatica Hadoop Service-9475</data> 
 <data key="documentation">Purpose: connection to Hadoop Cluster Services (?)</data> 
 </node> 
@@ -309,6 +411,7 @@ Probabilistic models and classifier</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="TcpPort">9485</data> 
 <data key="name">Catalog Adminconsole UI-9485</data> 
 <data key="documentation">Purpose: Use Catalog Administrator to 
     consolidate the administrative tasks for resources, attributes, and schedules. 
@@ -339,6 +442,7 @@ Catalog Service is needed to run the Enterprise data Catalog application and man
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="TcpPort">9485</data> 
 <data key="name">Catalog UI and Rest-9485</data> 
 <data key="documentation">Purpose: The catalog represents an indexed inventory of all the data assets in the enterprise that you configure in Catalog Administrator. Enterprise Data Catalog organizes all the enterprise metadata in the catalog and enables the users of external applications discover and understand the data.The catalog stores all the metadata extracted from external data sources. You can find metadata and statistical information, such as profile results, data domains, and data asset relationships, from the catalog.
 
@@ -363,6 +467,7 @@ The catalog service coordinates user interaction with catalog metadata stored on
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="TcpPort">8495</data> 
 <data key="name">Data Integration Service-8495</data> 
 <data key="documentation">Purpose: The Data Integration Service is an application service in the Informatica domain that 
     performs data integration tasks for 
@@ -391,6 +496,7 @@ Is used during data semantic discovery and basic profiling of data assets (% of 
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="TcpPort">9085</data> 
 <data key="name">LDM Admin-9085</data> 
 <data key="documentation">These two end points are connected via the Load Balancer
 https://lxinfedcapp01.conseco.ad:9085/ldmadmin (Primary- EDC Node01)
@@ -415,6 +521,7 @@ https://lxinfedcapp02.conseco.ad:9085/ldmadmin (Secondary- EDC Node02)</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="TcpPort">9085</data> 
 <data key="name">LDM Catalog-9085</data> 
 <data key="documentation">These two end points are connected via the Load Balancer
 https://lxinfedcapp01.conseco.ad:9085/ldmcatalog (Primary- EDC Node01) 
@@ -439,6 +546,7 @@ https://lxinfedcapp02.conseco.ad:9085/ldmcatalog (Secondary - EDC Node02)</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="TcpPort">9485</data> 
 <data key="name">Model Repository Service</data> 
 <data key="documentation">Purpose: The Model Repository Service is an application service that manages model repository that stores metadata created by the Enterprise Data Catalog. MRS stores the underlying contents in a relational database to enable collaboration among the tools and services. Model repository primarily stores the resource configuration and data domain information. When you access a Model repository object from the Enterprise Data Catalog tools or the Data Integration Service, the client or service sends a request to the Model Repository Service. The Model Repository Service process fetches, inserts, and updates the metadata in the Model repository database tables.</data> 
 </node> 
@@ -554,6 +662,7 @@ Axon business glossary has 800 - 900 elements.</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="TcpPort">9443</data> 
 <data key="name">UI-9443</data> 
 <data key="documentation">UAT:
      https://lxinfaxonapm01.conseco.ad:9443/
@@ -632,6 +741,7 @@ Technologists will primarily use the Enterprise Data Catalog</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="Business Owner">??</data> 
 <data key="name">Enterprise Data Catalog - EDC</data> 
 <data key="documentation">Enterprise Data Catalog (EDC) primarily 
  - identifies the types or catagories of data, and
@@ -668,6 +778,7 @@ Monitor console provides real time and historical statistics at Summary and Exec
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IApplicationElement</data> 
+<data key="Purpose">For each data element, the Data Lineage is specific, which is what Source System first captured the data, as well as all of the downstream applications and data warehouse components where the data element resides</data> 
 <data key="name">Data Lineage</data> 
 <data key="documentation">The Data Lineage is captured for each data element.
 Data Lineage is:  
@@ -1121,6 +1232,34 @@ Therefore "All CNO Source systems" includes both operational (day to day) source
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="FQDN-prod">axon.cnoinc.com</data> 
+<data key="FQDN-uat">axon-uat.cnoinc.com</data> 
+<data key="IpAddress-prod">10.120.73.11</data> 
+<data key="IpAddress-uat">10.120.41.11</data> 
+<data key="AzureResourceGroup-prod"></data> 
+<data key="AzureResourceGroup-uat"></data> 
+<data key="AzureResourceGroup-dev"></data> 
+<data key="Azure Instance type-prod"></data> 
+<data key="Azure Instance type-uat"></data> 
+<data key="Azure Instance type-dev"></data> 
+<data key="O/S prod"></data> 
+<data key="O/S uat"></data> 
+<data key="O/S dev"></data> 
+<data key="CPU-prod"></data> 
+<data key="CPU-uat"></data> 
+<data key="CPU-dev"></data> 
+<data key="RAM-prod"></data> 
+<data key="RAM-uat"></data> 
+<data key="RAM-dev"></data> 
+<data key="Snapshot-prod"></data> 
+<data key="Snapshot-uat"></data> 
+<data key="Snapshot-dev"></data> 
+<data key="Backup Retention-prod"></data> 
+<data key="Backup Retention-uat"></data> 
+<data key="Backup Retention-dev"></data> 
+<data key="Database Backup-prod"></data> 
+<data key="Database Backup-uat"></data> 
+<data key="Database Backup-dev"></data> 
 <data key="name">AXON NODE01 - LXINFAXONAPP01 (E8a V4) - Azure</data> 
 <data key="documentation">Purpose: 
 Axon Overview Meeting 2-Apr-2021 -- Brian Bussing,  <bbussing@informatica.com> 
@@ -1150,6 +1289,7 @@ CNO is still single region and multi-region will be explored</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="TcpPort">9085</data> 
 <data key="name">AXON UI - 9443/9999</data> 
 <data key="documentation">These two end points are connected via the Load Balancer
 https://lxinfedcapp01.conseco.ad:9085/ldmadmin (Primary- EDC Node01)
@@ -1218,6 +1358,10 @@ https://lxinfedcapp02.conseco.ad:9085/ldmadmin (Secondary- EDC Node02)</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="FQDN-prod">tbd</data> 
+<data key="FQDN-uat">tbd</data> 
+<data key="IpAddress-prod">10.120.73.15</data> 
+<data key="IpAddress-uat">10.120.41.18 -- (incorrect - same as EDC Service High-Availability)</data> 
 <data key="name">High-Availabiilty: F5 ASM WAF</data> 
 <data key="documentation">High-Availabiilty F5 ASM WAF and IDQ Node02  do not exist in Development Environment
 
@@ -1244,6 +1388,33 @@ The BIG-IP Application Security Manager (ASM)  is a Layer 7 ICSA-certified Web A
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="FQDN-prod">nslookup LXINFDQP04.conseco.ad</data> 
+<data key="FQDN-uat">nslookup LXINFDQM04.conseco.ad</data> 
+<data key="FQDN-dev">nslookup LXINFDQD04.conseco.ad</data> 
+<data key="IpAddress-prod">192.168.193.228</data> 
+<data key="IpAddress-uat">10.11.192.150</data> 
+<data key="IpAddress-dev">10.11.190.85</data> 
+<data key="AzureResourceGroup-prod">n/a on-prem</data> 
+<data key="AzureResourceGroup-uat">n/a on-prem</data> 
+<data key="AzureResourceGroup-dev">n/a on-prem</data> 
+<data key="Azure Instance type-prod">n/a on-prem</data> 
+<data key="Azure Instance type-uat">n/a on-prem</data> 
+<data key="Azure Instance type-dev">n/a on-prem</data> 
+<data key="O/S prod">RHEL 7.9</data> 
+<data key="O/S uat">RHEL 7.9</data> 
+<data key="O/S dev">RHEL 7.9</data> 
+<data key="CPU-prod">2 core</data> 
+<data key="CPU-uat">2 core</data> 
+<data key="CPU-dev">2 core</data> 
+<data key="RAM-prod">32GB</data> 
+<data key="RAM-uat">15GB</data> 
+<data key="RAM-dev">17GB</data> 
+<data key="Snapshot-prod">Daily</data> 
+<data key="Snapshot-uat">Daily</data> 
+<data key="Snapshot-dev">Daily</data> 
+<data key="Backup Retention-prod">14 days</data> 
+<data key="Backup Retention-uat">14 days</data> 
+<data key="Backup Retention-dev">14 days</data> 
 <data key="name">IDQ Node1 - LXINFDQP04</data> 
 <data key="documentation">Is "IDQ Node01" the correct name?</data> 
 </node> 
@@ -1266,6 +1437,33 @@ The BIG-IP Application Security Manager (ASM)  is a Layer 7 ICSA-certified Web A
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="FQDN-prod">nslookup LXINFDQP05.conseco.ad</data> 
+<data key="FQDN-uat">nslookup LXINFDQM05.conseco.ad</data> 
+<data key="FQDN-dev">nslookup LXINFDQD05.conseco.ad</data> 
+<data key="IpAddress-prod">192.168.193.186</data> 
+<data key="IpAddress-uat">10.11.192.149</data> 
+<data key="IpAddress-dev">10.11.190.86</data> 
+<data key="AzureResourceGroup-prod">n/a on-prem</data> 
+<data key="AzureResourceGroup-uat">n/a on-prem</data> 
+<data key="AzureResourceGroup-dev">n/a on-prem</data> 
+<data key="Azure Instance type-prod">n/a on-prem</data> 
+<data key="Azure Instance type-uat">n/a on-prem</data> 
+<data key="Azure Instance type-dev">n/a on-prem</data> 
+<data key="O/S prod">RHEL 7.9</data> 
+<data key="O/S uat">RHEL 7.9</data> 
+<data key="O/S dev">RHEL 7.9</data> 
+<data key="CPU-prod">2 core</data> 
+<data key="CPU-uat">2 core</data> 
+<data key="CPU-dev">2 core</data> 
+<data key="RAM-prod">32GB</data> 
+<data key="RAM-uat">13GB</data> 
+<data key="RAM-dev">17GB</data> 
+<data key="Snapshot-prod">tbd</data> 
+<data key="Snapshot-uat">tbd</data> 
+<data key="Snapshot-dev">tbd</data> 
+<data key="Backup Retention-prod">tbd</data> 
+<data key="Backup Retention-uat">tbd</data> 
+<data key="Backup Retention-dev">tbd</data> 
 <data key="name">IDQ Node 2 - LXINFDQP05</data> 
 <data key="documentation">Is "IDQ Node02" the correct name?</data> 
 </node> 
@@ -1393,6 +1591,33 @@ Scanners: applications launched as batch job to extract metadata, run profiling 
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="FQDN-prod">LXINFEDCHCP03.conseco.ad</data> 
+<data key="FQDN-uat">LXINFEDCHCM03.conseco.ad</data> 
+<data key="FQDN-dev">LXINFEDCHCD03.conseco.ad</data> 
+<data key="IpAddress-prod">10.120.73.14</data> 
+<data key="IpAddress-uat">10.120.41.16</data> 
+<data key="IpAddress-dev">10.120.9.13</data> 
+<data key="AzureResourceGroup-prod">rg-ccpa-prod-eu2</data> 
+<data key="AzureResourceGroup-uat">rg-ccpa-uat-eu2</data> 
+<data key="AzureResourceGroup-dev">rg-ccpa-dev-eu2</data> 
+<data key="Azure Instance type-prod">E8a v4</data> 
+<data key="Azure Instance type-uat">E8a v4</data> 
+<data key="Azure Instance type-dev">E8a v4</data> 
+<data key="O/S prod">RHEL 7.9</data> 
+<data key="O/S uat">RHEL 7.9</data> 
+<data key="O/S dev">RHEL 7.9</data> 
+<data key="CPU-prod">8 core</data> 
+<data key="CPU-uat">8 core</data> 
+<data key="CPU-dev">8 core</data> 
+<data key="RAM-prod">64GB</data> 
+<data key="RAM-uat">64GB</data> 
+<data key="RAM-dev">64GB</data> 
+<data key="Snapshot-prod">Daily Once</data> 
+<data key="Snapshot-uat">Daily Once</data> 
+<data key="Snapshot-dev">Daily Once</data> 
+<data key="Backup Retention-prod">14 days</data> 
+<data key="Backup Retention-uat">7 days</data> 
+<data key="Backup Retention-dev">7 days</data> 
 <data key="name">Hadoop Node3 - LXINFEDCHCP03 - E8a V4</data> 
 <data key="documentation">Purpose: 
 
@@ -1439,6 +1664,33 @@ OS version need to be checked with INFA to RHEL 7.9</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="FQDN-prod">LXINFEDCHCP01.conseco.ad</data> 
+<data key="FQDN-uat">LXINFEDCHCM01.conseco.ad</data> 
+<data key="FQDN-dev">LXINFEDCHCD01.conseco.ad</data> 
+<data key="IpAddress-prod">10.120.73.12</data> 
+<data key="IpAddress-uat">10.120.41.14</data> 
+<data key="IpAddress-dev">10.120.9.11</data> 
+<data key="AzureResourceGroup-prod">rg-ccpa-prod-eu2</data> 
+<data key="AzureResourceGroup-uat">rg-ccpa-uat-eu2</data> 
+<data key="AzureResourceGroup-dev">rg-ccpa-dev-eu2</data> 
+<data key="Azure Instance type-prod">E8a v4</data> 
+<data key="Azure Instance type-uat">E8a v4</data> 
+<data key="Azure Instance type-dev">E8a v4</data> 
+<data key="O/S prod">RHEL 7.9</data> 
+<data key="O/S uat">RHEL 7.9</data> 
+<data key="O/S dev">RHEL 7.9</data> 
+<data key="CPU-prod">8 core</data> 
+<data key="CPU-uat">8 core</data> 
+<data key="CPU-dev">8 core</data> 
+<data key="RAM-prod">64GB</data> 
+<data key="RAM-uat">64GB</data> 
+<data key="RAM-dev">64GB</data> 
+<data key="Snapshot-prod">Daily Once</data> 
+<data key="Snapshot-uat">Daily Once</data> 
+<data key="Snapshot-dev">Daily Once</data> 
+<data key="Backup Retention-prod">14 days</data> 
+<data key="Backup Retention-uat">7 days</data> 
+<data key="Backup Retention-dev">7 days</data> 
 <data key="name">Hadoop Node01 - LXINFEDCHCP01 - E8a v4</data> 
 <data key="documentation">Purpose: 
 
@@ -1469,6 +1721,7 @@ OS version need to be checked with INFA to RHEL 7.9
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="TcpPort">8080/8443</data> 
 <data key="name">Ambari UI-8080/8443</data> 
 <data key="documentation">Ambari is a web based tool for provisioning, managing, and monitoring Apache Hadoop clusters    It supports HDFS, MapReduce, Hive, HCatalog, HBASE, ZooKeeper, Oozie, Pig, and Sqoop services.
 
@@ -1495,6 +1748,7 @@ Ambari provides status of the services via the Ambari Metrics service.</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="TcpPort">8088/8090</data> 
 <data key="name">Yarn Resource Manager UI -8088/8090</data> 
 <data key="documentation">Yarn is a resource manager that facilitates MapReduce processes.  MapReduce is a software engineering pattern that splits VERY large jobs into segments that are run in parallel, thereby improving performance.
 
@@ -1519,6 +1773,7 @@ Spark, HBase and Solr apps run on YARN.</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="TcpPort">50075/50475</data> 
 <data key="name">HDFS DataNode - 50075/50475</data> 
 <data key="documentation">Actual  file contents are stored in distributed Data Nodes.   The contents are split across multiple Data Node to take advantage of parallel processing which improves performance.
 
@@ -1543,6 +1798,7 @@ Catalog information is stored in HDFS.</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="TcpPort">8044</data> 
 <data key="name">NodeManager UI - 8044</data> 
 <data key="documentation">Node Manager manages, allocates, and monitors resource (cpu, ram, disk, ... and oversees the containers running MapReduce processes on a single node/host within a Hadoop cluster.</data> 
 </node> 
@@ -1565,6 +1821,7 @@ Catalog information is stored in HDFS.</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="TcpPort">19888</data> 
 <data key="name">Job History UI - 19888</data> 
 <data key="documentation">https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-hs/HistoryServerRest.html
 
@@ -1589,6 +1846,7 @@ Job History allows the user to get status on finished applications.</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="TcpPort">50070/50470</data> 
 <data key="name">NameNode UI-50070/50470</data> 
 <data key="documentation">NameNode Is a daemon that track meta data
 •	File Name
@@ -1616,6 +1874,33 @@ Job History allows the user to get status on finished applications.</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="FQDN-prod">LXINFEDCHCP02.conseco.ad</data> 
+<data key="FQDN-uat">LXINFEDCAPM01.conseco.ad</data> 
+<data key="FQDN-dev">LXINFEDCHCD02.conseco.ad</data> 
+<data key="IpAddress-prod">10.120.73.13</data> 
+<data key="IpAddress-uat">10.120.41.15</data> 
+<data key="IpAddress-dev">10.120.9.12</data> 
+<data key="AzureResourceGroup-prod">rg-ccpa-prod-eu2</data> 
+<data key="AzureResourceGroup-uat">rg-ccpa-uat-eu2</data> 
+<data key="AzureResourceGroup-dev">rg-ccpa-dev-eu2</data> 
+<data key="Azure Instance type-prod">E8a v4</data> 
+<data key="Azure Instance type-uat">E8a v4</data> 
+<data key="Azure Instance type-dev">E8a v4</data> 
+<data key="O/S prod">RHEL 7.9</data> 
+<data key="O/S uat">RHEL 7.9</data> 
+<data key="O/S dev">RHEL 7.9</data> 
+<data key="CPU-prod">8 core</data> 
+<data key="CPU-uat">8 core</data> 
+<data key="CPU-dev">8 core</data> 
+<data key="RAM-prod">64GB</data> 
+<data key="RAM-uat">64GB</data> 
+<data key="RAM-dev">64GB</data> 
+<data key="Snapshot-prod">Daily Once</data> 
+<data key="Snapshot-uat">Daily Once</data> 
+<data key="Snapshot-dev">Daily Once</data> 
+<data key="Backup Retention-prod">14 days</data> 
+<data key="Backup Retention-uat">7 days</data> 
+<data key="Backup Retention-dev">7 days</data> 
 <data key="name">Hadoop Node02 - LXINFEDCHCP02 - E8a V4</data> 
 <data key="documentation">Purpose: 
 
@@ -1640,6 +1925,36 @@ OS version need to be checked with INFA to RHEL 7.9</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="FQDN-prod">sqlinfccpapeu2.conseco.ad</data> 
+<data key="FQDN-uat">sqlinfccpameu2.conseco.ad</data> 
+<data key="FQDN-dev">sqlinfccpadeu2.conseco.ad</data> 
+<data key="IpAddress-prod">10.120.75.7</data> 
+<data key="IpAddress-uat">10.120.43.9</data> 
+<data key="IpAddress-dev">10.120.12.10</data> 
+<data key="AzureResourceGroup-prod">rg-ccpa-prod-eu2</data> 
+<data key="AzureResourceGroup-uat">rg-ccpa-uat-eu2</data> 
+<data key="AzureResourceGroup-dev">rg-ccpa-dev-eu2</data> 
+<data key="Azure Instance type-prod">Gen 5 VCORE 8</data> 
+<data key="Azure Instance type-uat">Gen 5 VCORE 8</data> 
+<data key="Azure Instance type-dev">Gen 5 VCORE 8</data> 
+<data key="O/S prod">N/A ?</data> 
+<data key="O/S uat">N/A ?</data> 
+<data key="O/S dev">N/A ?</data> 
+<data key="CPU-prod">8 core</data> 
+<data key="CPU-uat">8 core</data> 
+<data key="CPU-dev">8 core</data> 
+<data key="RAM-prod">40GB</data> 
+<data key="RAM-uat">40GB</data> 
+<data key="RAM-dev">40GB</data> 
+<data key="Snapshot-prod">Daily Once</data> 
+<data key="Snapshot-uat">Daily Once</data> 
+<data key="Snapshot-dev">Daily Once</data> 
+<data key="Backup Retention-prod">14 days</data> 
+<data key="Backup Retention-uat">7 days</data> 
+<data key="Backup Retention-dev">7 days</data> 
+<data key="Database Backup-prod">Daily Full backup</data> 
+<data key="Database Backup-uat">Daily Full backup</data> 
+<data key="Database Backup-dev">Daily Full backup</data> 
 <data key="name">Azure SQL DB</data> 
 <data key="documentation">Purpose: 
 
@@ -1754,6 +2069,7 @@ CNO is still single region and multi-region will be explored</data>
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="TcpPort">9485</data> 
 <data key="name">Model Repository Service database (MRS)</data> 
 <data key="documentation">Purpose: The Model Repository Service is an application service that manages model repository that stores metadata created by the Enterprise Data Catalog. MRS stores the underlying contents in a relational database to enable collaboration among the tools and services. Model repository primarily stores the resource configuration and data domain information. When you access a Model repository object from the Enterprise Data Catalog tools or the Data Integration Service, the client or service sends a request to the Model Repository Service. The Model Repository Service process fetches, inserts, and updates the metadata in the Model repository database tables.
 
@@ -1778,6 +2094,7 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="TcpPort">9485</data> 
 <data key="name">Profile warehouse database (PWH)</data> 
 <data key="documentation">Purpose: Profile warehouse database (PWH) is used by the Data Integration services to store the profile statistics and value frequency are temporarily stored before being moved over to the HBase database by the Spark ingestion services.</data> 
 </node> 
@@ -1800,6 +2117,7 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">ITechnologyElement</data> 
+<data key="TcpPort">9485</data> 
 <data key="name">Reference database (REF)</data> 
 <data key="documentation">Purpose: Reference database  (REF) is used by the Content Management services to store reference data used for data discovery such as names, synonyms, location reference data, etc.</data> 
 </node> 
@@ -1825,8 +2143,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
 <data key="name">Model Repository Service</data> 
 <data key="documentation"></data> 
 </node> 
-<edge source="id-061ca94c29be4d82bb50078d9c7eaf3b" target="id-a51d03a6710b416ebd6f2cf9c94c57ef"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-a51d03a6710b416ebd6f2cf9c94c57ef" target="id-061ca94c29be4d82bb50078d9c7eaf3b"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1844,8 +2162,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-a8f4316d226b466bb3c7f1b30631dce8" target="id-0318c251fd664fa88f0d37e3e5161108"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0318c251fd664fa88f0d37e3e5161108" target="id-a8f4316d226b466bb3c7f1b30631dce8"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1863,8 +2181,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-97e72bd9e96d415abde9d5f3ae04aba8" target="id-34443813757b44e9bcec2fb2263cd018"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-34443813757b44e9bcec2fb2263cd018" target="id-97e72bd9e96d415abde9d5f3ae04aba8"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1882,8 +2200,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-97e72bd9e96d415abde9d5f3ae04aba8" target="id-061ca94c29be4d82bb50078d9c7eaf3b"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-061ca94c29be4d82bb50078d9c7eaf3b" target="id-97e72bd9e96d415abde9d5f3ae04aba8"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1901,8 +2219,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-97e72bd9e96d415abde9d5f3ae04aba8" target="id-a8f4316d226b466bb3c7f1b30631dce8"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-a8f4316d226b466bb3c7f1b30631dce8" target="id-97e72bd9e96d415abde9d5f3ae04aba8"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1920,8 +2238,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-7a546b567f314ed1830e04b14665ec9b" target="id-ebffdcaf8ac04bcd91f28f95ad2ee438"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-ebffdcaf8ac04bcd91f28f95ad2ee438" target="id-7a546b567f314ed1830e04b14665ec9b"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1939,8 +2257,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-f721b29a47d14539b00a4fc0ef887fbb" target="id-c615ebcc6abd4687ab48d6c668de4de8"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-c615ebcc6abd4687ab48d6c668de4de8" target="id-f721b29a47d14539b00a4fc0ef887fbb"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1958,8 +2276,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-f6d709faa3754b4abcd68e81f21ce693" target="id-c615ebcc6abd4687ab48d6c668de4de8"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-c615ebcc6abd4687ab48d6c668de4de8" target="id-f6d709faa3754b4abcd68e81f21ce693"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">FlowRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1977,8 +2295,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-f6d709faa3754b4abcd68e81f21ce693" target="id-c615ebcc6abd4687ab48d6c668de4de8"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-c615ebcc6abd4687ab48d6c668de4de8" target="id-f6d709faa3754b4abcd68e81f21ce693"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1996,8 +2314,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-4a06d6db0da3452aaa1533f9949ab025" target="id-f6d709faa3754b4abcd68e81f21ce693"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-f6d709faa3754b4abcd68e81f21ce693" target="id-4a06d6db0da3452aaa1533f9949ab025"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">FlowRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2015,8 +2333,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-0a7f8bf271474a679d919ab018d868a5" target="id-f6d709faa3754b4abcd68e81f21ce693"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-f6d709faa3754b4abcd68e81f21ce693" target="id-0a7f8bf271474a679d919ab018d868a5"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2034,8 +2352,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-deeb631bc15544339d87e0cb2546b06b" target="id-f6d709faa3754b4abcd68e81f21ce693"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-f6d709faa3754b4abcd68e81f21ce693" target="id-deeb631bc15544339d87e0cb2546b06b"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2053,8 +2371,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-cb7a649883be44cd9fd34606146cd652" target="id-f6d709faa3754b4abcd68e81f21ce693"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-f6d709faa3754b4abcd68e81f21ce693" target="id-cb7a649883be44cd9fd34606146cd652"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2072,8 +2390,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-eeef0e7bc82142aabb67ccca625f59e5" target="id-f6d709faa3754b4abcd68e81f21ce693"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-f6d709faa3754b4abcd68e81f21ce693" target="id-eeef0e7bc82142aabb67ccca625f59e5"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2091,8 +2409,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-fc6bfdc27c074142aaff97e861e6356c" target="id-f6d709faa3754b4abcd68e81f21ce693"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-f6d709faa3754b4abcd68e81f21ce693" target="id-fc6bfdc27c074142aaff97e861e6356c"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2110,8 +2428,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-9a416aff655b492799e023628c7c6650" target="id-f6d709faa3754b4abcd68e81f21ce693"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-f6d709faa3754b4abcd68e81f21ce693" target="id-9a416aff655b492799e023628c7c6650"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2129,8 +2447,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-2277ab1f63084977867a1725d62842ba" target="id-f6d709faa3754b4abcd68e81f21ce693"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-f6d709faa3754b4abcd68e81f21ce693" target="id-2277ab1f63084977867a1725d62842ba"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2148,8 +2466,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-035492aa093c4dc88ad59df78255829a" target="id-0318c251fd664fa88f0d37e3e5161108"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0318c251fd664fa88f0d37e3e5161108" target="id-035492aa093c4dc88ad59df78255829a"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2167,8 +2485,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-0318c251fd664fa88f0d37e3e5161108" target="id-97fdc45a3b8a4e239d2444c462083cc6"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-97fdc45a3b8a4e239d2444c462083cc6" target="id-0318c251fd664fa88f0d37e3e5161108"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">FlowRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2186,8 +2504,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-97fdc45a3b8a4e239d2444c462083cc6" target="id-cb7a649883be44cd9fd34606146cd652"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-cb7a649883be44cd9fd34606146cd652" target="id-97fdc45a3b8a4e239d2444c462083cc6"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">TriggeringRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2205,8 +2523,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-97fdc45a3b8a4e239d2444c462083cc6" target="id-1346f31862034439a6fc59906fc1dffd"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-1346f31862034439a6fc59906fc1dffd" target="id-97fdc45a3b8a4e239d2444c462083cc6"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">FlowRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2224,8 +2542,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-1c8267b4a0654d389952312bb28dd2af" target="id-0318c251fd664fa88f0d37e3e5161108"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0318c251fd664fa88f0d37e3e5161108" target="id-1c8267b4a0654d389952312bb28dd2af"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2243,8 +2561,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-8e773ca1f6314e78b5c1c6ad1d6294ed" target="id-0318c251fd664fa88f0d37e3e5161108"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0318c251fd664fa88f0d37e3e5161108" target="id-8e773ca1f6314e78b5c1c6ad1d6294ed"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2262,8 +2580,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-8b7a3d06007c4829a4419ce492f1fcb4" target="id-0318c251fd664fa88f0d37e3e5161108"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0318c251fd664fa88f0d37e3e5161108" target="id-8b7a3d06007c4829a4419ce492f1fcb4"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2281,8 +2599,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-92727d358dad4a0da1c3ddfe4789b7c2" target="id-cab99a7a2333447ca8dbc1c76fa957e9"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-cab99a7a2333447ca8dbc1c76fa957e9" target="id-92727d358dad4a0da1c3ddfe4789b7c2"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2300,8 +2618,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-8b960a02da574c1b89a204cc59c4abac" target="id-cab99a7a2333447ca8dbc1c76fa957e9"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-cab99a7a2333447ca8dbc1c76fa957e9" target="id-8b960a02da574c1b89a204cc59c4abac"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2319,8 +2637,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-0b88456a80ce489ebe4d4a798529f67d" target="id-afabcf02281d49fe904f22156a06962a"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-afabcf02281d49fe904f22156a06962a" target="id-0b88456a80ce489ebe4d4a798529f67d"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">FlowRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2338,8 +2656,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-e848b36f924747909bf472a6b70466f4" target="id-c615ebcc6abd4687ab48d6c668de4de8"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-c615ebcc6abd4687ab48d6c668de4de8" target="id-e848b36f924747909bf472a6b70466f4"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2357,8 +2675,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-4d3bc1310202466c84cbfe32717063cf" target="id-39d3470a0a3d4f87b9354f76a7a89a68"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-39d3470a0a3d4f87b9354f76a7a89a68" target="id-4d3bc1310202466c84cbfe32717063cf"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2376,8 +2694,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-c6328c76585a4e3a881c4cf52386f224" target="id-4d3bc1310202466c84cbfe32717063cf"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-4d3bc1310202466c84cbfe32717063cf" target="id-c6328c76585a4e3a881c4cf52386f224"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2395,8 +2713,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-ee5bbc6fbddd42a9b8712784a5981665" target="id-4d3bc1310202466c84cbfe32717063cf"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-4d3bc1310202466c84cbfe32717063cf" target="id-ee5bbc6fbddd42a9b8712784a5981665"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2414,8 +2732,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-636f1fbd8e64438d895e9c857714fd80" target="id-4d3bc1310202466c84cbfe32717063cf"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-4d3bc1310202466c84cbfe32717063cf" target="id-636f1fbd8e64438d895e9c857714fd80"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2433,8 +2751,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-a5be97498e6a4b7f8aab76c59112bc9c" target="id-4d3bc1310202466c84cbfe32717063cf"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-4d3bc1310202466c84cbfe32717063cf" target="id-a5be97498e6a4b7f8aab76c59112bc9c"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2452,8 +2770,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-8f505c561f794ca6be105277360921a8" target="id-4d3bc1310202466c84cbfe32717063cf"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-4d3bc1310202466c84cbfe32717063cf" target="id-8f505c561f794ca6be105277360921a8"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2471,8 +2789,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-5bc77c713534493cb2cfa1a2cae3a864" target="id-4d3bc1310202466c84cbfe32717063cf"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-4d3bc1310202466c84cbfe32717063cf" target="id-5bc77c713534493cb2cfa1a2cae3a864"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2490,8 +2808,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-8059f790d59f45dfaaff86d1438ac63f" target="id-39d3470a0a3d4f87b9354f76a7a89a68"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-39d3470a0a3d4f87b9354f76a7a89a68" target="id-8059f790d59f45dfaaff86d1438ac63f"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2509,8 +2827,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-3e5474c1e2a04bdf9cd17ee7b287caba" target="id-39d3470a0a3d4f87b9354f76a7a89a68"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-39d3470a0a3d4f87b9354f76a7a89a68" target="id-3e5474c1e2a04bdf9cd17ee7b287caba"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2528,8 +2846,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-a51d03a6710b416ebd6f2cf9c94c57ef" target="id-cff2539dbcf54412bfe4a72e0075506b"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-cff2539dbcf54412bfe4a72e0075506b" target="id-a51d03a6710b416ebd6f2cf9c94c57ef"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2547,8 +2865,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-a5edac1ff0c84632bcb0e80369d8163b" target="id-cb83200637304df9bade2fc2c3875aa2"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-cb83200637304df9bade2fc2c3875aa2" target="id-a5edac1ff0c84632bcb0e80369d8163b"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2566,8 +2884,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-7b5ed25a82e84b19b8c5499d73814c68" target="id-cb83200637304df9bade2fc2c3875aa2"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-cb83200637304df9bade2fc2c3875aa2" target="id-7b5ed25a82e84b19b8c5499d73814c68"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2575,63 +2893,6 @@ MRS stores all the configuration and connectivity information for EDC resources.
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">RealizationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-40c42527b35a4985807953f3d2526e66" target="id-0318c251fd664fa88f0d37e3e5161108"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">FlowRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">FlowRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-40c42527b35a4985807953f3d2526e66" target="id-cab99a7a2333447ca8dbc1c76fa957e9"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">FlowRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">FlowRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-cb83200637304df9bade2fc2c3875aa2" target="id-40c42527b35a4985807953f3d2526e66"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">FlowRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">FlowRelationship<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -2643,7 +2904,7 @@ MRS stores all the configuration and connectivity information for EDC resources.
       </data> 
 </edge> 
 <edge source="id-0318c251fd664fa88f0d37e3e5161108" target="id-40c42527b35a4985807953f3d2526e66"> 
-<data key="ReferenceName">source</data> 
+<data key="ReferenceName">target</data> 
 <data key="Label">FlowRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2662,7 +2923,7 @@ MRS stores all the configuration and connectivity information for EDC resources.
       </data> 
 </edge> 
 <edge source="id-cab99a7a2333447ca8dbc1c76fa957e9" target="id-40c42527b35a4985807953f3d2526e66"> 
-<data key="ReferenceName">source</data> 
+<data key="ReferenceName">target</data> 
 <data key="Label">FlowRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2681,7 +2942,7 @@ MRS stores all the configuration and connectivity information for EDC resources.
       </data> 
 </edge> 
 <edge source="id-40c42527b35a4985807953f3d2526e66" target="id-cb83200637304df9bade2fc2c3875aa2"> 
-<data key="ReferenceName">source</data> 
+<data key="ReferenceName">target</data> 
 <data key="Label">FlowRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2699,8 +2960,65 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-cab99a7a2333447ca8dbc1c76fa957e9" target="id-8eb4a58329824cfdbb8968dd64d81f99"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-40c42527b35a4985807953f3d2526e66" target="id-0318c251fd664fa88f0d37e3e5161108"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">FlowRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">FlowRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-40c42527b35a4985807953f3d2526e66" target="id-cab99a7a2333447ca8dbc1c76fa957e9"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">FlowRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">FlowRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-cb83200637304df9bade2fc2c3875aa2" target="id-40c42527b35a4985807953f3d2526e66"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">FlowRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">FlowRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-8eb4a58329824cfdbb8968dd64d81f99" target="id-cab99a7a2333447ca8dbc1c76fa957e9"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2718,8 +3036,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-1f2cd47f8c2e4532baeb758b85a81b93" target="id-c8e9b418b73c49d281e158903c6c87cc"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-c8e9b418b73c49d281e158903c6c87cc" target="id-1f2cd47f8c2e4532baeb758b85a81b93"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2737,8 +3055,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-c99a49b8a83b4806b4821ad963f9ee49" target="id-c8e9b418b73c49d281e158903c6c87cc"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-c8e9b418b73c49d281e158903c6c87cc" target="id-c99a49b8a83b4806b4821ad963f9ee49"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2756,8 +3074,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-a51d03a6710b416ebd6f2cf9c94c57ef" target="id-cb83200637304df9bade2fc2c3875aa2"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-cb83200637304df9bade2fc2c3875aa2" target="id-a51d03a6710b416ebd6f2cf9c94c57ef"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2775,8 +3093,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-a51d03a6710b416ebd6f2cf9c94c57ef" target="id-a5edac1ff0c84632bcb0e80369d8163b"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-a5edac1ff0c84632bcb0e80369d8163b" target="id-a51d03a6710b416ebd6f2cf9c94c57ef"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">FlowRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2794,8 +3112,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-b29897bb8d054b0198b356df00b6fd06" target="id-0318c251fd664fa88f0d37e3e5161108"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0318c251fd664fa88f0d37e3e5161108" target="id-b29897bb8d054b0198b356df00b6fd06"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2813,8 +3131,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-f721b29a47d14539b00a4fc0ef887fbb" target="id-0318c251fd664fa88f0d37e3e5161108"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0318c251fd664fa88f0d37e3e5161108" target="id-f721b29a47d14539b00a4fc0ef887fbb"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2822,25 +3140,6 @@ MRS stores all the configuration and connectivity information for EDC resources.
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">RealizationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-f721b29a47d14539b00a4fc0ef887fbb" target="id-b29897bb8d054b0198b356df00b6fd06"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">SpecializationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -2852,102 +3151,7 @@ MRS stores all the configuration and connectivity information for EDC resources.
       </data> 
 </edge> 
 <edge source="id-b29897bb8d054b0198b356df00b6fd06" target="id-f721b29a47d14539b00a4fc0ef887fbb"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">CompositionRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-b29897bb8d054b0198b356df00b6fd06" target="id-deeb631bc15544339d87e0cb2546b06b"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">ServingRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-e4950b32807c41b7b7e9c60e6be427c9" target="id-f6d709faa3754b4abcd68e81f21ce693"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">RealizationRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">RealizationRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-85600da0e457409caca513cd1e4d6b1c" target="id-f721b29a47d14539b00a4fc0ef887fbb"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">CompositionRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-85600da0e457409caca513cd1e4d6b1c" target="id-e4950b32807c41b7b7e9c60e6be427c9"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">ServingRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="id-f721b29a47d14539b00a4fc0ef887fbb" target="id-0bef37685c9f474ba7410e9a289a7d87"> 
-<data key="ReferenceName">source</data> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -2965,15 +3169,15 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-d6b39fab02454737a3af86162233932a" target="id-f6d709faa3754b4abcd68e81f21ce693"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">RealizationRelationship</data> 
+<edge source="id-f721b29a47d14539b00a4fc0ef887fbb" target="id-b29897bb8d054b0198b356df00b6fd06"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">RealizationRelationship<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -2984,8 +3188,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-0bef37685c9f474ba7410e9a289a7d87" target="id-d6b39fab02454737a3af86162233932a"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-deeb631bc15544339d87e0cb2546b06b" target="id-b29897bb8d054b0198b356df00b6fd06"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3003,8 +3207,122 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-c99a49b8a83b4806b4821ad963f9ee49" target="id-1f2cd47f8c2e4532baeb758b85a81b93"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-f6d709faa3754b4abcd68e81f21ce693" target="id-e4950b32807c41b7b7e9c60e6be427c9"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">RealizationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">RealizationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f721b29a47d14539b00a4fc0ef887fbb" target="id-85600da0e457409caca513cd1e4d6b1c"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-e4950b32807c41b7b7e9c60e6be427c9" target="id-85600da0e457409caca513cd1e4d6b1c"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">ServingRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-0bef37685c9f474ba7410e9a289a7d87" target="id-f721b29a47d14539b00a4fc0ef887fbb"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">SpecializationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">SpecializationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-f6d709faa3754b4abcd68e81f21ce693" target="id-d6b39fab02454737a3af86162233932a"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">RealizationRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">RealizationRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-d6b39fab02454737a3af86162233932a" target="id-0bef37685c9f474ba7410e9a289a7d87"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">ServingRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-1f2cd47f8c2e4532baeb758b85a81b93" target="id-c99a49b8a83b4806b4821ad963f9ee49"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3022,8 +3340,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-e848b36f924747909bf472a6b70466f4" target="id-f6d709faa3754b4abcd68e81f21ce693"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-f6d709faa3754b4abcd68e81f21ce693" target="id-e848b36f924747909bf472a6b70466f4"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3041,8 +3359,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-93acbe0a4d2943a6a80a4e0fd2ef656b" target="id-c615ebcc6abd4687ab48d6c668de4de8"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-c615ebcc6abd4687ab48d6c668de4de8" target="id-93acbe0a4d2943a6a80a4e0fd2ef656b"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3060,8 +3378,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-e96475a893b04ad99e46ca159d5fb912" target="id-c615ebcc6abd4687ab48d6c668de4de8"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-c615ebcc6abd4687ab48d6c668de4de8" target="id-e96475a893b04ad99e46ca159d5fb912"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3079,8 +3397,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-4335f1a7baf74d01aedb2af95cdccc5c" target="id-4a06d6db0da3452aaa1533f9949ab025"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-4a06d6db0da3452aaa1533f9949ab025" target="id-4335f1a7baf74d01aedb2af95cdccc5c"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3098,8 +3416,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-ebffdcaf8ac04bcd91f28f95ad2ee438" target="id-4a06d6db0da3452aaa1533f9949ab025"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-4a06d6db0da3452aaa1533f9949ab025" target="id-ebffdcaf8ac04bcd91f28f95ad2ee438"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3117,8 +3435,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-cbc33dec5b68455ab5ec24c2a73a3fcb" target="id-39d3470a0a3d4f87b9354f76a7a89a68"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-39d3470a0a3d4f87b9354f76a7a89a68" target="id-cbc33dec5b68455ab5ec24c2a73a3fcb"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3136,8 +3454,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-d379f600687d483a855775499ab53f0d" target="id-0318c251fd664fa88f0d37e3e5161108"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0318c251fd664fa88f0d37e3e5161108" target="id-d379f600687d483a855775499ab53f0d"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3155,8 +3473,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-af46fea7a5a04571bc6c51365917ac14" target="id-4a06d6db0da3452aaa1533f9949ab025"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-4a06d6db0da3452aaa1533f9949ab025" target="id-af46fea7a5a04571bc6c51365917ac14"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3174,8 +3492,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-97fdc45a3b8a4e239d2444c462083cc6" target="id-fc07620d234845b8800c6ca1ad7ce1e4"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-fc07620d234845b8800c6ca1ad7ce1e4" target="id-97fdc45a3b8a4e239d2444c462083cc6"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3193,8 +3511,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-fb4b558a2827484ba682df5b295dc934" target="id-fc07620d234845b8800c6ca1ad7ce1e4"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-fc07620d234845b8800c6ca1ad7ce1e4" target="id-fb4b558a2827484ba682df5b295dc934"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3212,8 +3530,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-34443813757b44e9bcec2fb2263cd018" target="id-cb83200637304df9bade2fc2c3875aa2"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-cb83200637304df9bade2fc2c3875aa2" target="id-34443813757b44e9bcec2fb2263cd018"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3231,8 +3549,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-061ca94c29be4d82bb50078d9c7eaf3b" target="id-0318c251fd664fa88f0d37e3e5161108"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0318c251fd664fa88f0d37e3e5161108" target="id-061ca94c29be4d82bb50078d9c7eaf3b"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3250,8 +3568,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-34443813757b44e9bcec2fb2263cd018" target="id-0318c251fd664fa88f0d37e3e5161108"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-0318c251fd664fa88f0d37e3e5161108" target="id-34443813757b44e9bcec2fb2263cd018"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3269,8 +3587,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-061ca94c29be4d82bb50078d9c7eaf3b" target="id-cb83200637304df9bade2fc2c3875aa2"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-cb83200637304df9bade2fc2c3875aa2" target="id-061ca94c29be4d82bb50078d9c7eaf3b"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3288,8 +3606,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-ca0eb3a32cb648daa4d2af077c567a06" target="id-cb83200637304df9bade2fc2c3875aa2"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-cb83200637304df9bade2fc2c3875aa2" target="id-ca0eb3a32cb648daa4d2af077c567a06"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -3307,8 +3625,8 @@ MRS stores all the configuration and connectivity information for EDC resources.
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-e6ade059a9aa4a8d9c226b790626a141" target="id-cab99a7a2333447ca8dbc1c76fa957e9"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-cab99a7a2333447ca8dbc1c76fa957e9" target="id-e6ade059a9aa4a8d9c226b790626a141"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>

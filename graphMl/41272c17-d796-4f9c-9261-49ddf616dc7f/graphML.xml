@@ -23,6 +23,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
 <key id="ArchimateLayer" for="node" attr.name="ArchimateLayer" attr.type="string"/> 
 <key id="name" for="node" attr.name="name" attr.type="string"/> 
 <key id="documentation" for="node" attr.name="documentation" attr.type="string"/> 
+<key id="Group" for="node" attr.name="Group" attr.type="string"/> 
+<key id="Platform" for="node" attr.name="Platform" attr.type="string"/> 
 <key id="ReferenceName" for="edge" attr.name="ReferenceName" attr.type="string"/> 
 <graph id="init_graph_01" edgedefault="directed"> 
 <node id="id-6ea06d65-b368-4a43-8daf-1cf0d0506f9a"> 
@@ -110,6 +112,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Group">Channels</data> 
+<data key="Platform">Digital Platform</data> 
 <data key="name">ATM</data> 
 <data key="documentation">Specific capability providing banking services through an ATM machine. The cash and non-cash functionalities are encompassed in the ATM capability</data> 
 </node> 
@@ -132,6 +136,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Group">Channels</data> 
+<data key="Platform">Digital Platform</data> 
 <data key="name">Advanced IVR</data> 
 <data key="documentation">Specific capability that use an IVR system to provide the customer with some banking services (i.e. account summary, service request management, product information, marketing campaign)</data> 
 </node> 
@@ -154,6 +160,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Group">Channels</data> 
+<data key="Platform">Digital Platform</data> 
 <data key="name">Branch</data> 
 <data key="documentation">Specific capability supporting the Branch personnel in dealing with sales and servicing activities directly with the customer</data> 
 </node> 
@@ -176,6 +184,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Group">Channels</data> 
 <data key="name">CC (Call center)</data> 
 <data key="documentation">Specific capability supporting the Call Center personnel in dealing with sales and servicing activities at the phone with the customer</data> 
 </node> 
@@ -198,6 +207,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Group">Channels</data> 
 <data key="name">Customer Web and Mobile</data> 
 <data key="documentation">Web and mobile capabilities allowing the customer to interact with the banking services through a web browser, a mobile browser or a mobile app</data> 
 </node> 
@@ -220,6 +230,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Group">Channels</data> 
 <data key="name">Employee Web and Mobile</data> 
 <data key="documentation">Web and mobile capabilities supporting the employee (i.e. RM) in dealing with sales and servicing activities</data> 
 </node> 
@@ -242,6 +253,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Group">Channels</data> 
 <data key="name">Kiosk</data> 
 <data key="documentation">Specific capability providing banking and non banking services through a Kiosk device. This capability is intended to support clients in free access point (inside or outside of banking branches) when they do not have their own smartphone or laptop, etc.(Interactive terminal)</data> 
 </node> 
@@ -286,6 +298,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Group">SecurityMechanisms</data> 
+<data key="Platform">Digital Platform</data> 
 <data key="name">Identification</data> 
 <data key="documentation">It supports the identification process of the different actors interacting through the different channels with the DP: customers, prospects, partners, employee, etc. The capability provides mechanisms for creating, importing, maintaining and searching for identities. It includes also the management of external identity  (example: Facebook/Google+ id for prospects). 
 Different capabilities or instances can be used to manage authentication for different type of users (i.e. customers, employee and partners)</data> 
@@ -309,6 +323,8 @@ Different capabilities or instances can be used to manage authentication for dif
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Group">Security Mechanisms</data> 
+<data key="Platform">Digital Platform</data> 
 <data key="name">Authentication</data> 
 <data key="documentation">It supports the authentication process of an identified user. Depending on the security level of the accessed functionality authentication can be multi-factor and can leverage advanced biometric techniques (retina, voice, fingerprints). The authentication system provides SSO mechanism.
 Different capabilities or instances can be used to manage authentication for different type of users (i.e. customers, employee and partners)</data> 
@@ -332,12 +348,14 @@ Different capabilities or instances can be used to manage authentication for dif
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">null</data> 
+<data key="Group">Security Mechanisms</data> 
+<data key="Platform">Digital Platform</data> 
 <data key="name">Profiling and authorizations</data> 
 <data key="documentation">It allows to manage and check  the Digital platform access privileges (rights, powers and delegations) granted to each profile an authenticated  user, program, or process belongs. Access privileges can be defined in terms of capabilities, functionalities, API/Service or data. 
 Different capabilities or instances can be used to manage authorization process for different type of users (i.e. customers, employee and partners)</data> 
 </node> 
-<edge source="da739e89-f875-4dd1-83f1-288fa1d713fd" target="id-81a8f7f5-d6fa-44ed-b70a-2d9ad76c1003"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-81a8f7f5-d6fa-44ed-b70a-2d9ad76c1003" target="da739e89-f875-4dd1-83f1-288fa1d713fd"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -355,8 +373,8 @@ Different capabilities or instances can be used to manage authorization process 
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="da739e89-f875-4dd1-83f1-288fa1d713fd" target="id-915960f6-ac6a-4230-9c92-20415bc66b9c"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-915960f6-ac6a-4230-9c92-20415bc66b9c" target="da739e89-f875-4dd1-83f1-288fa1d713fd"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -374,8 +392,8 @@ Different capabilities or instances can be used to manage authorization process 
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="da739e89-f875-4dd1-83f1-288fa1d713fd" target="id-3a2f3ada-6a05-49a9-a1bb-fb288dc66747"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-3a2f3ada-6a05-49a9-a1bb-fb288dc66747" target="da739e89-f875-4dd1-83f1-288fa1d713fd"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -393,8 +411,8 @@ Different capabilities or instances can be used to manage authorization process 
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="da739e89-f875-4dd1-83f1-288fa1d713fd" target="id-35184223-1d25-4d2b-840c-023bde0d9fcc"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-35184223-1d25-4d2b-840c-023bde0d9fcc" target="da739e89-f875-4dd1-83f1-288fa1d713fd"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -412,8 +430,8 @@ Different capabilities or instances can be used to manage authorization process 
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-3d7eb2a2-07a3-4514-9b13-c3add23bbcdf" target="id-59bf1a05-80ad-4585-8f64-adccffe0be2d"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-59bf1a05-80ad-4585-8f64-adccffe0be2d" target="id-3d7eb2a2-07a3-4514-9b13-c3add23bbcdf"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -431,8 +449,8 @@ Different capabilities or instances can be used to manage authorization process 
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-77fe6b2e-2acf-4d94-93b0-fa3a22e38dbe" target="da739e89-f875-4dd1-83f1-288fa1d713fd"> 
-<data key="ReferenceName">source</data> 
+<edge source="da739e89-f875-4dd1-83f1-288fa1d713fd" target="id-77fe6b2e-2acf-4d94-93b0-fa3a22e38dbe"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -450,8 +468,8 @@ Different capabilities or instances can be used to manage authorization process 
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="da739e89-f875-4dd1-83f1-288fa1d713fd" target="id-13fed2c9-f73a-498b-a5eb-65d2be67f28f"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-13fed2c9-f73a-498b-a5eb-65d2be67f28f" target="da739e89-f875-4dd1-83f1-288fa1d713fd"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -469,8 +487,8 @@ Different capabilities or instances can be used to manage authorization process 
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-3d7eb2a2-07a3-4514-9b13-c3add23bbcdf" target="id-9e805feb-ec30-40b2-b53e-daaf9b942984"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-9e805feb-ec30-40b2-b53e-daaf9b942984" target="id-3d7eb2a2-07a3-4514-9b13-c3add23bbcdf"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -488,8 +506,8 @@ Different capabilities or instances can be used to manage authorization process 
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-6ea06d65-b368-4a43-8daf-1cf0d0506f9a" target="id-77fe6b2e-2acf-4d94-93b0-fa3a22e38dbe"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-77fe6b2e-2acf-4d94-93b0-fa3a22e38dbe" target="id-6ea06d65-b368-4a43-8daf-1cf0d0506f9a"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -507,8 +525,8 @@ Different capabilities or instances can be used to manage authorization process 
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="da739e89-f875-4dd1-83f1-288fa1d713fd" target="id-97799464-04ae-436f-99cc-32883b29a361"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-97799464-04ae-436f-99cc-32883b29a361" target="da739e89-f875-4dd1-83f1-288fa1d713fd"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -526,8 +544,8 @@ Different capabilities or instances can be used to manage authorization process 
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="da739e89-f875-4dd1-83f1-288fa1d713fd" target="id-8c0d5ffc-01d5-458e-8495-75f85e2c1003"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-8c0d5ffc-01d5-458e-8495-75f85e2c1003" target="da739e89-f875-4dd1-83f1-288fa1d713fd"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -545,8 +563,8 @@ Different capabilities or instances can be used to manage authorization process 
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-3d7eb2a2-07a3-4514-9b13-c3add23bbcdf" target="id-341de434-8f28-465d-a7f1-e339b0acd31b"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-341de434-8f28-465d-a7f1-e339b0acd31b" target="id-3d7eb2a2-07a3-4514-9b13-c3add23bbcdf"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -564,8 +582,8 @@ Different capabilities or instances can be used to manage authorization process 
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-77fe6b2e-2acf-4d94-93b0-fa3a22e38dbe" target="id-3d7eb2a2-07a3-4514-9b13-c3add23bbcdf"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-3d7eb2a2-07a3-4514-9b13-c3add23bbcdf" target="id-77fe6b2e-2acf-4d94-93b0-fa3a22e38dbe"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>

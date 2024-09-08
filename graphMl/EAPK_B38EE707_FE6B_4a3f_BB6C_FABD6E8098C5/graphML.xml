@@ -21,8 +21,12 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
 <key id="ClassName" for="node" attr.name="ClassName" attr.type="string"/> 
 <key id="Label" for="node" attr.name="Label" attr.type="string"/> 
 <key id="ArchimateLayer" for="node" attr.name="ArchimateLayer" attr.type="string"/> 
+<key id="actorkind" for="node" attr.name="actorkind" attr.type="string"/> 
 <key id="name" for="node" attr.name="name" attr.type="string"/> 
 <key id="documentation" for="node" attr.name="documentation" attr.type="string"/> 
+<key id="atomic" for="node" attr.name="atomic" attr.type="string"/> 
+<key id="showdecoration" for="node" attr.name="showdecoration" attr.type="string"/> 
+<key id="rotation" for="node" attr.name="rotation" attr.type="string"/> 
 <key id="ReferenceName" for="edge" attr.name="ReferenceName" attr.type="string"/> 
 <graph id="init_graph_01" edgedefault="directed"> 
 <node id="EAID_E7E5F907_39F6_4a6b_96B0_FFF9B162194F"> 
@@ -44,6 +48,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="actorkind">standard</data> 
 <data key="name">User</data> 
 <data key="documentation"></data> 
 </node> 
@@ -66,6 +71,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="atomic">false</data> 
+<data key="showdecoration">true</data> 
 <data key="name">Online data provision</data> 
 <data key="documentation"></data> 
 </node> 
@@ -88,6 +95,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="atomic">false</data> 
+<data key="showdecoration">true</data> 
 <data key="name">Preview evidence</data> 
 <data key="documentation"></data> 
 </node> 
@@ -110,6 +119,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="atomic">false</data> 
+<data key="showdecoration">true</data> 
 <data key="name">Approve exchange</data> 
 <data key="documentation"></data> 
 </node> 
@@ -176,6 +187,9 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="atomic">false</data> 
+<data key="rotation">up</data> 
+<data key="showdecoration">true</data> 
 <data key="name">Establish identity</data> 
 <data key="documentation"></data> 
 </node> 
@@ -242,6 +256,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="atomic">false</data> 
+<data key="showdecoration">true</data> 
 <data key="name">Online public procedure</data> 
 <data key="documentation"></data> 
 </node> 
@@ -264,6 +280,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="atomic">false</data> 
+<data key="showdecoration">true</data> 
 <data key="name">Complete exchange</data> 
 <data key="documentation"></data> 
 </node> 
@@ -286,6 +304,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 <data key="ArchimateLayer">IBusinessElement</data> 
+<data key="atomic">false</data> 
+<data key="showdecoration">true</data> 
 <data key="name">Lookup provider</data> 
 <data key="documentation"></data> 
 </node> 
@@ -399,8 +419,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
 <data key="name">Mobility Plugin</data> 
 <data key="documentation"></data> 
 </node> 
-<edge source="EAID_C4B9CB69_CE87_4dec_A69F_D2BB68672405" target="EAID_B5A1D773_4E58_45cc_81F7_CF3AEEB5E6D4"> 
-<data key="ReferenceName">source</data> 
+<edge source="EAID_B5A1D773_4E58_45cc_81F7_CF3AEEB5E6D4" target="EAID_C4B9CB69_CE87_4dec_A69F_D2BB68672405"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AccessRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -418,8 +438,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="EAID_F8136C56_4130_4a08_9206_C2DE5E0338DE" target="EAID_1F6E1843_5BE7_442d_94F6_5B6A8C9D902B"> 
-<data key="ReferenceName">source</data> 
+<edge source="EAID_1F6E1843_5BE7_442d_94F6_5B6A8C9D902B" target="EAID_F8136C56_4130_4a08_9206_C2DE5E0338DE"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AccessRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -437,8 +457,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="EAID_6FB8F8E5_F63A_4a73_99BC_DA5EDE682A73" target="EAID_E7E5F907_39F6_4a6b_96B0_FFF9B162194F"> 
-<data key="ReferenceName">source</data> 
+<edge source="EAID_E7E5F907_39F6_4a6b_96B0_FFF9B162194F" target="EAID_6FB8F8E5_F63A_4a73_99BC_DA5EDE682A73"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -456,8 +476,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="EAID_5B0F3531_C78E_48d8_8807_7FB4CA71E820" target="EAID_49A74298_FC80_4eff_A28E_3313A240DFA8"> 
-<data key="ReferenceName">source</data> 
+<edge source="EAID_49A74298_FC80_4eff_A28E_3313A240DFA8" target="EAID_5B0F3531_C78E_48d8_8807_7FB4CA71E820"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -475,8 +495,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="EAID_9BD15294_7F13_4e5e_8790_A5E170B2878D" target="EAID_A27DC043_DF17_4629_AE35_D88E3E9E65F3"> 
-<data key="ReferenceName">source</data> 
+<edge source="EAID_A27DC043_DF17_4629_AE35_D88E3E9E65F3" target="EAID_9BD15294_7F13_4e5e_8790_A5E170B2878D"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -494,8 +514,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="EAID_9BD15294_7F13_4e5e_8790_A5E170B2878D" target="EAID_6FB8F8E5_F63A_4a73_99BC_DA5EDE682A73"> 
-<data key="ReferenceName">source</data> 
+<edge source="EAID_6FB8F8E5_F63A_4a73_99BC_DA5EDE682A73" target="EAID_9BD15294_7F13_4e5e_8790_A5E170B2878D"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -513,8 +533,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="EAID_5B0F3531_C78E_48d8_8807_7FB4CA71E820" target="EAID_6732130F_E7B0_483a_A11A_E14AA1DE1A76"> 
-<data key="ReferenceName">source</data> 
+<edge source="EAID_6732130F_E7B0_483a_A11A_E14AA1DE1A76" target="EAID_5B0F3531_C78E_48d8_8807_7FB4CA71E820"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -532,8 +552,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="EAID_9BD15294_7F13_4e5e_8790_A5E170B2878D" target="EAID_019013F2_88BA_460c_B373_9926BC5A3194"> 
-<data key="ReferenceName">source</data> 
+<edge source="EAID_019013F2_88BA_460c_B373_9926BC5A3194" target="EAID_9BD15294_7F13_4e5e_8790_A5E170B2878D"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -551,8 +571,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="EAID_5B0F3531_C78E_48d8_8807_7FB4CA71E820" target="EAID_6FB8F8E5_F63A_4a73_99BC_DA5EDE682A73"> 
-<data key="ReferenceName">source</data> 
+<edge source="EAID_6FB8F8E5_F63A_4a73_99BC_DA5EDE682A73" target="EAID_5B0F3531_C78E_48d8_8807_7FB4CA71E820"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -570,8 +590,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="EAID_9BD15294_7F13_4e5e_8790_A5E170B2878D" target="EAID_E7E5F907_39F6_4a6b_96B0_FFF9B162194F"> 
-<data key="ReferenceName">source</data> 
+<edge source="EAID_E7E5F907_39F6_4a6b_96B0_FFF9B162194F" target="EAID_9BD15294_7F13_4e5e_8790_A5E170B2878D"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">TriggeringRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -589,8 +609,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="EAID_B62624D4_6442_4c25_BE26_451689224D3D" target="EAID_1F6E1843_5BE7_442d_94F6_5B6A8C9D902B"> 
-<data key="ReferenceName">source</data> 
+<edge source="EAID_1F6E1843_5BE7_442d_94F6_5B6A8C9D902B" target="EAID_B62624D4_6442_4c25_BE26_451689224D3D"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">TriggeringRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -608,8 +628,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="EAID_B5A1D773_4E58_45cc_81F7_CF3AEEB5E6D4" target="EAID_880821B8_B817_48f1_BB59_48C111862295"> 
-<data key="ReferenceName">source</data> 
+<edge source="EAID_880821B8_B817_48f1_BB59_48C111862295" target="EAID_B5A1D773_4E58_45cc_81F7_CF3AEEB5E6D4"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">TriggeringRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -627,8 +647,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="EAID_FD02D3F4_BC71_4f6c_BF36_852AC51B3BC7" target="EAID_B62624D4_6442_4c25_BE26_451689224D3D"> 
-<data key="ReferenceName">source</data> 
+<edge source="EAID_B62624D4_6442_4c25_BE26_451689224D3D" target="EAID_FD02D3F4_BC71_4f6c_BF36_852AC51B3BC7"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">TriggeringRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -646,8 +666,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="EAID_880821B8_B817_48f1_BB59_48C111862295" target="EAID_28C06457_F2EF_4354_9778_9ED90F9FCA86"> 
-<data key="ReferenceName">source</data> 
+<edge source="EAID_28C06457_F2EF_4354_9778_9ED90F9FCA86" target="EAID_880821B8_B817_48f1_BB59_48C111862295"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">TriggeringRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -665,8 +685,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="EAID_1F6E1843_5BE7_442d_94F6_5B6A8C9D902B" target="EAID_B5A1D773_4E58_45cc_81F7_CF3AEEB5E6D4"> 
-<data key="ReferenceName">source</data> 
+<edge source="EAID_B5A1D773_4E58_45cc_81F7_CF3AEEB5E6D4" target="EAID_1F6E1843_5BE7_442d_94F6_5B6A8C9D902B"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">TriggeringRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -684,8 +704,8 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="EAID_019013F2_88BA_460c_B373_9926BC5A3194" target="id-bb3c718384fe439abf5f5e87a7aa936f"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-bb3c718384fe439abf5f5e87a7aa936f" target="EAID_019013F2_88BA_460c_B373_9926BC5A3194"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>

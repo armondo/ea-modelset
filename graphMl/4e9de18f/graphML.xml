@@ -437,8 +437,8 @@ store, move, or transform materials.</data>
 <data key="name">Distribution Network</data> 
 <data key="documentation">A distribution network represents a physical network used to transport materials or energy</data> 
 </node> 
-<edge source="id-99c23dd6" target="id-2a105466"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-2a105466" target="id-99c23dd6"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -456,8 +456,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-4e3af8b8" target="id-99c23dd6"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-99c23dd6" target="id-4e3af8b8"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -475,8 +475,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-40ad161c" target="id-46c9be7f"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-46c9be7f" target="id-40ad161c"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -494,8 +494,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-99c23dd6" target="id-40ad161c"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-40ad161c" target="id-99c23dd6"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -513,8 +513,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-46c9be7f" target="fb9bc194"> 
-<data key="ReferenceName">source</data> 
+<edge source="fb9bc194" target="id-46c9be7f"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -532,8 +532,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-8a330418" target="d90268ea"> 
-<data key="ReferenceName">source</data> 
+<edge source="d90268ea" target="id-8a330418"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssociationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -551,8 +551,46 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-4e3af8b8" target="id-2a105466"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-2a105466" target="id-4e3af8b8"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">CompositionRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="id-4e3af8b8" target="c217c7d0"> 
+<data key="ReferenceName">target</data> 
+<data key="Label">ServingRelationship</data> 
+<data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data> 
+</edge> 
+<edge source="c217c7d0" target="id-4e3af8b8"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -571,7 +609,7 @@ store, move, or transform materials.</data>
       </data> 
 </edge> 
 <edge source="c217c7d0" target="id-4e3af8b8"> 
-<data key="ReferenceName">source</data> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -589,8 +627,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-4e3af8b8" target="c217c7d0"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-8b73ae52" target="id-46c9be7f"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -608,8 +646,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-4e3af8b8" target="c217c7d0"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-46c9be7f" target="id-40ad161c"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -627,8 +665,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-46c9be7f" target="id-8b73ae52"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-1a5fe9ae" target="d90268ea"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -646,27 +684,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-40ad161c" target="id-46c9be7f"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">ServingRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">ServingRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="d90268ea" target="id-1a5fe9ae"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-1a5fe9ae" target="id-67152846"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -684,8 +703,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-67152846" target="id-1a5fe9ae"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-1a5fe9ae" target="id-4cd7600a"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -703,27 +722,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-4cd7600a" target="id-1a5fe9ae"> 
-<data key="ReferenceName">source</data> 
-<data key="Label">CompositionRelationship</data> 
-<data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="746.6867968000003" y="-12.487705599997412"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.703125" x="-5.3515625" y="5.6494140625">CompositionRelationship<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data> 
-</edge> 
-<edge source="d90268ea" target="id-4cd7600a"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-4cd7600a" target="d90268ea"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -741,8 +741,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="d90268ea" target="id-67152846"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-67152846" target="d90268ea"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -760,8 +760,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-99c23dd6" target="c217c7d0"> 
-<data key="ReferenceName">source</data> 
+<edge source="c217c7d0" target="id-99c23dd6"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -779,8 +779,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-2a105466" target="c217c7d0"> 
-<data key="ReferenceName">source</data> 
+<edge source="c217c7d0" target="id-2a105466"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -798,8 +798,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="fb9bc194" target="d90268ea"> 
-<data key="ReferenceName">source</data> 
+<edge source="d90268ea" target="fb9bc194"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">ServingRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -817,8 +817,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="fb9bc194" target="d90268ea"> 
-<data key="ReferenceName">source</data> 
+<edge source="d90268ea" target="fb9bc194"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">CompositionRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -836,8 +836,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-051ffece" target="id-8a330418"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-8a330418" target="id-051ffece"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -855,8 +855,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="d90268ea" target="id-051ffece"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-051ffece" target="d90268ea"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -874,8 +874,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-4cd7600a" target="id-8a330418"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-8a330418" target="id-4cd7600a"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -893,8 +893,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-67152846" target="id-8a330418"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-8a330418" target="id-67152846"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -912,8 +912,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-4cd7600a" target="id-67152846"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-67152846" target="id-4cd7600a"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -931,8 +931,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="d90268ea" target="a2367e65"> 
-<data key="ReferenceName">source</data> 
+<edge source="a2367e65" target="d90268ea"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -950,8 +950,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="d90268ea" target="f1b273d4"> 
-<data key="ReferenceName">source</data> 
+<edge source="f1b273d4" target="d90268ea"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">SpecializationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -969,8 +969,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-051ffece" target="id-35a97d10"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-35a97d10" target="id-051ffece"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">RealizationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -988,8 +988,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="f1b273d4" target="id-35a97d10"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-35a97d10" target="f1b273d4"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1007,8 +1007,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="a2367e65" target="id-35a97d10"> 
-<data key="ReferenceName">source</data> 
+<edge source="id-35a97d10" target="a2367e65"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AggregationRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1026,8 +1026,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="d90268ea" target="f1b273d4"> 
-<data key="ReferenceName">source</data> 
+<edge source="f1b273d4" target="d90268ea"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1045,8 +1045,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="id-2a105466" target="f1b273d4"> 
-<data key="ReferenceName">source</data> 
+<edge source="f1b273d4" target="id-2a105466"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
@@ -1064,8 +1064,8 @@ store, move, or transform materials.</data>
         </y:ShapeNode>
       </data> 
 </edge> 
-<edge source="a2367e65" target="f1b273d4"> 
-<data key="ReferenceName">source</data> 
+<edge source="f1b273d4" target="a2367e65"> 
+<data key="ReferenceName">target</data> 
 <data key="Label">AssignmentRelationship</data> 
 <data key="d6">
         <y:ShapeNode>
